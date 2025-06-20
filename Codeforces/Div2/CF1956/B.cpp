@@ -12,3 +12,4 @@ void solve() {
     cout<<cnt<<"\n";
 }
 signed main() { int t; cin>>t; while(t--) solve(); }
+// 4893
