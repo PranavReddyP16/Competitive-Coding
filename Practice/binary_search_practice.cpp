@@ -14,3 +14,4 @@ signed main(){int n;cin>>n;vector<int>a(n);for(auto&x:a)cin>>x;int q;cin>>q;whil
 // 2418083959
 // 1700194538
 // 1860122126
+// 6202
