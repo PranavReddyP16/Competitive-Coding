@@ -6,3 +6,4 @@ void solve(){int n;cin>>n;vector<int>a(n);for(auto&x:a)cin>>x;vector<int>pre(n+1
 signed main(){int t;cin>>t;while(t--)solve();}
 // 0310000
 // 7395
+// 6158
