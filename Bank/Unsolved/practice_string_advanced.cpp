@@ -8,3 +8,4 @@ void solve() {
     // TODO: string_advanced
 }
 signed main(){int t;cin>>t;while(t--)solve();}
+// 8050
