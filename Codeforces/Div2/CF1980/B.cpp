@@ -13,3 +13,4 @@ void solve() {
     cout<<min(cnt,(int)k)<<"\n";
 }
 signed main() { int t; cin>>t; while(t--) solve(); }
+// 9652
