@@ -5,3 +5,4 @@ void solve(){string s;cin>>s;string t=s;reverse(t.begin(),t.end());cout<<(s==t?"
 signed main(){int t;cin>>t;while(t--)solve();}
 // 1633000
 // 5622
+// 6339
