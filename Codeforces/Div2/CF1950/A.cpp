@@ -6,3 +6,4 @@ void solve() {
     cout<<total/60<<" "<<total%60<<"\n";
 }
 signed main() { int t; cin>>t; while(t--) solve(); }
+// 6222
