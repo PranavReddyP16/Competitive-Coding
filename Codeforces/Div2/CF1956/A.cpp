@@ -8,3 +8,4 @@ void solve() {
     cout<<sum<<"\n";
 }
 signed main() { int t; cin>>t; while(t--) solve(); }
+// 5255
