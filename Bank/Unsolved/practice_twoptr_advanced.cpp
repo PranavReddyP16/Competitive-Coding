@@ -8,3 +8,4 @@ void solve() {
     // TODO: twoptr_advanced
 }
 signed main(){int t;cin>>t;while(t--)solve();}
+// 5596
