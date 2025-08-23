@@ -10,3 +10,4 @@ void solve() {
     // TODO
 }
 signed main(){int t;cin>>t;while(t--)solve();}
+// 2874
