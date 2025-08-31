@@ -8,3 +8,4 @@ void solve(){int n;cin>>n;vector<int>a(n);for(auto&x:a)cin>>x;map<int,int>f;for(
 signed main(){int t;cin>>t;while(t--)solve();}
 // 4167000
 // 5617
+// 1579
