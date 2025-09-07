@@ -16,3 +16,4 @@ signed main() { int t; cin>>t; while(t--) solve(); }
 // spring semester
 // 1106000
 // 5373
+// 4249
