@@ -7,3 +7,4 @@ signed main(){int t;cin>>t;while(t--)solve();}
 // 8310
 // 1451
 // 7432
+// 3766
