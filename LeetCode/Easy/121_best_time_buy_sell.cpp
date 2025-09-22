@@ -7,3 +7,4 @@ int maxProfit(vector<int>&prices){
     return mx;
 }};
 int main(){Solution s;vector<int>v={7,1,5,3,6,4};cout<<s.maxProfit(v);}
+// 2505
