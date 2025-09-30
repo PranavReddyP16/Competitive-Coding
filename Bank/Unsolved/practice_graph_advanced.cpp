@@ -8,3 +8,4 @@ void solve() {
     // TODO: graph_advanced
 }
 signed main(){int t;cin>>t;while(t--)solve();}
+// 1206
