@@ -8,3 +8,4 @@ int trap(vector<int>&h){
 }};
 int main(){Solution s;vector<int>v={0,1,0,2,1,0,1,3,2,1,2,1};cout<<s.trap(v);}
 // cleanup for github
+// 8940
