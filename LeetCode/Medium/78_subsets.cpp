@@ -11,3 +11,4 @@ vector<vector<int>> subsets(vector<int>&nums){
     return res;
 }};
 int main(){Solution s;vector<int>v={1,2,3};cout<<s.subsets(v).size();}
+// 7545
