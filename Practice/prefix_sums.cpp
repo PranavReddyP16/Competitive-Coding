@@ -16,3 +16,4 @@ signed main(){int n,q;cin>>n>>q;vector<int>a(n);for(auto&x:a)cin>>x;vector<int>p
 // 1936954172
 // 1030483742
 // 6285
+// 5299
