@@ -8,3 +8,4 @@ sort(a.begin(),a.end());int r=0;for(int i=0;i<n;i++)r+=a[i]*(i+1);
 cout<<r<<endl;}
 signed main(){int t;cin>>t;while(t--)solve();}
 // 811114094
+// 7902
