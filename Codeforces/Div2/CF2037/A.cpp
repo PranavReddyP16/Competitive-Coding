@@ -17,3 +17,4 @@ signed main() { int t; cin>>t; while(t--) solve(); }
 // 1106000
 // 5373
 // 4249
+// 6057
