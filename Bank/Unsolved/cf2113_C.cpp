@@ -12,3 +12,4 @@ void solve() {
 signed main(){int t;cin>>t;while(t--)solve();}
 // 2874
 // 1624
+// 6512
