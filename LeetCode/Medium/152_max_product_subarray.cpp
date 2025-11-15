@@ -10,3 +10,4 @@ class Solution{public:
 };
 int main(){return 0;}
 // 8853000
+// 7771
