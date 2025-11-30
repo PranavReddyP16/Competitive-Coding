@@ -8,3 +8,4 @@ void solve() {
 signed main() { int t; cin>>t; while(t--) solve(); }
 // 6222
 // 7348
+// 7811
