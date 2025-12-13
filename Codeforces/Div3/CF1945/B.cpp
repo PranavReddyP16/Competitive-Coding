@@ -7,3 +7,4 @@ void solve(){int n;cin>>n;vector<int>a(n);for(auto&x:a)cin>>x;sort(a.begin(),a.e
 signed main(){int t;cin>>t;while(t--)solve();}
 // 7982
 // 5325
+// 9592
