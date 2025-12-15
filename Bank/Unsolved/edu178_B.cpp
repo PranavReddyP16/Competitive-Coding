@@ -9,3 +9,4 @@ void solve() {
 }
 signed main(){int t;cin>>t;while(t--)solve();}
 // 8299
+// 7691
