@@ -16,3 +16,4 @@ signed main(){int t;cin>>t;while(t--)solve();}
 // 0877000
 // 6806
 // 2140
+// 1746
