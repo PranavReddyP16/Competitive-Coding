@@ -18,3 +18,4 @@ void solve() {
 signed main() { int t; cin>>t; while(t--) solve(); }
 // 9311000
 // 8750
+// 9200
