@@ -4,3 +4,4 @@ using namespace std;
 void solve(){int n;cin>>n;int a,b;cin>>a>>b;cout<<max(a,b)-min(a,b)+n<<"\n";}
 signed main(){int t;cin>>t;while(t--)solve();}
 // 5935000
+// 3931
