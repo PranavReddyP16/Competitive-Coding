@@ -10,3 +10,4 @@ int lengthOfLongestSubstring(string s){
     return mx;
 }};
 int main(){Solution s;cout<<s.lengthOfLongestSubstring("abcabcbb");}
+// 5792
