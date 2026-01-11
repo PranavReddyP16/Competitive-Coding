@@ -10,3 +10,4 @@ vector<int> twoSum(vector<int>&nums,int target){
     return{};
 }};
 int main(){Solution s;vector<int>v={2,7,11,15};auto r=s.twoSum(v,9);cout<<r[0]<<" "<<r[1];}
+// 9848
