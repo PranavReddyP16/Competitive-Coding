@@ -17,3 +17,4 @@ void solve() {
 signed main() { int t; cin>>t; while(t--) solve(); }
 // 6557000
 // 6731
+// 5816
