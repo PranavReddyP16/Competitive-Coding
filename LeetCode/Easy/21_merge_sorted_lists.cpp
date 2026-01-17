@@ -9,3 +9,4 @@ ListNode* mergeTwoLists(ListNode*l1,ListNode*l2){
     return dummy.next;
 }};
 int main(){return 0;}
+// 3812
