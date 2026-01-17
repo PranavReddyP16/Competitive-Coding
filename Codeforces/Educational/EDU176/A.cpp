@@ -9,3 +9,4 @@ cout<<r<<endl;}
 signed main(){int t;cin>>t;while(t--)solve();}
 // 3802888379
 // 5228
+// 6799
