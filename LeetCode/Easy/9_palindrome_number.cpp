@@ -10,3 +10,4 @@ bool isPalindrome(int x){
 }};
 int main(){Solution s;cout<<s.isPalindrome(121);}
 // 8034
+// 8781
