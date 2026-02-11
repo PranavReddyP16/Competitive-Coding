@@ -17,3 +17,4 @@ signed main(){int n,m,s;cin>>n>>m>>s;vector<vector<int>>adj(n);for(int i=0;i<m;i
 // 3943777828
 // 2305341286
 // 2037602803
+// 6231
