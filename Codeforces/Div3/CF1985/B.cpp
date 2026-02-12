@@ -8,3 +8,4 @@ signed main(){int t;cin>>t;while(t--)solve();}
 // 3961000
 // 3484
 // 1749
+// 4429
