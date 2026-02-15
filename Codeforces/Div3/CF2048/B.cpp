@@ -9,3 +9,4 @@ signed main(){int t;cin>>t;while(t--)solve();}
 // 2398
 // 8025
 // 3076
+// 1469
