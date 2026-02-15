@@ -6,3 +6,4 @@ signed main(){int a,b;cin>>a>>b;cout<<a+b<<"\n";}
 // 8281
 // 3689
 // 7716
+// 5623
