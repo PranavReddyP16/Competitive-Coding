@@ -6,3 +6,4 @@ using namespace std;
 signed main(){int n;cin>>n;vector<int>a(n);for(auto&x:a)cin>>x;sort(a.begin(),a.end());for(int x:a)cout<<x<<" ";}
 // 1209
 // 5667
+// 8670
