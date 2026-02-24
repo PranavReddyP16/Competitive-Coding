@@ -8,3 +8,4 @@ int coinChange(vector<int>&coins,int amount){
 }};
 int main(){Solution s;vector<int>v={1,5,11};cout<<s.coinChange(v,15);}
 // winter break practice
+// 9058
