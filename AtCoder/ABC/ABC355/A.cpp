@@ -7,3 +7,4 @@ signed main(){int a,b;cin>>a>>b;cout<<a+b<<"\n";}
 // 3689
 // 7716
 // 5623
+// 4510
