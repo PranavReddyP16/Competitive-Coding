@@ -4,3 +4,4 @@ using namespace std;
 signed main(){int a,b;cin>>a>>b;cout<<a+b<<"\n";}
 // 5446
 // 1055
+// 5246
