@@ -13,3 +13,4 @@ void solve() {
 signed main(){int t;cin>>t;while(t--)solve();}
 // 2500
 // 3021
+// 6992
