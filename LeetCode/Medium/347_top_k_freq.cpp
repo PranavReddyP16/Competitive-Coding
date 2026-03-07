@@ -11,3 +11,4 @@ class Solution{public:
 int main(){return 0;}
 // 5194000
 // 2234
+// 1987
