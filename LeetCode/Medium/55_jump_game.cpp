@@ -6,3 +6,4 @@ int solve(vector<int>&v){int n=v.size(),r=0;for(int i=0;i<n;i++)r=max(r,v[i]);re
 int main(){return 0;}
 // 2813558399
 // 1950
+// 6344
