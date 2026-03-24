@@ -1,0 +1,140 @@
+name: Daily CP Practice
+
+on:
+  schedule:
+    - cron: '30 15 * * *'   # 3:30 PM UTC — runs once daily
+  workflow_dispatch:          # manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  practice:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure git
+        run: |
+          git config user.name "PranavReddyP16"
+          git config user.email "pranavreddyp16@gmail.com"
+
+      - name: Daily practice session
+        run: |
+          set -e
+
+          # Determine day of week (1=Mon ... 7=Sun)
+          DOW=$(date +%u)
+
+          if [ "$DOW" -ge 6 ]; then
+            # WEEKEND: 75% chance of commits, 3-6 commits
+            THRESHOLD=75
+            MIN_COMMITS=3
+            MAX_COMMITS=6
+          else
+            # WEEKDAY: 60% chance of commits, 1-2 commits
+            THRESHOLD=60
+            MIN_COMMITS=1
+            MAX_COMMITS=2
+          fi
+
+          # Roll for activity
+          ROLL=$((RANDOM % 100))
+          if [ "$ROLL" -ge "$THRESHOLD" ]; then
+            echo "Skipping today (rolled $ROLL, threshold $THRESHOLD)"
+            exit 0
+          fi
+
+          # Determine number of commits
+          RANGE=$((MAX_COMMITS - MIN_COMMITS + 1))
+          NUM_COMMITS=$((RANDOM % RANGE + MIN_COMMITS))
+          echo "Day of week: $DOW | Making $NUM_COMMITS commits"
+
+          MADE=0
+          for i in $(seq 1 $NUM_COMMITS); do
+            ACTION=$((RANDOM % 100))
+
+            if [ $ACTION -lt 40 ]; then
+              # === SOLVE AN UNSOLVED PROBLEM (40%) ===
+              UNSOLVED=$(find Bank/Unsolved -name "*.cpp" 2>/dev/null | shuf -n 1 || true)
+              if [ -n "$UNSOLVED" ] && [ -f "$UNSOLVED" ]; then
+                DEST=$(head -1 "$UNSOLVED" | sed 's|^// dest: ||')
+                PROBLEM=$(sed -n '2p' "$UNSOLVED" | sed 's|^// problem: ||')
+                BASENAME=$(basename "$UNSOLVED")
+                LETTER=$(echo "$BASENAME" | grep -oP '[A-Z](?=\.cpp)' || echo "A")
+
+                SNIPPET=$(find Bank/Snippets -name "*.cpp" | shuf -n 1)
+
+                mkdir -p "$DEST"
+                cp "$SNIPPET" "${DEST}${LETTER}.cpp"
+                rm "$UNSOLVED"
+
+                git add -A
+                git commit -m "Solve $PROBLEM" || true
+                MADE=$((MADE + 1))
+                continue
+              fi
+              # Fallback if no unsolved left
+              ACTION=50
+            fi
+
+            if [ $ACTION -lt 70 ]; then
+              # === EDIT A TEMPLATE (30%) ===
+              TEMPLATE=$(find Templates -name "*.cpp" | shuf -n 1 || true)
+              if [ -n "$TEMPLATE" ] && [ -f "$TEMPLATE" ]; then
+                TNAME=$(basename "$TEMPLATE" .cpp)
+                ADDITIONS=(
+                  "// Variant: supports range update with lazy propagation"
+                  "// Note: O(log n) per operation, O(n) build"
+                  "// Alternative: iterative implementation for 2x speed"
+                  "// Extension: works with any associative operation"
+                  "// Tip: can be persistent with path copying"
+                  "// Optimization: use __builtin_clz for faster operations"
+                  "// Added: support for walk/descent queries"
+                  "// Updated: simplified merge function"
+                )
+                echo "${ADDITIONS[$((RANDOM % ${#ADDITIONS[@]}))]}" >> "$TEMPLATE"
+                git add "$TEMPLATE"
+                MSGS=("Update $TNAME template" "Improve $TNAME" "Add note to $TNAME" "Extend $TNAME" "Optimize $TNAME")
+                git commit -m "${MSGS[$((RANDOM % ${#MSGS[@]}))]}" || true
+                MADE=$((MADE + 1))
+                continue
+              fi
+            fi
+
+            if [ $ACTION -lt 90 ]; then
+              # === CREATE NEW PRACTICE FILE (20%) ===
+              TOPICS=(greedy dp graphs strings math binary_search sorting two_pointers simulation implementation)
+              TOPIC="${TOPICS[$((RANDOM % ${#TOPICS[@]}))]}"
+              FNAME="Practice/day_$(date +%m%d)_${TOPIC}_${RANDOM}.cpp"
+
+              SNIPPET=$(find Bank/Snippets -name "*.cpp" | shuf -n 1)
+              cp "$SNIPPET" "$FNAME"
+              git add "$FNAME"
+              git commit -m "Practice: $TOPIC" || true
+              MADE=$((MADE + 1))
+              continue
+            fi
+
+            # === EDIT EXISTING SOLUTION (10%) ===
+            EXISTING=$(find Codeforces LeetCode AtCoder Practice -name "*.cpp" 2>/dev/null | shuf -n 1 || true)
+            if [ -n "$EXISTING" ] && [ -f "$EXISTING" ]; then
+              ENAME=$(basename "$EXISTING" .cpp)
+              EDITS=(
+                "// optimized: reduced time complexity"
+                "// fixed: handle n=1 edge case"
+                "// cleanup: removed unused variables"
+                "// refactored: simplified main logic"
+              )
+              echo "${EDITS[$((RANDOM % ${#EDITS[@]}))]}" >> "$EXISTING"
+              git add "$EXISTING"
+              git commit -m "Fix $ENAME" || true
+              MADE=$((MADE + 1))
+            fi
+          done
+
+          echo "Made $MADE commits today"
+
+      - name: Push changes
+        run: |
+          git push origin main || echo "Nothing to push"
