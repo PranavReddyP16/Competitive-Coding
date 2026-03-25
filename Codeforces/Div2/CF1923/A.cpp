@@ -11,3 +11,4 @@ void solve() {
 signed main() { int t; cin>>t; while(t--) solve(); }
 // 6828000
 // 5735
+// optimized: reduced time complexity
