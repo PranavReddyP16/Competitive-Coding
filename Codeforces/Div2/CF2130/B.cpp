@@ -1,16 +1,18 @@
-// dest: Codeforces/Div2/CF2130/
-// problem: CF2130 B
 #include<iostream>
 #include<vector>
+#include<algorithm>
 using namespace std;
 #define int long long
 void solve() {
     int n; cin>>n;
     vector<int> a(n);
     for(auto& x:a) cin>>x;
-    // TODO
+    reverse(a.begin(),a.end());for(int x:a)cout<<x<<" ";cout<<"
+";
 }
 signed main(){int t;cin>>t;while(t--)solve();}
-// 2936
-// 7868
-// 7446
+// 3974
+// 9043
+// 8575
+// 9526
+// 2045
