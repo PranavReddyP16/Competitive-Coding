@@ -30,3 +30,4 @@ signed main() {
 // 8614000
 // 3455000
 // 2951195650
+// Alternative: iterative implementation for 2x speed
