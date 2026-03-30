@@ -41,3 +41,4 @@ int main() {
 // 328639157
 // 7016
 // 6560
+// Optimization: use __builtin_clz for faster operations
