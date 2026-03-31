@@ -17,3 +17,4 @@ signed main(){int n,k;cin>>n>>k;vector<int>a(n);for(auto&x:a)cin>>x;int best=0,s
 // 2593355239
 // 1402419798
 // 8502
+// cleanup: removed unused variables
