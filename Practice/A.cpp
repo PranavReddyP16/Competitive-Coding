@@ -7,8 +7,7 @@ void solve() {
     int n; cin>>n;
     vector<int> a(n);
     for(auto& x:a) cin>>x;
-    int g=a[0];for(int i=1;i<n;i++)g=__gcd(g,a[i]);cout<<g<<"
+    sort(a.begin(),a.end());cout<<a[n-2]<<"
 ";
 }
 signed main(){int t;cin>>t;while(t--)solve();}
-// 3793
