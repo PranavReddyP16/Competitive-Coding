@@ -50,3 +50,4 @@ int main() {
 // 3383
 // 8947
 // 2628
+// Extension: works with any associative operation
