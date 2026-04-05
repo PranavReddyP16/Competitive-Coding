@@ -46,3 +46,4 @@ signed main() {
 // 2501623182
 // 3530733482
 // 9547
+// Optimization: use __builtin_clz for faster operations
