@@ -42,3 +42,4 @@ int main() {
 // 7016
 // 6560
 // Optimization: use __builtin_clz for faster operations
+// Updated: simplified merge function
