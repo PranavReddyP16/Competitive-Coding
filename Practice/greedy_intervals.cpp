@@ -17,3 +17,4 @@ signed main(){int n;cin>>n;vector<pair<int,int>>iv(n);for(auto&[a,b]:iv)cin>>a>>
 // 34362535
 // 2853763658
 // 7967
+// refactored: simplified main logic
