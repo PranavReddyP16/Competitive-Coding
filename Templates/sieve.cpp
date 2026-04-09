@@ -43,3 +43,4 @@ int main() {
 // 6560
 // Optimization: use __builtin_clz for faster operations
 // Updated: simplified merge function
+// Variant: supports range update with lazy propagation
