@@ -7,8 +7,7 @@ void solve() {
     int n; cin>>n;
     vector<int> a(n);
     for(auto& x:a) cin>>x;
-    string s;cin>>s;string r;r+=s[0];for(int i=1;i<(int)s.size();i++)if(s[i]!=s[i-1])r+=s[i];cout<<r<<"
+    int mx=a[n-1];cout<<mx<<" ";for(int i=n-2;i>=0;i--){if(a[i]>=mx){cout<<a[i]<<" ";mx=a[i];}}cout<<"
 ";
 }
 signed main(){int t;cin>>t;while(t--)solve();}
-// 7817
