@@ -61,3 +61,4 @@ signed main() {
 // 488295601
 // 3265344976
 // 7293
+// Added: support for walk/descent queries
