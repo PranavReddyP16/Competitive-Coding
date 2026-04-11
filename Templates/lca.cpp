@@ -40,3 +40,4 @@ int main() {
 // 8111
 // 1429
 // 7151
+// Alternative: iterative implementation for 2x speed
