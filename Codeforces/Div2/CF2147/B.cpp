@@ -1,15 +1,13 @@
-// dest: Codeforces/Div2/CF2147/
-// problem: CF2147 B
 #include<iostream>
 #include<vector>
+#include<algorithm>
 using namespace std;
 #define int long long
 void solve() {
     int n; cin>>n;
     vector<int> a(n);
     for(auto& x:a) cin>>x;
-    // TODO
+    sort(a.begin(),a.end());int x;cin>>x;cout<<upper_bound(a.begin(),a.end(),x)-lower_bound(a.begin(),a.end(),x)<<"
+";
 }
 signed main(){int t;cin>>t;while(t--)solve();}
-// 7936
-// 6936
