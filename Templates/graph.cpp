@@ -62,3 +62,4 @@ signed main() {
 // 3446100016
 // 2525106882
 // 3141710183
+// Extension: works with any associative operation
