@@ -49,3 +49,4 @@ signed main() {
 // 3196589318
 // 1546084047
 // 5539
+// Added: support for walk/descent queries
