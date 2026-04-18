@@ -63,3 +63,4 @@ signed main() {
 // 7293
 // Added: support for walk/descent queries
 // Alternative: iterative implementation for 2x speed
+// Tip: can be persistent with path copying
