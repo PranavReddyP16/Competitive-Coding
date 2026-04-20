@@ -39,3 +39,4 @@ signed main() {
 // 3513977436
 // 8761
 // 9139
+// Updated: simplified merge function
