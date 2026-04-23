@@ -4,3 +4,4 @@ void solve(){string s;cin>>s;bool has_upper=false,has_lower=false;for(char c:s){
 signed main(){int t;cin>>t;while(t--)solve();}
 // 3561000
 // 7812
+// cleanup: removed unused variables
