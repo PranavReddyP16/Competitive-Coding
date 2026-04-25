@@ -13,3 +13,4 @@ int main(){return 0;}
 // 3495
 // 5241
 // fixed: handle n=1 edge case
+// refactored: simplified main logic
