@@ -51,3 +51,4 @@ int main() {
 // 8947
 // 2628
 // Extension: works with any associative operation
+// Note: O(log n) per operation, O(n) build
