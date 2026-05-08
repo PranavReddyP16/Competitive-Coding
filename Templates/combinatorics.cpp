@@ -40,3 +40,4 @@ signed main() {
 // 8761
 // 9139
 // Updated: simplified merge function
+// Variant: supports range update with lazy propagation
