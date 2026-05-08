@@ -38,3 +38,4 @@ signed main() {
 // 6709000
 // 2749710637
 // Optimization: use __builtin_clz for faster operations
+// Added: support for walk/descent queries
