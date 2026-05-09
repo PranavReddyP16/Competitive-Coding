@@ -51,3 +51,4 @@ signed main() {
 // 5539
 // Added: support for walk/descent queries
 // Alternative: iterative implementation for 2x speed
+// Added: support for walk/descent queries
