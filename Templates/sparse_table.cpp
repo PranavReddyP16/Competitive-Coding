@@ -32,3 +32,4 @@ signed main() {
 // 2951195650
 // Alternative: iterative implementation for 2x speed
 // Updated: simplified merge function
+// Alternative: iterative implementation for 2x speed
