@@ -48,3 +48,4 @@ signed main() {
 // 3130666444
 // 7341
 // Tip: can be persistent with path copying
+// Variant: supports range update with lazy propagation
