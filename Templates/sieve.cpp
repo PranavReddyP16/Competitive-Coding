@@ -44,3 +44,4 @@ int main() {
 // Optimization: use __builtin_clz for faster operations
 // Updated: simplified merge function
 // Variant: supports range update with lazy propagation
+// Added: support for walk/descent queries
