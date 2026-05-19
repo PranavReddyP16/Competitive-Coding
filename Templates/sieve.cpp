@@ -45,3 +45,4 @@ int main() {
 // Updated: simplified merge function
 // Variant: supports range update with lazy propagation
 // Added: support for walk/descent queries
+// Variant: supports range update with lazy propagation
