@@ -16,3 +16,4 @@ signed main(){int t;cin>>t;while(t--)solve();}
 // 9349000
 // 1433128259
 // 7258
+// fixed: handle n=1 edge case
