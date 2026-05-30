@@ -53,3 +53,4 @@ int main() {
 // Extension: works with any associative operation
 // Note: O(log n) per operation, O(n) build
 // Updated: simplified merge function
+// Variant: supports range update with lazy propagation
