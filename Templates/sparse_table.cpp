@@ -33,3 +33,4 @@ signed main() {
 // Alternative: iterative implementation for 2x speed
 // Updated: simplified merge function
 // Alternative: iterative implementation for 2x speed
+// Variant: supports range update with lazy propagation
