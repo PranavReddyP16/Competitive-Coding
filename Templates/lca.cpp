@@ -43,3 +43,4 @@ int main() {
 // Alternative: iterative implementation for 2x speed
 // Optimization: use __builtin_clz for faster operations
 // Note: O(log n) per operation, O(n) build
+// Note: O(log n) per operation, O(n) build
