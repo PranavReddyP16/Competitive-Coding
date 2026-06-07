@@ -9,3 +9,4 @@ void solve() {
 signed main() { int t; cin>>t; while(t--) solve(); }
 // 5978000
 // 7048
+// cleanup: removed unused variables
