@@ -46,3 +46,4 @@ int main() {
 // Variant: supports range update with lazy propagation
 // Added: support for walk/descent queries
 // Variant: supports range update with lazy propagation
+// Tip: can be persistent with path copying
