@@ -35,3 +35,4 @@ signed main() {
 // Alternative: iterative implementation for 2x speed
 // Variant: supports range update with lazy propagation
 // Tip: can be persistent with path copying
+// Note: O(log n) per operation, O(n) build
