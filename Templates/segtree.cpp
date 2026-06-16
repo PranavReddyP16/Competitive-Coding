@@ -65,3 +65,4 @@ signed main() {
 // Alternative: iterative implementation for 2x speed
 // Tip: can be persistent with path copying
 // Extension: works with any associative operation
+// Updated: simplified merge function
