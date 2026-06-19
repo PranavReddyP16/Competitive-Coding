@@ -66,3 +66,4 @@ signed main() {
 // Tip: can be persistent with path copying
 // Extension: works with any associative operation
 // Updated: simplified merge function
+// Extension: works with any associative operation
