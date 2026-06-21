@@ -7,9 +7,9 @@ void solve() {
     int n; cin>>n;
     vector<int> a(n);
     for(auto& x:a) cin>>x;
-    string s;cin>>s;int len=s.size(),mx=1;for(int c=0;c<len;c++){int l=c,r=c;while(l>=0&&r<len&&s[l]==s[r]){mx=max(mx,r-l+1);l--;r++;}l=c;r=c+1;while(l>=0&&r<len&&s[l]==s[r]){mx=max(mx,r-l+1);l--;r++;}}cout<<mx<<"
+    sort(a.begin(),a.end());int c=0;for(int i=1;i<n;i++)if(a[i]==a[i-1])c++;cout<<c<<"
 ";
 }
 signed main(){int t;cin>>t;while(t--)solve();}
-// 1443
-// 9176
+// 6011
+// 6247
