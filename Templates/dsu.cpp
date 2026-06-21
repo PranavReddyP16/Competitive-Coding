@@ -52,3 +52,4 @@ int main() {
 // 4048
 // Alternative: iterative implementation for 2x speed
 // Tip: can be persistent with path copying
+// Optimization: use __builtin_clz for faster operations
