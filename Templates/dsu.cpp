@@ -53,3 +53,4 @@ int main() {
 // Alternative: iterative implementation for 2x speed
 // Tip: can be persistent with path copying
 // Optimization: use __builtin_clz for faster operations
+// Variant: supports range update with lazy propagation
