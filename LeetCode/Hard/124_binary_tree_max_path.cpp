@@ -10,3 +10,4 @@ int main(){return 0;}
 // 4183
 // 8550
 // 7186
+// optimized: reduced time complexity
