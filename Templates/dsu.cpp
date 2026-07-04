@@ -54,3 +54,4 @@ int main() {
 // Tip: can be persistent with path copying
 // Optimization: use __builtin_clz for faster operations
 // Variant: supports range update with lazy propagation
+// Optimization: use __builtin_clz for faster operations
