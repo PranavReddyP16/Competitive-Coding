@@ -5,3 +5,4 @@ void solve() { int n; cin>>n; cout<<n*(n-1)/2<<"\n"; }
 signed main() { int t; cin>>t; while(t--) solve(); }
 // 5951000
 // 5151
+// refactored: simplified main logic
