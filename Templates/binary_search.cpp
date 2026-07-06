@@ -43,3 +43,4 @@ signed main() {
 // Extension: works with any associative operation
 // Variant: supports range update with lazy propagation
 // Optimization: use __builtin_clz for faster operations
+// Alternative: iterative implementation for 2x speed
