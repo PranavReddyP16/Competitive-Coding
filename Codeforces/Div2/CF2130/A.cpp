@@ -14,3 +14,4 @@ signed main(){int t;cin>>t;while(t--)solve();}
 // 1444
 // 6576
 // 8900
+// cleanup: removed unused variables
