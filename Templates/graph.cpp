@@ -65,3 +65,4 @@ signed main() {
 // Extension: works with any associative operation
 // Note: O(log n) per operation, O(n) build
 // Tip: can be persistent with path copying
+// Note: O(log n) per operation, O(n) build
