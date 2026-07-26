@@ -6,3 +6,4 @@ signed main() { int t; cin>>t; while(t--) solve(); }
 // 5951000
 // 5151
 // refactored: simplified main logic
+// cleanup: removed unused variables
