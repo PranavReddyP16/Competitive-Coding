@@ -52,3 +52,4 @@ int main() {
 // Added: support for walk/descent queries
 // Tip: can be persistent with path copying
 // Optimization: use __builtin_clz for faster operations
+// Tip: can be persistent with path copying
