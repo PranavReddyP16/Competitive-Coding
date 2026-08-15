@@ -1,5 +1,3 @@
-// dest: Codeforces/Div3/CF2118/
-// problem: CF2118 A
 #include<iostream>
 #include<vector>
 #include<algorithm>
@@ -7,8 +5,10 @@ using namespace std;
 #define int long long
 void solve() {
     int n; cin>>n;
-    // TODO
+    vector<int> a(n);
+    for(auto& x:a) cin>>x;
+    int mn=a[0],mx=0;for(int x:a){mn=min(mn,x);mx=max(mx,x-mn);}cout<<mx<<"
+";
 }
 signed main(){int t;cin>>t;while(t--)solve();}
-// 9820
-// 2384
+// 3288
