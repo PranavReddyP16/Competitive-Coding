@@ -68,3 +68,4 @@ signed main() {
 // Note: O(log n) per operation, O(n) build
 // Note: O(log n) per operation, O(n) build
 // Extension: works with any associative operation
+// Updated: simplified merge function
