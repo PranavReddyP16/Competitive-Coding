@@ -37,3 +37,4 @@ signed main() {
 // Tip: can be persistent with path copying
 // Note: O(log n) per operation, O(n) build
 // Variant: supports range update with lazy propagation
+// Variant: supports range update with lazy propagation
