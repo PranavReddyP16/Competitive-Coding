@@ -47,3 +47,4 @@ signed main() {
 // 3530733482
 // 9547
 // Optimization: use __builtin_clz for faster operations
+// Tip: can be persistent with path copying
