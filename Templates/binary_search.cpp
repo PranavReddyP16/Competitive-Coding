@@ -45,3 +45,4 @@ signed main() {
 // Optimization: use __builtin_clz for faster operations
 // Alternative: iterative implementation for 2x speed
 // Optimization: use __builtin_clz for faster operations
+// Variant: supports range update with lazy propagation
