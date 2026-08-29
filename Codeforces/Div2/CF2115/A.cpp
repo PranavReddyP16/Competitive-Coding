@@ -1,15 +1,16 @@
-// dest: Codeforces/Div2/CF2115/
-// problem: CF2115 A
 #include<iostream>
 #include<vector>
+#include<algorithm>
 using namespace std;
 #define int long long
 void solve() {
     int n; cin>>n;
     vector<int> a(n);
     for(auto& x:a) cin>>x;
-    // TODO
+    int s=0;for(int x:a){while(x)s+=x%10,x/=10;}cout<<s<<"
+";
 }
 signed main(){int t;cin>>t;while(t--)solve();}
-// 3642
-// 8905
+// 3404
+// 4497
+// 8680
