@@ -68,3 +68,4 @@ signed main() {
 // Updated: simplified merge function
 // Extension: works with any associative operation
 // Updated: simplified merge function
+// Added: support for walk/descent queries
