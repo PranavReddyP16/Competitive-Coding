@@ -66,7 +66,7 @@ def load_state():
         with open(STATE) as f:
             return json.load(f)
     except (OSError, ValueError):
-        return {"assigned": {}, "sent_keys": [], "tier": 0}
+        return {"assigned": {}, "sent_keys": [], "sent_slots": {}, "tier": 0}
 
 
 def save_state(s):
@@ -152,6 +152,19 @@ def pick_problem(state, handle):
                   f"holding back {sorted(hold_names.items())}")
             return random.choice(pool)
     raise SystemExit("No eligible problems remain in any tier.")
+
+
+def due_slot(now, state):
+    """Latest slot today that is due and has not been sent yet.
+
+    GitHub's scheduled runs are best-effort and routinely skip whole hours,
+    so keying off the current hour alone silently drops sends. Instead we
+    fire the most recent slot that is past due and unsent, which means a run
+    landing late still delivers the mail it owed.
+    """
+    done = set(state.get("sent_slots", {}).get(now.date().isoformat(), []))
+    due = [h for h in sorted(SLOTS) if h <= now.hour and h not in done]
+    return max(due) if due else None
 
 
 # ---------------- email ----------------
@@ -240,13 +253,19 @@ def main():
     a = ap.parse_args()
 
     now = datetime.datetime.now(TZ)
-    hour = a.force_hour if a.force_hour is not None else now.hour
-    if hour not in SLOTS:
-        print(f"[skip] {now:%Y-%m-%d %H:%M %Z} is not a send slot")
-        return
-
     today = now.date()
     state = load_state()
+
+    if a.force_hour is not None:
+        hour = a.force_hour
+    else:
+        hour = due_slot(now, state)
+        if hour is None:
+            print(f"[skip] {now:%Y-%m-%d %H:%M %Z}: nothing due")
+            return
+        if hour != now.hour:
+            print(f"[catch-up] the {hour:02d}:00 slot was missed; sending at {now:%H:%M %Z}")
+
     handle = a.handle.strip()
 
     # Yesterday's problem is the only one eligible for a red alert.
@@ -291,6 +310,12 @@ def main():
     else:
         send(subject, text, body, a.to)
         print(f"[sent] {kind} -> {a.to}: {subject}")
+        slots = state.setdefault("sent_slots", {}).setdefault(today.isoformat(), [])
+        if hour not in slots:
+            slots.append(hour)
+        cutoff = (today - datetime.timedelta(days=14)).isoformat()
+        for k in [k for k in state["sent_slots"] if k < cutoff]:
+            del state["sent_slots"][k]
         save_state(state)
         return
 

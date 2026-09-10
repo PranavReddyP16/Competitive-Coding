@@ -139,13 +139,25 @@ def main():
     a = ap.parse_args()
 
     now = datetime.datetime.now(TZ)
-    hour = a.force_hour if a.force_hour is not None else now.hour
-    if hour != SEND_HOUR:
-        print(f"[skip] {now:%Y-%m-%d %H:%M %Z} is not the {SEND_HOUR:02d}:00 slot")
-        return
-
     today = now.date().isoformat()
     state = load_state()
+
+    # GitHub's scheduled runs routinely skip whole hours, so rather than
+    # requiring a run to land inside the 08:00 hour, send whenever today's
+    # mail is still owed and 08:00 has passed.
+    if a.force_hour is not None:
+        if a.force_hour != SEND_HOUR:
+            print(f"[skip] forced hour {a.force_hour} is not the {SEND_HOUR:02d}:00 slot")
+            return
+    else:
+        if now.hour < SEND_HOUR:
+            print(f"[skip] {now:%Y-%m-%d %H:%M %Z} is before the {SEND_HOUR:02d}:00 slot")
+            return
+        if today in state.get("assigned", {}):
+            print(f"[skip] already sent today ({today})")
+            return
+        if now.hour != SEND_HOUR:
+            print(f"[catch-up] the {SEND_HOUR:02d}:00 slot was missed; sending at {now:%H:%M %Z}")
 
     pick = state["assigned"].get(today)
     if not pick:
