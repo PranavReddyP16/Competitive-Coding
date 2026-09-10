@@ -291,8 +291,11 @@ def main():
     else:
         send(subject, text, body, a.to)
         print(f"[sent] {kind} -> {a.to}: {subject}")
+        save_state(state)
+        return
 
-    save_state(state)
+    # A dry run must not consume a problem or mark it sent.
+    print("[dry-run] state left unchanged")
 
 
 if __name__ == "__main__":
