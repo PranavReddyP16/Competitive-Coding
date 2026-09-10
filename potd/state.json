@@ -1,1 +1,19 @@
-{"assigned": {}, "sent_keys": [], "tier": 0}
+{
+  "assigned": {
+    "2026-09-10": {
+      "key": "1883-A",
+      "name": "Morning",
+      "rating": 800,
+      "solvers": 29867,
+      "tags": [
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1883/A",
+      "year": 2023
+    }
+  },
+  "sent_keys": [
+    "1883-A"
+  ],
+  "tier": 0
+}
