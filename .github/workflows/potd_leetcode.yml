@@ -3,6 +3,12 @@ name: Problem of the day (LeetCode)
 # Hourly cron, gated in Python on America/New_York so the 08:00 send stays
 # correct across daylight-saving transitions. Single send per day, no follow-ups.
 on:
+  # Fired punctually by an external scheduler; repository_dispatch runs
+  # start within seconds, unlike GitHub's own scheduled queue which is
+  # shed under load and routinely lands an hour or more late.
+  repository_dispatch:
+    types: [potd-lc]
+  # Hourly safety net: catches the day's mail if the poke never arrives.
   schedule:
     - cron: '0 * * * *'
   workflow_dispatch:

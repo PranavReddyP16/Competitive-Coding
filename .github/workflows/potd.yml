@@ -5,6 +5,12 @@ name: Problem of the day
 # in cron keeps the schedule correct across US daylight-saving transitions,
 # which GitHub's UTC-only cron cannot express.
 on:
+  # Fired punctually by an external scheduler; repository_dispatch runs
+  # start within seconds, unlike GitHub's own scheduled queue which is
+  # shed under load and routinely lands an hour or more late.
+  repository_dispatch:
+    types: [potd-cf]
+  # Hourly safety net: catches the day's mail if the poke never arrives.
   schedule:
     - cron: '0 * * * *'
   workflow_dispatch:
