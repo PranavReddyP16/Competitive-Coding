@@ -1,0 +1,57 @@
+name: Problem of the day (LeetCode)
+
+# Hourly cron, gated in Python on America/New_York so the 08:00 send stays
+# correct across daylight-saving transitions. Single send per day, no follow-ups.
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Print the email instead of sending it'
+        type: boolean
+        required: false
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: potd-leetcode
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Send
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          RECIPIENT_LC: ${{ secrets.RECIPIENT_LC }}
+        run: |
+          ARGS=""
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            ARGS="--force-hour 8"
+            [ "${{ inputs.dry_run }}" = "true" ] && ARGS="$ARGS --dry-run"
+          fi
+          python potd/lc_potd.py $ARGS
+
+      - name: Persist state
+        run: |
+          if [ -n "$(git status --porcelain potd/lc_state.json)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add potd/lc_state.json
+            git commit -m "potd(leetcode): record today's problem"
+            for i in 1 2 3; do
+              git pull --rebase --autostash origin main && git push origin main && break
+              sleep 5
+            done
+          fi
