@@ -22,6 +22,8 @@ from zoneinfo import ZoneInfo
 
 TZ = ZoneInfo("America/Indiana/Indianapolis")
 SLOTS = {8: "new", 14: "followup", 20: "followup", 2: "followup"}
+NEW_SLOT = 8            # the slot that carries the problem itself
+FOLLOWUP_GRACE = 3      # hours a reminder may run late before it is just noise
 RATING_LO, RATING_HI = 800, 1000
 MIN_SOLVERS = 400
 AGE_TIERS = [2023, 2020, 0]          # newest first; widen only when exhausted
@@ -163,7 +165,16 @@ def due_slot(now, state):
     landing late still delivers the mail it owed.
     """
     done = set(state.get("sent_slots", {}).get(now.date().isoformat(), []))
-    due = [h for h in sorted(SLOTS) if h <= now.hour and h not in done]
+    # The day's problem outranks every reminder. If it is still owed and its
+    # hour has passed, send it no matter how late the run is -- otherwise a
+    # run that lands in the afternoon would resolve to a reminder slot and
+    # the problem itself would never go out that day.
+    if NEW_SLOT not in done and now.hour >= NEW_SLOT:
+        return NEW_SLOT
+    # Reminders are time-sensitive -- one that is hours stale is noise, so
+    # they only catch up within a short grace window.
+    due = [h for h in sorted(SLOTS)
+           if h <= now.hour <= h + FOLLOWUP_GRACE and h not in done]
     return max(due) if due else None
 
 
