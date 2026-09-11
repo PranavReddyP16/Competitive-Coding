@@ -8,8 +8,13 @@ on:
   # shed under load and routinely lands an hour or more late.
   repository_dispatch:
     types: [potd-lc]
-  # Hourly safety net: catches the day's mail if the poke never arrives.
   schedule:
+    # Dense attempts across the hour 08:00 Eastern falls in -- 12:00 UTC
+    # under EDT, 13:00 under EST. GitHub sheds scheduled runs under load,
+    # so several bids buy a better chance one lands near the target. The
+    # workflow is idempotent, making the extra runs harmless no-ops.
+    - cron: '10,20,30,40,50 12,13 * * *'
+    # Hourly safety net: guarantees the day's mail eventually goes out.
     - cron: '0 * * * *'
   workflow_dispatch:
     inputs:
