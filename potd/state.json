@@ -10,10 +10,27 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1883/A",
       "year": 2023
+    },
+    "2026-09-11": {
+      "key": "1985-C",
+      "name": "Good Prefixes",
+      "rating": 1000,
+      "solvers": 41377,
+      "tags": [
+        "greedy"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1985/C",
+      "year": 2024
     }
   },
   "sent_keys": [
-    "1883-A"
+    "1883-A",
+    "1985-C"
   ],
+  "sent_slots": {
+    "2026-09-11": [
+      8
+    ]
+  },
   "tier": 0
 }
