@@ -12,9 +12,19 @@
       ],
       "title": "Count Nodes Equal to Average of Subtree",
       "url": "https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/"
+    },
+    "2026-09-11": {
+      "difficulty": "Medium",
+      "id": "2625",
+      "is_daily": false,
+      "slug": "flatten-deeply-nested-array",
+      "tags": [],
+      "title": "Flatten Deeply Nested Array",
+      "url": "https://leetcode.com/problems/flatten-deeply-nested-array/"
     }
   },
   "sent_slugs": [
-    "count-nodes-equal-to-average-of-subtree"
+    "count-nodes-equal-to-average-of-subtree",
+    "flatten-deeply-nested-array"
   ]
 }
