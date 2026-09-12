@@ -21,14 +21,29 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1985/C",
       "year": 2024
+    },
+    "2026-09-12": {
+      "key": "1866-A",
+      "name": "Ambitious Kid",
+      "rating": 800,
+      "solvers": 58698,
+      "tags": [
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1866/A",
+      "year": 2023
     }
   },
   "sent_keys": [
     "1883-A",
-    "1985-C"
+    "1985-C",
+    "1866-A"
   ],
   "sent_slots": {
     "2026-09-11": [
+      8
+    ],
+    "2026-09-12": [
       8
     ]
   },
