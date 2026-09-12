@@ -21,10 +21,25 @@
       "tags": [],
       "title": "Flatten Deeply Nested Array",
       "url": "https://leetcode.com/problems/flatten-deeply-nested-array/"
+    },
+    "2026-09-12": {
+      "difficulty": "Medium",
+      "id": "395",
+      "is_daily": false,
+      "slug": "longest-substring-with-at-least-k-repeating-characters",
+      "tags": [
+        "Hash Table",
+        "String",
+        "Divide and Conquer",
+        "Sliding Window"
+      ],
+      "title": "Longest Substring with At Least K Repeating Characters",
+      "url": "https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/"
     }
   },
   "sent_slugs": [
     "count-nodes-equal-to-average-of-subtree",
-    "flatten-deeply-nested-array"
+    "flatten-deeply-nested-array",
+    "longest-substring-with-at-least-k-repeating-characters"
   ]
 }
