@@ -32,18 +32,33 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1866/A",
       "year": 2023
+    },
+    "2026-09-13": {
+      "key": "1809-A",
+      "name": "Garland",
+      "rating": 800,
+      "solvers": 25368,
+      "tags": [
+        "implementation"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1809/A",
+      "year": 2023
     }
   },
   "sent_keys": [
     "1883-A",
     "1985-C",
-    "1866-A"
+    "1866-A",
+    "1809-A"
   ],
   "sent_slots": {
     "2026-09-11": [
       8
     ],
     "2026-09-12": [
+      8
+    ],
+    "2026-09-13": [
       8
     ]
   },
