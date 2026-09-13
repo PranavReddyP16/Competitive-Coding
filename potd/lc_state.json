@@ -35,11 +35,24 @@
       ],
       "title": "Longest Substring with At Least K Repeating Characters",
       "url": "https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/"
+    },
+    "2026-09-13": {
+      "difficulty": "Medium",
+      "id": "835",
+      "is_daily": true,
+      "slug": "image-overlap",
+      "tags": [
+        "Array",
+        "Matrix"
+      ],
+      "title": "Image Overlap",
+      "url": "https://leetcode.com/problems/image-overlap/"
     }
   },
   "sent_slugs": [
     "count-nodes-equal-to-average-of-subtree",
     "flatten-deeply-nested-array",
-    "longest-substring-with-at-least-k-repeating-characters"
+    "longest-substring-with-at-least-k-repeating-characters",
+    "image-overlap"
   ]
 }
