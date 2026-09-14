@@ -68,7 +68,7 @@ def load_state():
         with open(STATE) as f:
             return json.load(f)
     except (OSError, ValueError):
-        return {"assigned": {}, "sent_keys": [], "sent_slots": {}, "tier": 0}
+        return {"assigned": {}, "sent_keys": [], "sent_slots": {}, "lc_sent_slugs": [], "tier": 0}
 
 
 def save_state(s):
@@ -178,6 +178,51 @@ def due_slot(now, state):
     return max(due) if due else None
 
 
+# ---------------- leetcode (the Easy that rides along) ----------------
+
+LC_GQL = "https://leetcode.com/graphql"
+LC_HEADERS = {
+    "Content-Type": "application/json",
+    "Referer": "https://leetcode.com/",
+    "User-Agent": ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                   "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"),
+}
+LC_LIST_Q = """query pl($categorySlug: String, $limit: Int, $skip: Int, $filters: QuestionListFilterInput) {
+  problemsetQuestionList: questionList(categorySlug: $categorySlug, limit: $limit, skip: $skip, filters: $filters) {
+    total: totalNum
+    questions: data { questionFrontendId title titleSlug difficulty isPaidOnly topicTags { name } }
+  } }"""
+
+
+def lc_gql(variables):
+    payload = json.dumps({"query": LC_LIST_Q, "variables": variables}).encode()
+    req = urllib.request.Request(LC_GQL, data=payload, headers=LC_HEADERS)
+    with urllib.request.urlopen(req, timeout=30) as r:
+        body = json.load(r)
+    if "errors" in body:
+        raise RuntimeError(body["errors"])
+    return body["data"]["problemsetQuestionList"]
+
+
+def random_lc_easy(seen, attempts=25):
+    """A free Easy he has not been sent before."""
+    # "algorithms" excludes the SQL, shell and JavaScript-only categories,
+    # which are not what he is practising for.
+    base = {"categorySlug": "algorithms", "filters": {"difficulty": "EASY"}}
+    total = lc_gql({**base, "limit": 1, "skip": 0})["total"]
+    for _ in range(attempts):
+        qs = lc_gql({**base, "limit": 1, "skip": random.randrange(total)})["questions"]
+        if not qs:
+            continue
+        q = qs[0]
+        if q["isPaidOnly"] or q["titleSlug"] in seen:
+            continue
+        return {"id": q["questionFrontendId"], "title": q["title"], "slug": q["titleSlug"],
+                "tags": [t["name"] for t in q.get("topicTags", [])],
+                "url": f"https://leetcode.com/problems/{q['titleSlug']}/"}
+    raise RuntimeError(f"no unseen free Easy found in {attempts} attempts")
+
+
 # ---------------- email ----------------
 
 def render(kind, problem, alert_problem, day):
@@ -229,6 +274,24 @@ def render(kind, problem, alert_problem, day):
             'color:#fff;padding:11px 22px;border-radius:6px;text-decoration:none;font-weight:600">'
             'Open the problem</a>'
             f'<p style="margin:20px 0 0;font-size:14px;color:#6b7280">Topics: {html.escape(tags)}</p>')
+
+        easy = problem.get("lc_easy")
+        if easy:
+            etags = ", ".join(easy["tags"]) if easy["tags"] else "\u2014"
+            text.append(f"\nAnd today's LeetCode Easy:\n{easy['id']}. {easy['title']}\n"
+                        f"{easy['url']}\nTopics: {etags}")
+            blocks.append(
+                '<hr style="border:0;border-top:1px solid #e5e7eb;margin:28px 0">'
+                '<div style="font-size:12px;letter-spacing:.08em;text-transform:uppercase;'
+                'color:#6b7280;margin-bottom:10px">And today\'s LeetCode Easy</div>'
+                f'<h2 style="font-size:18px;margin:0 0 4px">{html.escape(easy["id"])}. '
+                f'{html.escape(easy["title"])}</h2>'
+                '<div style="color:#6b7280;font-size:14px;margin-bottom:16px">LeetCode &middot; '
+                '<span style="color:#16a34a;font-weight:600">Easy</span></div>'
+                f'<a href="{html.escape(easy["url"])}" style="display:inline-block;background:#16a34a;'
+                'color:#fff;padding:9px 18px;border-radius:6px;text-decoration:none;font-weight:600">'
+                'Open the Easy</a>'
+                f'<p style="margin:16px 0 0;font-size:14px;color:#6b7280">Topics: {html.escape(etags)}</p>')
 
     body = ("<div style=\"font-family:-apple-system,Segoe UI,Roboto,Helvetica,sans-serif;"
             "max-width:540px;margin:0 auto;padding:24px;color:#111827\">"
@@ -296,6 +359,14 @@ def main():
             # Keep only a fortnight of assignments; sent_keys is the durable record.
             for k in [k for k in state["assigned"] if k < (today - datetime.timedelta(days=14)).isoformat()]:
                 del state["assigned"][k]
+        if not rec.get("lc_easy"):
+            # A LeetCode outage must not cost him his Codeforces problem.
+            try:
+                rec["lc_easy"] = random_lc_easy(set(state.setdefault("lc_sent_slugs", [])))
+                state["lc_sent_slugs"].append(rec["lc_easy"]["slug"])
+                state["assigned"][today.isoformat()] = rec
+            except Exception as e:
+                print(f"[warn] no LeetCode Easy this morning: {e}", file=sys.stderr)
         kind, problem = "new", rec
 
     else:

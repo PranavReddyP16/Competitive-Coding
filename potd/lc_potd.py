@@ -85,11 +85,12 @@ def daily_medium():
 
 
 def random_medium(seen, attempts=25):
-    total = gql(LIST_Q, {"categorySlug": "", "limit": 1, "skip": 0,
+    # "algorithms" excludes the SQL, shell and JavaScript-only categories.
+    total = gql(LIST_Q, {"categorySlug": "algorithms", "limit": 1, "skip": 0,
                          "filters": {"difficulty": "MEDIUM"}})["problemsetQuestionList"]["total"]
     for _ in range(attempts):
         skip = random.randrange(total)
-        qs = gql(LIST_Q, {"categorySlug": "", "limit": 1, "skip": skip,
+        qs = gql(LIST_Q, {"categorySlug": "algorithms", "limit": 1, "skip": skip,
                           "filters": {"difficulty": "MEDIUM"}})["problemsetQuestionList"]["questions"]
         if not qs:
             continue
