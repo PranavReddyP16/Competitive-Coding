@@ -47,12 +47,27 @@
       ],
       "title": "Image Overlap",
       "url": "https://leetcode.com/problems/image-overlap/"
+    },
+    "2026-09-14": {
+      "difficulty": "Medium",
+      "id": "1943",
+      "is_daily": false,
+      "slug": "describe-the-painting",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Sorting",
+        "Prefix Sum"
+      ],
+      "title": "Describe the Painting",
+      "url": "https://leetcode.com/problems/describe-the-painting/"
     }
   },
   "sent_slugs": [
     "count-nodes-equal-to-average-of-subtree",
     "flatten-deeply-nested-array",
     "longest-substring-with-at-least-k-repeating-characters",
-    "image-overlap"
+    "image-overlap",
+    "describe-the-painting"
   ]
 }
