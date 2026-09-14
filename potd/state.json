@@ -43,13 +43,28 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1809/A",
       "year": 2023
+    },
+    "2026-09-14": {
+      "key": "1918-A",
+      "name": "Brick Wall",
+      "rating": 800,
+      "solvers": 32690,
+      "tags": [
+        "constructive algorithms",
+        "greedy",
+        "implementation",
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1918/A",
+      "year": 2024
     }
   },
   "sent_keys": [
     "1883-A",
     "1985-C",
     "1866-A",
-    "1809-A"
+    "1809-A",
+    "1918-A"
   ],
   "sent_slots": {
     "2026-09-11": [
@@ -59,6 +74,9 @@
       8
     ],
     "2026-09-13": [
+      8
+    ],
+    "2026-09-14": [
       8
     ]
   },
