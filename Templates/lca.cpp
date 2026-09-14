@@ -44,3 +44,4 @@ int main() {
 // Optimization: use __builtin_clz for faster operations
 // Note: O(log n) per operation, O(n) build
 // Note: O(log n) per operation, O(n) build
+// Updated: simplified merge function
