@@ -57,14 +57,40 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1918/A",
       "year": 2024
+    },
+    "2026-09-15": {
+      "key": "1875-A",
+      "lc_easy": {
+        "id": "696",
+        "slug": "count-binary-substrings",
+        "tags": [
+          "Two Pointers",
+          "String"
+        ],
+        "title": "Count Binary Substrings",
+        "url": "https://leetcode.com/problems/count-binary-substrings/"
+      },
+      "name": "Jellyfish and Undertale",
+      "rating": 900,
+      "solvers": 52706,
+      "tags": [
+        "brute force",
+        "greedy"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1875/A",
+      "year": 2023
     }
   },
+  "lc_sent_slugs": [
+    "count-binary-substrings"
+  ],
   "sent_keys": [
     "1883-A",
     "1985-C",
     "1866-A",
     "1809-A",
-    "1918-A"
+    "1918-A",
+    "1875-A"
   ],
   "sent_slots": {
     "2026-09-11": [
@@ -77,6 +103,9 @@
       8
     ],
     "2026-09-14": [
+      8
+    ],
+    "2026-09-15": [
       8
     ]
   },
