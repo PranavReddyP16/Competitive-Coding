@@ -61,6 +61,20 @@
       ],
       "title": "Describe the Painting",
       "url": "https://leetcode.com/problems/describe-the-painting/"
+    },
+    "2026-09-15": {
+      "difficulty": "Medium",
+      "id": "684",
+      "is_daily": false,
+      "slug": "redundant-connection",
+      "tags": [
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Union-Find",
+        "Graph Theory"
+      ],
+      "title": "Redundant Connection",
+      "url": "https://leetcode.com/problems/redundant-connection/"
     }
   },
   "sent_slugs": [
@@ -68,6 +82,7 @@
     "flatten-deeply-nested-array",
     "longest-substring-with-at-least-k-repeating-characters",
     "image-overlap",
-    "describe-the-painting"
+    "describe-the-painting",
+    "redundant-connection"
   ]
 }
