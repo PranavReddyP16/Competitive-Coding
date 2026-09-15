@@ -12,3 +12,4 @@ void solve() {
 }
 signed main(){int t;cin>>t;while(t--)solve();}
 // 7139
+// fixed: handle n=1 edge case
