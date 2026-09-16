@@ -79,10 +79,34 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1875/A",
       "year": 2023
+    },
+    "2026-09-16": {
+      "key": "2127-A",
+      "lc_easy": {
+        "id": "1295",
+        "slug": "find-numbers-with-even-number-of-digits",
+        "tags": [
+          "Array",
+          "Math"
+        ],
+        "title": "Find Numbers with Even Number of Digits",
+        "url": "https://leetcode.com/problems/find-numbers-with-even-number-of-digits/"
+      },
+      "name": "Mix Mex Max",
+      "rating": 800,
+      "solvers": 22134,
+      "tags": [
+        "constructive algorithms",
+        "greedy",
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2127/A",
+      "year": 2025
     }
   },
   "lc_sent_slugs": [
-    "count-binary-substrings"
+    "count-binary-substrings",
+    "find-numbers-with-even-number-of-digits"
   ],
   "sent_keys": [
     "1883-A",
@@ -90,7 +114,8 @@
     "1866-A",
     "1809-A",
     "1918-A",
-    "1875-A"
+    "1875-A",
+    "2127-A"
   ],
   "sent_slots": {
     "2026-09-11": [
@@ -106,6 +131,9 @@
       8
     ],
     "2026-09-15": [
+      8
+    ],
+    "2026-09-16": [
       8
     ]
   },
