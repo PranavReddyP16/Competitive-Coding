@@ -75,6 +75,20 @@
       ],
       "title": "Redundant Connection",
       "url": "https://leetcode.com/problems/redundant-connection/"
+    },
+    "2026-09-16": {
+      "difficulty": "Medium",
+      "id": "1621",
+      "is_daily": true,
+      "slug": "number-of-sets-of-k-non-overlapping-line-segments",
+      "tags": [
+        "Math",
+        "Dynamic Programming",
+        "Combinatorics",
+        "Prefix Sum"
+      ],
+      "title": "Number of Sets of K Non-Overlapping Line Segments",
+      "url": "https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/"
     }
   },
   "sent_slugs": [
@@ -83,6 +97,7 @@
     "longest-substring-with-at-least-k-repeating-characters",
     "image-overlap",
     "describe-the-painting",
-    "redundant-connection"
+    "redundant-connection",
+    "number-of-sets-of-k-non-overlapping-line-segments"
   ]
 }
