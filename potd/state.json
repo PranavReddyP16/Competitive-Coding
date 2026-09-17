@@ -102,11 +102,35 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2127/A",
       "year": 2025
+    },
+    "2026-09-17": {
+      "key": "2237-A",
+      "lc_easy": {
+        "id": "326",
+        "slug": "power-of-three",
+        "tags": [
+          "Math",
+          "Recursion"
+        ],
+        "title": "Power of Three",
+        "url": "https://leetcode.com/problems/power-of-three/"
+      },
+      "name": "Destroying Towers",
+      "rating": 800,
+      "solvers": 22336,
+      "tags": [
+        "games",
+        "greedy",
+        "schedules"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2237/A",
+      "year": 2026
     }
   },
   "lc_sent_slugs": [
     "count-binary-substrings",
-    "find-numbers-with-even-number-of-digits"
+    "find-numbers-with-even-number-of-digits",
+    "power-of-three"
   ],
   "sent_keys": [
     "1883-A",
@@ -115,7 +139,8 @@
     "1809-A",
     "1918-A",
     "1875-A",
-    "2127-A"
+    "2127-A",
+    "2237-A"
   ],
   "sent_slots": {
     "2026-09-11": [
@@ -134,6 +159,9 @@
       8
     ],
     "2026-09-16": [
+      8
+    ],
+    "2026-09-17": [
       8
     ]
   },
