@@ -55,3 +55,4 @@ int main() {
 // Optimization: use __builtin_clz for faster operations
 // Variant: supports range update with lazy propagation
 // Optimization: use __builtin_clz for faster operations
+// Added: support for walk/descent queries
