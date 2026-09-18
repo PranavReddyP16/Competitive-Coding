@@ -125,12 +125,37 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2237/A",
       "year": 2026
+    },
+    "2026-09-18": {
+      "key": "2024-A",
+      "lc_easy": {
+        "id": "942",
+        "slug": "di-string-match",
+        "tags": [
+          "Array",
+          "Two Pointers",
+          "String",
+          "Greedy"
+        ],
+        "title": "DI String Match",
+        "url": "https://leetcode.com/problems/di-string-match/"
+      },
+      "name": "Profitable Interest Rate",
+      "rating": 800,
+      "solvers": 23310,
+      "tags": [
+        "greedy",
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2024/A",
+      "year": 2024
     }
   },
   "lc_sent_slugs": [
     "count-binary-substrings",
     "find-numbers-with-even-number-of-digits",
-    "power-of-three"
+    "power-of-three",
+    "di-string-match"
   ],
   "sent_keys": [
     "1883-A",
@@ -140,7 +165,8 @@
     "1918-A",
     "1875-A",
     "2127-A",
-    "2237-A"
+    "2237-A",
+    "2024-A"
   ],
   "sent_slots": {
     "2026-09-11": [
@@ -162,6 +188,9 @@
       8
     ],
     "2026-09-17": [
+      8
+    ],
+    "2026-09-18": [
       8
     ]
   },
