@@ -104,6 +104,20 @@
       ],
       "title": "Find Two Non-overlapping Sub-arrays Each With Target Sum",
       "url": "https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/"
+    },
+    "2026-09-18": {
+      "difficulty": "Medium",
+      "id": "331",
+      "is_daily": false,
+      "slug": "verify-preorder-serialization-of-a-binary-tree",
+      "tags": [
+        "String",
+        "Stack",
+        "Tree",
+        "Binary Tree"
+      ],
+      "title": "Verify Preorder Serialization of a Binary Tree",
+      "url": "https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/"
     }
   },
   "sent_slugs": [
@@ -114,6 +128,7 @@
     "describe-the-painting",
     "redundant-connection",
     "number-of-sets-of-k-non-overlapping-line-segments",
-    "find-two-non-overlapping-sub-arrays-each-with-target-sum"
+    "find-two-non-overlapping-sub-arrays-each-with-target-sum",
+    "verify-preorder-serialization-of-a-binary-tree"
   ]
 }
