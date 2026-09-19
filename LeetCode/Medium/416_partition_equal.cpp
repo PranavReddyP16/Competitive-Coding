@@ -11,3 +11,4 @@ class Solution{public:
 int main(){return 0;}
 // 1505000
 // 5478
+// optimized: reduced time complexity
