@@ -149,13 +149,39 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2024/A",
       "year": 2024
+    },
+    "2026-09-19": {
+      "key": "2048-A",
+      "lc_easy": {
+        "id": "1929",
+        "slug": "concatenation-of-array",
+        "tags": [
+          "Array",
+          "Simulation"
+        ],
+        "title": "Concatenation of Array",
+        "url": "https://leetcode.com/problems/concatenation-of-array/"
+      },
+      "name": "Kevin and Combination Lock",
+      "rating": 800,
+      "solvers": 23110,
+      "tags": [
+        "brute force",
+        "greedy",
+        "implementation",
+        "math",
+        "number theory"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2048/A",
+      "year": 2024
     }
   },
   "lc_sent_slugs": [
     "count-binary-substrings",
     "find-numbers-with-even-number-of-digits",
     "power-of-three",
-    "di-string-match"
+    "di-string-match",
+    "concatenation-of-array"
   ],
   "sent_keys": [
     "1883-A",
@@ -166,7 +192,8 @@
     "1875-A",
     "2127-A",
     "2237-A",
-    "2024-A"
+    "2024-A",
+    "2048-A"
   ],
   "sent_slots": {
     "2026-09-11": [
@@ -191,6 +218,9 @@
       8
     ],
     "2026-09-18": [
+      8
+    ],
+    "2026-09-19": [
       8
     ]
   },
