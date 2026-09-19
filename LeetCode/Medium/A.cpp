@@ -7,12 +7,9 @@ void solve() {
     int n; cin>>n;
     vector<int> a(n);
     for(auto& x:a) cin>>x;
-    reverse(a.begin(),a.end());for(int x:a)cout<<x<<" ";cout<<"
+    int total=0;for(int x:a)total+=x;int left=0;for(int i=0;i<n;i++){if(left==total-left-a[i]){cout<<i<<"
+";return;}left+=a[i];}cout<<-1<<"
 ";
 }
 signed main(){int t;cin>>t;while(t--)solve();}
-// 3974
-// 9043
-// 8575
-// 9526
-// 2045
+// 3155
