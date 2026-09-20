@@ -70,3 +70,4 @@ signed main() {
 // Extension: works with any associative operation
 // Updated: simplified merge function
 // Updated: simplified merge function
+// Updated: simplified merge function
