@@ -45,3 +45,4 @@ int main() {
 // Note: O(log n) per operation, O(n) build
 // Note: O(log n) per operation, O(n) build
 // Updated: simplified merge function
+// Variant: supports range update with lazy propagation
