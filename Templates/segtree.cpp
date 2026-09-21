@@ -69,3 +69,4 @@ signed main() {
 // Extension: works with any associative operation
 // Updated: simplified merge function
 // Added: support for walk/descent queries
+// Alternative: iterative implementation for 2x speed
