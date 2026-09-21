@@ -196,6 +196,27 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1802/A",
       "year": 2023
+    },
+    "2026-09-21": {
+      "key": "2009-A",
+      "lc_easy": {
+        "id": "3683",
+        "slug": "earliest-time-to-finish-one-task",
+        "tags": [
+          "Array"
+        ],
+        "title": "Earliest Time to Finish One Task",
+        "url": "https://leetcode.com/problems/earliest-time-to-finish-one-task/"
+      },
+      "name": "Minimize!",
+      "rating": 800,
+      "solvers": 76593,
+      "tags": [
+        "brute force",
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2009/A",
+      "year": 2024
     }
   },
   "lc_sent_slugs": [
@@ -204,7 +225,8 @@
     "power-of-three",
     "di-string-match",
     "concatenation-of-array",
-    "reverse-bits"
+    "reverse-bits",
+    "earliest-time-to-finish-one-task"
   ],
   "sent_keys": [
     "1883-A",
@@ -217,7 +239,8 @@
     "2237-A",
     "2024-A",
     "2048-A",
-    "1802-A"
+    "1802-A",
+    "2009-A"
   ],
   "sent_slots": {
     "2026-09-11": [
@@ -248,6 +271,9 @@
       8
     ],
     "2026-09-20": [
+      8
+    ],
+    "2026-09-21": [
       8
     ]
   },
