@@ -44,3 +44,4 @@ signed main() {
 // Variant: supports range update with lazy propagation
 // Alternative: iterative implementation for 2x speed
 // Optimization: use __builtin_clz for faster operations
+// Tip: can be persistent with path copying
