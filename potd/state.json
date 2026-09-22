@@ -217,6 +217,32 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2009/A",
       "year": 2024
+    },
+    "2026-09-22": {
+      "key": "1982-A",
+      "lc_easy": {
+        "id": "543",
+        "slug": "diameter-of-binary-tree",
+        "tags": [
+          "Tree",
+          "Depth-First Search",
+          "Binary Tree",
+          "DP on Trees"
+        ],
+        "title": "Diameter of Binary Tree",
+        "url": "https://leetcode.com/problems/diameter-of-binary-tree/"
+      },
+      "name": "Soccer",
+      "rating": 800,
+      "solvers": 27735,
+      "tags": [
+        "greedy",
+        "implementation",
+        "math",
+        "sortings"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1982/A",
+      "year": 2024
     }
   },
   "lc_sent_slugs": [
@@ -226,7 +252,8 @@
     "di-string-match",
     "concatenation-of-array",
     "reverse-bits",
-    "earliest-time-to-finish-one-task"
+    "earliest-time-to-finish-one-task",
+    "diameter-of-binary-tree"
   ],
   "sent_keys": [
     "1883-A",
@@ -240,7 +267,8 @@
     "2024-A",
     "2048-A",
     "1802-A",
-    "2009-A"
+    "2009-A",
+    "1982-A"
   ],
   "sent_slots": {
     "2026-09-11": [
@@ -274,6 +302,9 @@
       8
     ],
     "2026-09-21": [
+      8
+    ],
+    "2026-09-22": [
       8
     ]
   },
