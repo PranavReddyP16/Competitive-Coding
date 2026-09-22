@@ -154,6 +154,21 @@
       ],
       "title": "Find X Value of Array I",
       "url": "https://leetcode.com/problems/find-x-value-of-array-i/"
+    },
+    "2026-09-22": {
+      "difficulty": "Medium",
+      "id": "3170",
+      "is_daily": false,
+      "slug": "lexicographically-minimum-string-after-removing-stars",
+      "tags": [
+        "Hash Table",
+        "String",
+        "Stack",
+        "Greedy",
+        "Heap (Priority Queue)"
+      ],
+      "title": "Lexicographically Minimum String After Removing Stars",
+      "url": "https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/"
     }
   },
   "sent_slugs": [
@@ -168,6 +183,7 @@
     "verify-preorder-serialization-of-a-binary-tree",
     "circle-and-rectangle-overlapping",
     "minimum-array-end",
-    "find-x-value-of-array-i"
+    "find-x-value-of-array-i",
+    "lexicographically-minimum-string-after-removing-stars"
   ]
 }
