@@ -243,6 +243,31 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1982/A",
       "year": 2024
+    },
+    "2026-09-23": {
+      "key": "2176-A",
+      "lc_easy": {
+        "id": "94",
+        "slug": "binary-tree-inorder-traversal",
+        "tags": [
+          "Stack",
+          "Tree",
+          "Depth-First Search",
+          "Binary Tree"
+        ],
+        "title": "Binary Tree Inorder Traversal",
+        "url": "https://leetcode.com/problems/binary-tree-inorder-traversal/"
+      },
+      "name": "Operations with Inversions",
+      "rating": 800,
+      "solvers": 30189,
+      "tags": [
+        "greedy",
+        "implementation",
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2176/A",
+      "year": 2025
     }
   },
   "lc_sent_slugs": [
@@ -253,7 +278,8 @@
     "concatenation-of-array",
     "reverse-bits",
     "earliest-time-to-finish-one-task",
-    "diameter-of-binary-tree"
+    "diameter-of-binary-tree",
+    "binary-tree-inorder-traversal"
   ],
   "sent_keys": [
     "1883-A",
@@ -268,7 +294,8 @@
     "2048-A",
     "1802-A",
     "2009-A",
-    "1982-A"
+    "1982-A",
+    "2176-A"
   ],
   "sent_slots": {
     "2026-09-11": [
@@ -305,6 +332,9 @@
       8
     ],
     "2026-09-22": [
+      8
+    ],
+    "2026-09-23": [
       8
     ]
   },
