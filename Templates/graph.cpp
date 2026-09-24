@@ -71,3 +71,4 @@ signed main() {
 // Updated: simplified merge function
 // Updated: simplified merge function
 // Updated: simplified merge function
+// Extension: works with any associative operation
