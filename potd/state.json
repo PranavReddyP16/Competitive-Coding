@@ -268,6 +268,28 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2176/A",
       "year": 2025
+    },
+    "2026-09-24": {
+      "key": "2250-A",
+      "lc_easy": {
+        "id": "2235",
+        "slug": "add-two-integers",
+        "tags": [
+          "Math"
+        ],
+        "title": "Add Two Integers",
+        "url": "https://leetcode.com/problems/add-two-integers/"
+      },
+      "name": "Threshold Movement",
+      "rating": 800,
+      "solvers": 19142,
+      "tags": [
+        "brute force",
+        "implementation",
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2250/A",
+      "year": 2026
     }
   },
   "lc_sent_slugs": [
@@ -279,7 +301,8 @@
     "reverse-bits",
     "earliest-time-to-finish-one-task",
     "diameter-of-binary-tree",
-    "binary-tree-inorder-traversal"
+    "binary-tree-inorder-traversal",
+    "add-two-integers"
   ],
   "sent_keys": [
     "1883-A",
@@ -295,7 +318,8 @@
     "1802-A",
     "2009-A",
     "1982-A",
-    "2176-A"
+    "2176-A",
+    "2250-A"
   ],
   "sent_slots": {
     "2026-09-11": [
@@ -335,6 +359,9 @@
       8
     ],
     "2026-09-23": [
+      8
+    ],
+    "2026-09-24": [
       8
     ]
   },
