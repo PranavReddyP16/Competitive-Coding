@@ -184,6 +184,20 @@
       ],
       "title": "Minimum Operations to Reduce X to Zero",
       "url": "https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/"
+    },
+    "2026-09-24": {
+      "difficulty": "Medium",
+      "id": "478",
+      "is_daily": false,
+      "slug": "generate-random-point-in-a-circle",
+      "tags": [
+        "Math",
+        "Geometry",
+        "Rejection Sampling",
+        "Randomized"
+      ],
+      "title": "Generate Random Point in a Circle",
+      "url": "https://leetcode.com/problems/generate-random-point-in-a-circle/"
     }
   },
   "sent_slugs": [
@@ -200,6 +214,7 @@
     "minimum-array-end",
     "find-x-value-of-array-i",
     "lexicographically-minimum-string-after-removing-stars",
-    "minimum-operations-to-reduce-x-to-zero"
+    "minimum-operations-to-reduce-x-to-zero",
+    "generate-random-point-in-a-circle"
   ]
 }
