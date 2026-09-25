@@ -1,16 +1,5 @@
 {
   "assigned": {
-    "2026-09-10": {
-      "key": "1883-A",
-      "name": "Morning",
-      "rating": 800,
-      "solvers": 29867,
-      "tags": [
-        "math"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1883/A",
-      "year": 2023
-    },
     "2026-09-11": {
       "key": "1985-C",
       "name": "Good Prefixes",
@@ -290,6 +279,27 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2250/A",
       "year": 2026
+    },
+    "2026-09-25": {
+      "key": "1857-A",
+      "lc_easy": {
+        "id": "830",
+        "slug": "positions-of-large-groups",
+        "tags": [
+          "String"
+        ],
+        "title": "Positions of Large Groups",
+        "url": "https://leetcode.com/problems/positions-of-large-groups/"
+      },
+      "name": "Array Coloring",
+      "rating": 800,
+      "solvers": 87402,
+      "tags": [
+        "greedy",
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1857/A",
+      "year": 2023
     }
   },
   "lc_sent_slugs": [
@@ -302,7 +312,8 @@
     "earliest-time-to-finish-one-task",
     "diameter-of-binary-tree",
     "binary-tree-inorder-traversal",
-    "add-two-integers"
+    "add-two-integers",
+    "positions-of-large-groups"
   ],
   "sent_keys": [
     "1883-A",
@@ -319,7 +330,8 @@
     "2009-A",
     "1982-A",
     "2176-A",
-    "2250-A"
+    "2250-A",
+    "1857-A"
   ],
   "sent_slots": {
     "2026-09-11": [
@@ -362,6 +374,9 @@
       8
     ],
     "2026-09-24": [
+      8
+    ],
+    "2026-09-25": [
       8
     ]
   },
