@@ -1,18 +1,5 @@
 {
   "assigned": {
-    "2026-09-10": {
-      "difficulty": "Medium",
-      "id": "2265",
-      "is_daily": true,
-      "slug": "count-nodes-equal-to-average-of-subtree",
-      "tags": [
-        "Tree",
-        "Depth-First Search",
-        "Binary Tree"
-      ],
-      "title": "Count Nodes Equal to Average of Subtree",
-      "url": "https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/"
-    },
     "2026-09-11": {
       "difficulty": "Medium",
       "id": "2625",
@@ -198,6 +185,19 @@
       ],
       "title": "Generate Random Point in a Circle",
       "url": "https://leetcode.com/problems/generate-random-point-in-a-circle/"
+    },
+    "2026-09-25": {
+      "difficulty": "Medium",
+      "id": "1433",
+      "is_daily": false,
+      "slug": "check-if-a-string-can-break-another-string",
+      "tags": [
+        "String",
+        "Greedy",
+        "Sorting"
+      ],
+      "title": "Check If a String Can Break Another String",
+      "url": "https://leetcode.com/problems/check-if-a-string-can-break-another-string/"
     }
   },
   "sent_slugs": [
@@ -215,6 +215,7 @@
     "find-x-value-of-array-i",
     "lexicographically-minimum-string-after-removing-stars",
     "minimum-operations-to-reduce-x-to-zero",
-    "generate-random-point-in-a-circle"
+    "generate-random-point-in-a-circle",
+    "check-if-a-string-can-break-another-string"
   ]
 }
