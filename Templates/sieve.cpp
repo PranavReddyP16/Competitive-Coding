@@ -53,3 +53,4 @@ int main() {
 // Tip: can be persistent with path copying
 // Optimization: use __builtin_clz for faster operations
 // Tip: can be persistent with path copying
+// Alternative: iterative implementation for 2x speed
