@@ -21,3 +21,4 @@ signed main() { int t; cin>>t; while(t--) solve(); }
 // 2600
 // 9736
 // 6313
+// cleanup: removed unused variables
