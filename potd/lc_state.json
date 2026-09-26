@@ -1,14 +1,5 @@
 {
   "assigned": {
-    "2026-09-11": {
-      "difficulty": "Medium",
-      "id": "2625",
-      "is_daily": false,
-      "slug": "flatten-deeply-nested-array",
-      "tags": [],
-      "title": "Flatten Deeply Nested Array",
-      "url": "https://leetcode.com/problems/flatten-deeply-nested-array/"
-    },
     "2026-09-12": {
       "difficulty": "Medium",
       "id": "395",
@@ -198,6 +189,19 @@
       ],
       "title": "Check If a String Can Break Another String",
       "url": "https://leetcode.com/problems/check-if-a-string-can-break-another-string/"
+    },
+    "2026-09-26": {
+      "difficulty": "Medium",
+      "id": "1807",
+      "is_daily": true,
+      "slug": "evaluate-the-bracket-pairs-of-a-string",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "String"
+      ],
+      "title": "Evaluate the Bracket Pairs of a String",
+      "url": "https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/"
     }
   },
   "sent_slugs": [
@@ -216,6 +220,7 @@
     "lexicographically-minimum-string-after-removing-stars",
     "minimum-operations-to-reduce-x-to-zero",
     "generate-random-point-in-a-circle",
-    "check-if-a-string-can-break-another-string"
+    "check-if-a-string-can-break-another-string",
+    "evaluate-the-bracket-pairs-of-a-string"
   ]
 }
