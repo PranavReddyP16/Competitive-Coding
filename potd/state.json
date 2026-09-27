@@ -1,16 +1,5 @@
 {
   "assigned": {
-    "2026-09-12": {
-      "key": "1866-A",
-      "name": "Ambitious Kid",
-      "rating": 800,
-      "solvers": 58698,
-      "tags": [
-        "math"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1866/A",
-      "year": 2023
-    },
     "2026-09-13": {
       "key": "1809-A",
       "name": "Garland",
@@ -311,6 +300,27 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2257/A",
       "year": 2026
+    },
+    "2026-09-27": {
+      "key": "1881-A",
+      "lc_easy": {
+        "id": "2894",
+        "slug": "divisible-and-non-divisible-sums-difference",
+        "tags": [
+          "Math"
+        ],
+        "title": "Divisible and Non-divisible Sums Difference",
+        "url": "https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/"
+      },
+      "name": "Don't Try to Count",
+      "rating": 800,
+      "solvers": 67687,
+      "tags": [
+        "brute force",
+        "strings"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1881/A",
+      "year": 2023
     }
   },
   "lc_sent_slugs": [
@@ -325,7 +335,8 @@
     "binary-tree-inorder-traversal",
     "add-two-integers",
     "positions-of-large-groups",
-    "second-largest-digit-in-a-string"
+    "second-largest-digit-in-a-string",
+    "divisible-and-non-divisible-sums-difference"
   ],
   "sent_keys": [
     "1883-A",
@@ -344,12 +355,10 @@
     "2176-A",
     "2250-A",
     "1857-A",
-    "2257-A"
+    "2257-A",
+    "1881-A"
   ],
   "sent_slots": {
-    "2026-09-12": [
-      8
-    ],
     "2026-09-13": [
       8
     ],
@@ -390,6 +399,9 @@
       8
     ],
     "2026-09-26": [
+      8
+    ],
+    "2026-09-27": [
       8
     ]
   },
