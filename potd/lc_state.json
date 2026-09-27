@@ -1,19 +1,5 @@
 {
   "assigned": {
-    "2026-09-12": {
-      "difficulty": "Medium",
-      "id": "395",
-      "is_daily": false,
-      "slug": "longest-substring-with-at-least-k-repeating-characters",
-      "tags": [
-        "Hash Table",
-        "String",
-        "Divide and Conquer",
-        "Sliding Window"
-      ],
-      "title": "Longest Substring with At Least K Repeating Characters",
-      "url": "https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/"
-    },
     "2026-09-13": {
       "difficulty": "Medium",
       "id": "835",
@@ -202,6 +188,19 @@
       ],
       "title": "Evaluate the Bracket Pairs of a String",
       "url": "https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/"
+    },
+    "2026-09-27": {
+      "difficulty": "Medium",
+      "id": "1190",
+      "is_daily": true,
+      "slug": "reverse-substrings-between-each-pair-of-parentheses",
+      "tags": [
+        "String",
+        "Stack",
+        "Bracket Sequences"
+      ],
+      "title": "Reverse Substrings Between Each Pair of Parentheses",
+      "url": "https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/"
     }
   },
   "sent_slugs": [
@@ -221,6 +220,7 @@
     "minimum-operations-to-reduce-x-to-zero",
     "generate-random-point-in-a-circle",
     "check-if-a-string-can-break-another-string",
-    "evaluate-the-bracket-pairs-of-a-string"
+    "evaluate-the-bracket-pairs-of-a-string",
+    "reverse-substrings-between-each-pair-of-parentheses"
   ]
 }
