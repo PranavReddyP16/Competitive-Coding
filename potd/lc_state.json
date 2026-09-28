@@ -1,17 +1,5 @@
 {
   "assigned": {
-    "2026-09-13": {
-      "difficulty": "Medium",
-      "id": "835",
-      "is_daily": true,
-      "slug": "image-overlap",
-      "tags": [
-        "Array",
-        "Matrix"
-      ],
-      "title": "Image Overlap",
-      "url": "https://leetcode.com/problems/image-overlap/"
-    },
     "2026-09-14": {
       "difficulty": "Medium",
       "id": "1943",
@@ -201,6 +189,20 @@
       ],
       "title": "Reverse Substrings Between Each Pair of Parentheses",
       "url": "https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/"
+    },
+    "2026-09-28": {
+      "difficulty": "Medium",
+      "id": "1039",
+      "is_daily": false,
+      "slug": "minimum-score-triangulation-of-polygon",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Triangulation",
+        "Polygons"
+      ],
+      "title": "Minimum Score Triangulation of Polygon",
+      "url": "https://leetcode.com/problems/minimum-score-triangulation-of-polygon/"
     }
   },
   "sent_slugs": [
@@ -221,6 +223,7 @@
     "generate-random-point-in-a-circle",
     "check-if-a-string-can-break-another-string",
     "evaluate-the-bracket-pairs-of-a-string",
-    "reverse-substrings-between-each-pair-of-parentheses"
+    "reverse-substrings-between-each-pair-of-parentheses",
+    "minimum-score-triangulation-of-polygon"
   ]
 }
