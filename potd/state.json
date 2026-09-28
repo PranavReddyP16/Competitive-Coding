@@ -1,16 +1,5 @@
 {
   "assigned": {
-    "2026-09-13": {
-      "key": "1809-A",
-      "name": "Garland",
-      "rating": 800,
-      "solvers": 25368,
-      "tags": [
-        "implementation"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1809/A",
-      "year": 2023
-    },
     "2026-09-14": {
       "key": "1918-A",
       "name": "Brick Wall",
@@ -321,6 +310,33 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1881/A",
       "year": 2023
+    },
+    "2026-09-28": {
+      "key": "1855-B",
+      "lc_easy": {
+        "id": "2965",
+        "slug": "find-missing-and-repeated-values",
+        "tags": [
+          "Array",
+          "Hash Table",
+          "Math",
+          "Matrix"
+        ],
+        "title": "Find Missing and Repeated Values",
+        "url": "https://leetcode.com/problems/find-missing-and-repeated-values/"
+      },
+      "name": "Longest Divisors Interval",
+      "rating": 900,
+      "solvers": 50347,
+      "tags": [
+        "brute force",
+        "combinatorics",
+        "greedy",
+        "math",
+        "number theory"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1855/B",
+      "year": 2023
     }
   },
   "lc_sent_slugs": [
@@ -336,7 +352,8 @@
     "add-two-integers",
     "positions-of-large-groups",
     "second-largest-digit-in-a-string",
-    "divisible-and-non-divisible-sums-difference"
+    "divisible-and-non-divisible-sums-difference",
+    "find-missing-and-repeated-values"
   ],
   "sent_keys": [
     "1883-A",
@@ -356,12 +373,10 @@
     "2250-A",
     "1857-A",
     "2257-A",
-    "1881-A"
+    "1881-A",
+    "1855-B"
   ],
   "sent_slots": {
-    "2026-09-13": [
-      8
-    ],
     "2026-09-14": [
       8
     ],
@@ -402,6 +417,9 @@
       8
     ],
     "2026-09-27": [
+      8
+    ],
+    "2026-09-28": [
       8
     ]
   },
