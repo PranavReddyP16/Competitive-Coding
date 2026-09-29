@@ -1,19 +1,5 @@
 {
   "assigned": {
-    "2026-09-14": {
-      "difficulty": "Medium",
-      "id": "1943",
-      "is_daily": false,
-      "slug": "describe-the-painting",
-      "tags": [
-        "Array",
-        "Hash Table",
-        "Sorting",
-        "Prefix Sum"
-      ],
-      "title": "Describe the Painting",
-      "url": "https://leetcode.com/problems/describe-the-painting/"
-    },
     "2026-09-15": {
       "difficulty": "Medium",
       "id": "684",
@@ -203,6 +189,19 @@
       ],
       "title": "Minimum Score Triangulation of Polygon",
       "url": "https://leetcode.com/problems/minimum-score-triangulation-of-polygon/"
+    },
+    "2026-09-29": {
+      "difficulty": "Medium",
+      "id": "3756",
+      "is_daily": false,
+      "slug": "concatenate-non-zero-digits-and-multiply-by-sum-ii",
+      "tags": [
+        "Math",
+        "String",
+        "Prefix Sum"
+      ],
+      "title": "Concatenate Non-Zero Digits and Multiply by Sum II",
+      "url": "https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/"
     }
   },
   "sent_slugs": [
@@ -224,6 +223,7 @@
     "check-if-a-string-can-break-another-string",
     "evaluate-the-bracket-pairs-of-a-string",
     "reverse-substrings-between-each-pair-of-parentheses",
-    "minimum-score-triangulation-of-polygon"
+    "minimum-score-triangulation-of-polygon",
+    "concatenate-non-zero-digits-and-multiply-by-sum-ii"
   ]
 }
