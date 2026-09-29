@@ -1,19 +1,5 @@
 {
   "assigned": {
-    "2026-09-14": {
-      "key": "1918-A",
-      "name": "Brick Wall",
-      "rating": 800,
-      "solvers": 32690,
-      "tags": [
-        "constructive algorithms",
-        "greedy",
-        "implementation",
-        "math"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1918/A",
-      "year": 2024
-    },
     "2026-09-15": {
       "key": "1875-A",
       "lc_easy": {
@@ -337,6 +323,30 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1855/B",
       "year": 2023
+    },
+    "2026-09-29": {
+      "key": "2103-A",
+      "lc_easy": {
+        "id": "541",
+        "slug": "reverse-string-ii",
+        "tags": [
+          "Two Pointers",
+          "String"
+        ],
+        "title": "Reverse String II",
+        "url": "https://leetcode.com/problems/reverse-string-ii/"
+      },
+      "name": "Common Multiple",
+      "rating": 800,
+      "solvers": 25326,
+      "tags": [
+        "brute force",
+        "greedy",
+        "implementation",
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2103/A",
+      "year": 2025
     }
   },
   "lc_sent_slugs": [
@@ -353,7 +363,8 @@
     "positions-of-large-groups",
     "second-largest-digit-in-a-string",
     "divisible-and-non-divisible-sums-difference",
-    "find-missing-and-repeated-values"
+    "find-missing-and-repeated-values",
+    "reverse-string-ii"
   ],
   "sent_keys": [
     "1883-A",
@@ -374,12 +385,10 @@
     "1857-A",
     "2257-A",
     "1881-A",
-    "1855-B"
+    "1855-B",
+    "2103-A"
   ],
   "sent_slots": {
-    "2026-09-14": [
-      8
-    ],
     "2026-09-15": [
       8
     ],
@@ -420,6 +429,9 @@
       8
     ],
     "2026-09-28": [
+      8
+    ],
+    "2026-09-29": [
       8
     ]
   },
