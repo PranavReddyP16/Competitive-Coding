@@ -1,27 +1,5 @@
 {
   "assigned": {
-    "2026-09-15": {
-      "key": "1875-A",
-      "lc_easy": {
-        "id": "696",
-        "slug": "count-binary-substrings",
-        "tags": [
-          "Two Pointers",
-          "String"
-        ],
-        "title": "Count Binary Substrings",
-        "url": "https://leetcode.com/problems/count-binary-substrings/"
-      },
-      "name": "Jellyfish and Undertale",
-      "rating": 900,
-      "solvers": 52706,
-      "tags": [
-        "brute force",
-        "greedy"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1875/A",
-      "year": 2023
-    },
     "2026-09-16": {
       "key": "2127-A",
       "lc_easy": {
@@ -347,6 +325,29 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2103/A",
       "year": 2025
+    },
+    "2026-09-30": {
+      "key": "2059-A",
+      "lc_easy": {
+        "id": "3550",
+        "slug": "smallest-index-with-digit-sum-equal-to-index",
+        "tags": [
+          "Array",
+          "Math"
+        ],
+        "title": "Smallest Index With Digit Sum Equal to Index",
+        "url": "https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/"
+      },
+      "name": "Milya and Two Arrays",
+      "rating": 800,
+      "solvers": 29576,
+      "tags": [
+        "constructive algorithms",
+        "greedy",
+        "sortings"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2059/A",
+      "year": 2025
     }
   },
   "lc_sent_slugs": [
@@ -364,7 +365,8 @@
     "second-largest-digit-in-a-string",
     "divisible-and-non-divisible-sums-difference",
     "find-missing-and-repeated-values",
-    "reverse-string-ii"
+    "reverse-string-ii",
+    "smallest-index-with-digit-sum-equal-to-index"
   ],
   "sent_keys": [
     "1883-A",
@@ -386,12 +388,10 @@
     "2257-A",
     "1881-A",
     "1855-B",
-    "2103-A"
+    "2103-A",
+    "2059-A"
   ],
   "sent_slots": {
-    "2026-09-15": [
-      8
-    ],
     "2026-09-16": [
       8
     ],
@@ -432,6 +432,9 @@
       8
     ],
     "2026-09-29": [
+      8
+    ],
+    "2026-09-30": [
       8
     ]
   },
