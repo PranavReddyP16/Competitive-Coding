@@ -1,19 +1,5 @@
 {
   "assigned": {
-    "2026-09-15": {
-      "difficulty": "Medium",
-      "id": "684",
-      "is_daily": false,
-      "slug": "redundant-connection",
-      "tags": [
-        "Depth-First Search",
-        "Breadth-First Search",
-        "Union-Find",
-        "Graph Theory"
-      ],
-      "title": "Redundant Connection",
-      "url": "https://leetcode.com/problems/redundant-connection/"
-    },
     "2026-09-16": {
       "difficulty": "Medium",
       "id": "1621",
@@ -202,6 +188,19 @@
       ],
       "title": "Concatenate Non-Zero Digits and Multiply by Sum II",
       "url": "https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/"
+    },
+    "2026-09-30": {
+      "difficulty": "Medium",
+      "id": "1111",
+      "is_daily": true,
+      "slug": "maximum-nesting-depth-of-two-valid-parentheses-strings",
+      "tags": [
+        "String",
+        "Stack",
+        "Bracket Sequences"
+      ],
+      "title": "Maximum Nesting Depth of Two Valid Parentheses Strings",
+      "url": "https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/"
     }
   },
   "sent_slugs": [
@@ -224,6 +223,7 @@
     "evaluate-the-bracket-pairs-of-a-string",
     "reverse-substrings-between-each-pair-of-parentheses",
     "minimum-score-triangulation-of-polygon",
-    "concatenate-non-zero-digits-and-multiply-by-sum-ii"
+    "concatenate-non-zero-digits-and-multiply-by-sum-ii",
+    "maximum-nesting-depth-of-two-valid-parentheses-strings"
   ]
 }
