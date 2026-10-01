@@ -1,28 +1,5 @@
 {
   "assigned": {
-    "2026-09-16": {
-      "key": "2127-A",
-      "lc_easy": {
-        "id": "1295",
-        "slug": "find-numbers-with-even-number-of-digits",
-        "tags": [
-          "Array",
-          "Math"
-        ],
-        "title": "Find Numbers with Even Number of Digits",
-        "url": "https://leetcode.com/problems/find-numbers-with-even-number-of-digits/"
-      },
-      "name": "Mix Mex Max",
-      "rating": 800,
-      "solvers": 22134,
-      "tags": [
-        "constructive algorithms",
-        "greedy",
-        "math"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2127/A",
-      "year": 2025
-    },
     "2026-09-17": {
       "key": "2237-A",
       "lc_easy": {
@@ -348,6 +325,29 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2059/A",
       "year": 2025
+    },
+    "2026-10-01": {
+      "key": "1988-B",
+      "lc_easy": {
+        "id": "1394",
+        "slug": "find-lucky-integer-in-an-array",
+        "tags": [
+          "Array",
+          "Hash Table",
+          "Counting"
+        ],
+        "title": "Find Lucky Integer in an Array",
+        "url": "https://leetcode.com/problems/find-lucky-integer-in-an-array/"
+      },
+      "name": "Make Majority",
+      "rating": 900,
+      "solvers": 27006,
+      "tags": [
+        "greedy",
+        "implementation"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1988/B",
+      "year": 2024
     }
   },
   "lc_sent_slugs": [
@@ -366,7 +366,8 @@
     "divisible-and-non-divisible-sums-difference",
     "find-missing-and-repeated-values",
     "reverse-string-ii",
-    "smallest-index-with-digit-sum-equal-to-index"
+    "smallest-index-with-digit-sum-equal-to-index",
+    "find-lucky-integer-in-an-array"
   ],
   "sent_keys": [
     "1883-A",
@@ -389,12 +390,10 @@
     "1881-A",
     "1855-B",
     "2103-A",
-    "2059-A"
+    "2059-A",
+    "1988-B"
   ],
   "sent_slots": {
-    "2026-09-16": [
-      8
-    ],
     "2026-09-17": [
       8
     ],
@@ -435,6 +434,9 @@
       8
     ],
     "2026-09-30": [
+      8
+    ],
+    "2026-10-01": [
       8
     ]
   },
