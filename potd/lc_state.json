@@ -1,19 +1,5 @@
 {
   "assigned": {
-    "2026-09-16": {
-      "difficulty": "Medium",
-      "id": "1621",
-      "is_daily": true,
-      "slug": "number-of-sets-of-k-non-overlapping-line-segments",
-      "tags": [
-        "Math",
-        "Dynamic Programming",
-        "Combinatorics",
-        "Prefix Sum"
-      ],
-      "title": "Number of Sets of K Non-Overlapping Line Segments",
-      "url": "https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/"
-    },
     "2026-09-17": {
       "difficulty": "Medium",
       "id": "1477",
@@ -201,6 +187,19 @@
       ],
       "title": "Maximum Nesting Depth of Two Valid Parentheses Strings",
       "url": "https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/"
+    },
+    "2026-10-01": {
+      "difficulty": "Medium",
+      "id": "43",
+      "is_daily": false,
+      "slug": "multiply-strings",
+      "tags": [
+        "Math",
+        "String",
+        "Simulation"
+      ],
+      "title": "Multiply Strings",
+      "url": "https://leetcode.com/problems/multiply-strings/"
     }
   },
   "sent_slugs": [
@@ -224,6 +223,7 @@
     "reverse-substrings-between-each-pair-of-parentheses",
     "minimum-score-triangulation-of-polygon",
     "concatenate-non-zero-digits-and-multiply-by-sum-ii",
-    "maximum-nesting-depth-of-two-valid-parentheses-strings"
+    "maximum-nesting-depth-of-two-valid-parentheses-strings",
+    "multiply-strings"
   ]
 }
