@@ -1,28 +1,5 @@
 {
   "assigned": {
-    "2026-09-17": {
-      "key": "2237-A",
-      "lc_easy": {
-        "id": "326",
-        "slug": "power-of-three",
-        "tags": [
-          "Math",
-          "Recursion"
-        ],
-        "title": "Power of Three",
-        "url": "https://leetcode.com/problems/power-of-three/"
-      },
-      "name": "Destroying Towers",
-      "rating": 800,
-      "solvers": 22336,
-      "tags": [
-        "games",
-        "greedy",
-        "schedules"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2237/A",
-      "year": 2026
-    },
     "2026-09-18": {
       "key": "2024-A",
       "lc_easy": {
@@ -348,6 +325,28 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1988/B",
       "year": 2024
+    },
+    "2026-10-02": {
+      "key": "2111-A",
+      "lc_easy": {
+        "id": "3105",
+        "slug": "longest-strictly-increasing-or-strictly-decreasing-subarray",
+        "tags": [
+          "Array"
+        ],
+        "title": "Longest Strictly Increasing or Strictly Decreasing Subarray",
+        "url": "https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/"
+      },
+      "name": "Energy Crystals",
+      "rating": 800,
+      "solvers": 20990,
+      "tags": [
+        "greedy",
+        "implementation",
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2111/A",
+      "year": 2025
     }
   },
   "lc_sent_slugs": [
@@ -367,7 +366,8 @@
     "find-missing-and-repeated-values",
     "reverse-string-ii",
     "smallest-index-with-digit-sum-equal-to-index",
-    "find-lucky-integer-in-an-array"
+    "find-lucky-integer-in-an-array",
+    "longest-strictly-increasing-or-strictly-decreasing-subarray"
   ],
   "sent_keys": [
     "1883-A",
@@ -391,12 +391,10 @@
     "1855-B",
     "2103-A",
     "2059-A",
-    "1988-B"
+    "1988-B",
+    "2111-A"
   ],
   "sent_slots": {
-    "2026-09-17": [
-      8
-    ],
     "2026-09-18": [
       8
     ],
@@ -437,6 +435,9 @@
       8
     ],
     "2026-10-01": [
+      8
+    ],
+    "2026-10-02": [
       8
     ]
   },
