@@ -1,19 +1,5 @@
 {
   "assigned": {
-    "2026-09-18": {
-      "difficulty": "Medium",
-      "id": "331",
-      "is_daily": false,
-      "slug": "verify-preorder-serialization-of-a-binary-tree",
-      "tags": [
-        "String",
-        "Stack",
-        "Tree",
-        "Binary Tree"
-      ],
-      "title": "Verify Preorder Serialization of a Binary Tree",
-      "url": "https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/"
-    },
     "2026-09-19": {
       "difficulty": "Medium",
       "id": "1401",
@@ -199,6 +185,19 @@
       ],
       "title": "Generate Parentheses",
       "url": "https://leetcode.com/problems/generate-parentheses/"
+    },
+    "2026-10-03": {
+      "difficulty": "Medium",
+      "id": "2201",
+      "is_daily": false,
+      "slug": "count-artifacts-that-can-be-extracted",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Simulation"
+      ],
+      "title": "Count Artifacts That Can Be Extracted",
+      "url": "https://leetcode.com/problems/count-artifacts-that-can-be-extracted/"
     }
   },
   "sent_slugs": [
@@ -224,6 +223,7 @@
     "concatenate-non-zero-digits-and-multiply-by-sum-ii",
     "maximum-nesting-depth-of-two-valid-parentheses-strings",
     "multiply-strings",
-    "generate-parentheses"
+    "generate-parentheses",
+    "count-artifacts-that-can-be-extracted"
   ]
 }
