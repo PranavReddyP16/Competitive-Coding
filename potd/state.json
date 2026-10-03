@@ -1,29 +1,5 @@
 {
   "assigned": {
-    "2026-09-18": {
-      "key": "2024-A",
-      "lc_easy": {
-        "id": "942",
-        "slug": "di-string-match",
-        "tags": [
-          "Array",
-          "Two Pointers",
-          "String",
-          "Greedy"
-        ],
-        "title": "DI String Match",
-        "url": "https://leetcode.com/problems/di-string-match/"
-      },
-      "name": "Profitable Interest Rate",
-      "rating": 800,
-      "solvers": 23310,
-      "tags": [
-        "greedy",
-        "math"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2024/A",
-      "year": 2024
-    },
     "2026-09-19": {
       "key": "2048-A",
       "lc_easy": {
@@ -347,6 +323,28 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2111/A",
       "year": 2025
+    },
+    "2026-10-03": {
+      "key": "1992-C",
+      "lc_easy": {
+        "id": "2951",
+        "slug": "find-the-peaks",
+        "tags": [
+          "Array",
+          "Enumeration"
+        ],
+        "title": "Find the Peaks",
+        "url": "https://leetcode.com/problems/find-the-peaks/"
+      },
+      "name": "Gorilla and Permutation",
+      "rating": 900,
+      "solvers": 34044,
+      "tags": [
+        "constructive algorithms",
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1992/C",
+      "year": 2024
     }
   },
   "lc_sent_slugs": [
@@ -367,7 +365,8 @@
     "reverse-string-ii",
     "smallest-index-with-digit-sum-equal-to-index",
     "find-lucky-integer-in-an-array",
-    "longest-strictly-increasing-or-strictly-decreasing-subarray"
+    "longest-strictly-increasing-or-strictly-decreasing-subarray",
+    "find-the-peaks"
   ],
   "sent_keys": [
     "1883-A",
@@ -392,12 +391,10 @@
     "2103-A",
     "2059-A",
     "1988-B",
-    "2111-A"
+    "2111-A",
+    "1992-C"
   ],
   "sent_slots": {
-    "2026-09-18": [
-      8
-    ],
     "2026-09-19": [
       8
     ],
@@ -438,6 +435,9 @@
       8
     ],
     "2026-10-02": [
+      8
+    ],
+    "2026-10-03": [
       8
     ]
   },
