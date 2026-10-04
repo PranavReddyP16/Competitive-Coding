@@ -15,3 +15,4 @@ signed main(){int t;cin>>t;while(t--)solve();}
 // 6576
 // 8900
 // cleanup: removed unused variables
+// refactored: simplified main logic
