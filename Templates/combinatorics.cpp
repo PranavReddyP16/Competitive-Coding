@@ -47,3 +47,4 @@ signed main() {
 // Tip: can be persistent with path copying
 // Added: support for walk/descent queries
 // Added: support for walk/descent queries
+// Alternative: iterative implementation for 2x speed
