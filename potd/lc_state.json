@@ -1,17 +1,5 @@
 {
   "assigned": {
-    "2026-09-19": {
-      "difficulty": "Medium",
-      "id": "1401",
-      "is_daily": true,
-      "slug": "circle-and-rectangle-overlapping",
-      "tags": [
-        "Math",
-        "Geometry"
-      ],
-      "title": "Circle and Rectangle Overlapping",
-      "url": "https://leetcode.com/problems/circle-and-rectangle-overlapping/"
-    },
     "2026-09-20": {
       "difficulty": "Medium",
       "id": "3133",
@@ -198,6 +186,21 @@
       ],
       "title": "Count Artifacts That Can Be Extracted",
       "url": "https://leetcode.com/problems/count-artifacts-that-can-be-extracted/"
+    },
+    "2026-10-04": {
+      "difficulty": "Medium",
+      "id": "678",
+      "is_daily": true,
+      "slug": "valid-parenthesis-string",
+      "tags": [
+        "String",
+        "Dynamic Programming",
+        "Stack",
+        "Greedy",
+        "Bracket Sequences"
+      ],
+      "title": "Valid Parenthesis String",
+      "url": "https://leetcode.com/problems/valid-parenthesis-string/"
     }
   },
   "sent_slugs": [
@@ -224,6 +227,7 @@
     "maximum-nesting-depth-of-two-valid-parentheses-strings",
     "multiply-strings",
     "generate-parentheses",
-    "count-artifacts-that-can-be-extracted"
+    "count-artifacts-that-can-be-extracted",
+    "valid-parenthesis-string"
   ]
 }
