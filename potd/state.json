@@ -1,30 +1,5 @@
 {
   "assigned": {
-    "2026-09-19": {
-      "key": "2048-A",
-      "lc_easy": {
-        "id": "1929",
-        "slug": "concatenation-of-array",
-        "tags": [
-          "Array",
-          "Simulation"
-        ],
-        "title": "Concatenation of Array",
-        "url": "https://leetcode.com/problems/concatenation-of-array/"
-      },
-      "name": "Kevin and Combination Lock",
-      "rating": 800,
-      "solvers": 23110,
-      "tags": [
-        "brute force",
-        "greedy",
-        "implementation",
-        "math",
-        "number theory"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2048/A",
-      "year": 2024
-    },
     "2026-09-20": {
       "key": "1802-A",
       "lc_easy": {
@@ -345,6 +320,30 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1992/C",
       "year": 2024
+    },
+    "2026-10-04": {
+      "key": "2241-C",
+      "lc_easy": {
+        "id": "1025",
+        "slug": "divisor-game",
+        "tags": [
+          "Math",
+          "Dynamic Programming",
+          "Brainteaser",
+          "Game Theory",
+          "Impartial Game"
+        ],
+        "title": "Divisor Game",
+        "url": "https://leetcode.com/problems/divisor-game/"
+      },
+      "name": "RemovevomeR",
+      "rating": 1000,
+      "solvers": 22386,
+      "tags": [
+        "greedy"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2241/C",
+      "year": 2026
     }
   },
   "lc_sent_slugs": [
@@ -366,7 +365,8 @@
     "smallest-index-with-digit-sum-equal-to-index",
     "find-lucky-integer-in-an-array",
     "longest-strictly-increasing-or-strictly-decreasing-subarray",
-    "find-the-peaks"
+    "find-the-peaks",
+    "divisor-game"
   ],
   "sent_keys": [
     "1883-A",
@@ -392,12 +392,10 @@
     "2059-A",
     "1988-B",
     "2111-A",
-    "1992-C"
+    "1992-C",
+    "2241-C"
   ],
   "sent_slots": {
-    "2026-09-19": [
-      8
-    ],
     "2026-09-20": [
       8
     ],
@@ -438,6 +436,9 @@
       8
     ],
     "2026-10-03": [
+      8
+    ],
+    "2026-10-04": [
       8
     ]
   },
