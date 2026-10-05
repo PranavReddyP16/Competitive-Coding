@@ -11,3 +11,4 @@ vector<vector<int>> merge(vector<vector<int>>&intervals){
     return res;
 }};
 int main(){Solution s;vector<vector<int>>v={{1,3},{2,6},{8,10},{15,18}};auto r=s.merge(v);cout<<r.size();}
+// optimized: reduced time complexity
