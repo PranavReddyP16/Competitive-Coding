@@ -1,27 +1,5 @@
 {
   "assigned": {
-    "2026-09-20": {
-      "key": "1802-A",
-      "lc_easy": {
-        "id": "190",
-        "slug": "reverse-bits",
-        "tags": [
-          "Divide and Conquer",
-          "Bit Manipulation"
-        ],
-        "title": "Reverse Bits",
-        "url": "https://leetcode.com/problems/reverse-bits/"
-      },
-      "name": "Likes",
-      "rating": 800,
-      "solvers": 16811,
-      "tags": [
-        "greedy",
-        "implementation"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1802/A",
-      "year": 2023
-    },
     "2026-09-21": {
       "key": "2009-A",
       "lc_easy": {
@@ -344,6 +322,30 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2241/C",
       "year": 2026
+    },
+    "2026-10-05": {
+      "key": "1955-B",
+      "lc_easy": {
+        "id": "2739",
+        "slug": "total-distance-traveled",
+        "tags": [
+          "Math",
+          "Simulation"
+        ],
+        "title": "Total Distance Traveled",
+        "url": "https://leetcode.com/problems/total-distance-traveled/"
+      },
+      "name": "Progressive Square",
+      "rating": 1000,
+      "solvers": 33020,
+      "tags": [
+        "constructive algorithms",
+        "data structures",
+        "implementation",
+        "sortings"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1955/B",
+      "year": 2024
     }
   },
   "lc_sent_slugs": [
@@ -366,7 +368,8 @@
     "find-lucky-integer-in-an-array",
     "longest-strictly-increasing-or-strictly-decreasing-subarray",
     "find-the-peaks",
-    "divisor-game"
+    "divisor-game",
+    "total-distance-traveled"
   ],
   "sent_keys": [
     "1883-A",
@@ -393,12 +396,10 @@
     "1988-B",
     "2111-A",
     "1992-C",
-    "2241-C"
+    "2241-C",
+    "1955-B"
   ],
   "sent_slots": {
-    "2026-09-20": [
-      8
-    ],
     "2026-09-21": [
       8
     ],
@@ -439,6 +440,9 @@
       8
     ],
     "2026-10-04": [
+      8
+    ],
+    "2026-10-05": [
       8
     ]
   },
