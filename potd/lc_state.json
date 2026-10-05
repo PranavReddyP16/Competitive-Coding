@@ -1,16 +1,5 @@
 {
   "assigned": {
-    "2026-09-20": {
-      "difficulty": "Medium",
-      "id": "3133",
-      "is_daily": false,
-      "slug": "minimum-array-end",
-      "tags": [
-        "Bit Manipulation"
-      ],
-      "title": "Minimum Array End",
-      "url": "https://leetcode.com/problems/minimum-array-end/"
-    },
     "2026-09-21": {
       "difficulty": "Medium",
       "id": "3524",
@@ -201,6 +190,19 @@
       ],
       "title": "Valid Parenthesis String",
       "url": "https://leetcode.com/problems/valid-parenthesis-string/"
+    },
+    "2026-10-05": {
+      "difficulty": "Medium",
+      "id": "856",
+      "is_daily": true,
+      "slug": "score-of-parentheses",
+      "tags": [
+        "String",
+        "Stack",
+        "Bracket Sequences"
+      ],
+      "title": "Score of Parentheses",
+      "url": "https://leetcode.com/problems/score-of-parentheses/"
     }
   },
   "sent_slugs": [
@@ -228,6 +230,7 @@
     "multiply-strings",
     "generate-parentheses",
     "count-artifacts-that-can-be-extracted",
-    "valid-parenthesis-string"
+    "valid-parenthesis-string",
+    "score-of-parentheses"
   ]
 }
