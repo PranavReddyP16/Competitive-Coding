@@ -1,26 +1,5 @@
 {
   "assigned": {
-    "2026-09-21": {
-      "key": "2009-A",
-      "lc_easy": {
-        "id": "3683",
-        "slug": "earliest-time-to-finish-one-task",
-        "tags": [
-          "Array"
-        ],
-        "title": "Earliest Time to Finish One Task",
-        "url": "https://leetcode.com/problems/earliest-time-to-finish-one-task/"
-      },
-      "name": "Minimize!",
-      "rating": 800,
-      "solvers": 76593,
-      "tags": [
-        "brute force",
-        "math"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2009/A",
-      "year": 2024
-    },
     "2026-09-22": {
       "key": "1982-A",
       "lc_easy": {
@@ -346,6 +325,29 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1955/B",
       "year": 2024
+    },
+    "2026-10-06": {
+      "key": "1990-A",
+      "lc_easy": {
+        "id": "3950",
+        "slug": "exactly-one-consecutive-set-bits-pair",
+        "tags": [
+          "Bit Manipulation"
+        ],
+        "title": "Exactly One Consecutive Set Bits Pair",
+        "url": "https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/"
+      },
+      "name": "Submission Bait",
+      "rating": 900,
+      "solvers": 27499,
+      "tags": [
+        "brute force",
+        "games",
+        "greedy",
+        "sortings"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1990/A",
+      "year": 2024
     }
   },
   "lc_sent_slugs": [
@@ -369,7 +371,8 @@
     "longest-strictly-increasing-or-strictly-decreasing-subarray",
     "find-the-peaks",
     "divisor-game",
-    "total-distance-traveled"
+    "total-distance-traveled",
+    "exactly-one-consecutive-set-bits-pair"
   ],
   "sent_keys": [
     "1883-A",
@@ -397,12 +400,10 @@
     "2111-A",
     "1992-C",
     "2241-C",
-    "1955-B"
+    "1955-B",
+    "1990-A"
   ],
   "sent_slots": {
-    "2026-09-21": [
-      8
-    ],
     "2026-09-22": [
       8
     ],
@@ -443,6 +444,9 @@
       8
     ],
     "2026-10-05": [
+      8
+    ],
+    "2026-10-06": [
       8
     ]
   },
