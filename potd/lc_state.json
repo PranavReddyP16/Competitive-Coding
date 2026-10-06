@@ -1,18 +1,5 @@
 {
   "assigned": {
-    "2026-09-21": {
-      "difficulty": "Medium",
-      "id": "3524",
-      "is_daily": true,
-      "slug": "find-x-value-of-array-i",
-      "tags": [
-        "Array",
-        "Math",
-        "Dynamic Programming"
-      ],
-      "title": "Find X Value of Array I",
-      "url": "https://leetcode.com/problems/find-x-value-of-array-i/"
-    },
     "2026-09-22": {
       "difficulty": "Medium",
       "id": "3170",
@@ -203,6 +190,20 @@
       ],
       "title": "Score of Parentheses",
       "url": "https://leetcode.com/problems/score-of-parentheses/"
+    },
+    "2026-10-06": {
+      "difficulty": "Medium",
+      "id": "921",
+      "is_daily": true,
+      "slug": "minimum-add-to-make-parentheses-valid",
+      "tags": [
+        "String",
+        "Stack",
+        "Greedy",
+        "Bracket Sequences"
+      ],
+      "title": "Minimum Add to Make Parentheses Valid",
+      "url": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/"
     }
   },
   "sent_slugs": [
@@ -231,6 +232,7 @@
     "generate-parentheses",
     "count-artifacts-that-can-be-extracted",
     "valid-parenthesis-string",
-    "score-of-parentheses"
+    "score-of-parentheses",
+    "minimum-add-to-make-parentheses-valid"
   ]
 }
