@@ -1,31 +1,5 @@
 {
   "assigned": {
-    "2026-09-22": {
-      "key": "1982-A",
-      "lc_easy": {
-        "id": "543",
-        "slug": "diameter-of-binary-tree",
-        "tags": [
-          "Tree",
-          "Depth-First Search",
-          "Binary Tree",
-          "DP on Trees"
-        ],
-        "title": "Diameter of Binary Tree",
-        "url": "https://leetcode.com/problems/diameter-of-binary-tree/"
-      },
-      "name": "Soccer",
-      "rating": 800,
-      "solvers": 27735,
-      "tags": [
-        "greedy",
-        "implementation",
-        "math",
-        "sortings"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1982/A",
-      "year": 2024
-    },
     "2026-09-23": {
       "key": "2176-A",
       "lc_easy": {
@@ -348,6 +322,29 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1990/A",
       "year": 2024
+    },
+    "2026-10-07": {
+      "key": "1851-A",
+      "lc_easy": {
+        "id": "1360",
+        "slug": "number-of-days-between-two-dates",
+        "tags": [
+          "Math",
+          "String"
+        ],
+        "title": "Number of Days Between Two Dates",
+        "url": "https://leetcode.com/problems/number-of-days-between-two-dates/"
+      },
+      "name": "Escalator Conversations",
+      "rating": 800,
+      "solvers": 31857,
+      "tags": [
+        "brute force",
+        "constructive algorithms",
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1851/A",
+      "year": 2023
     }
   },
   "lc_sent_slugs": [
@@ -372,7 +369,8 @@
     "find-the-peaks",
     "divisor-game",
     "total-distance-traveled",
-    "exactly-one-consecutive-set-bits-pair"
+    "exactly-one-consecutive-set-bits-pair",
+    "number-of-days-between-two-dates"
   ],
   "sent_keys": [
     "1883-A",
@@ -401,12 +399,10 @@
     "1992-C",
     "2241-C",
     "1955-B",
-    "1990-A"
+    "1990-A",
+    "1851-A"
   ],
   "sent_slots": {
-    "2026-09-22": [
-      8
-    ],
     "2026-09-23": [
       8
     ],
@@ -447,6 +443,9 @@
       8
     ],
     "2026-10-06": [
+      8
+    ],
+    "2026-10-07": [
       8
     ]
   },
