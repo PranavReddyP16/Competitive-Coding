@@ -1,20 +1,5 @@
 {
   "assigned": {
-    "2026-09-22": {
-      "difficulty": "Medium",
-      "id": "3170",
-      "is_daily": false,
-      "slug": "lexicographically-minimum-string-after-removing-stars",
-      "tags": [
-        "Hash Table",
-        "String",
-        "Stack",
-        "Greedy",
-        "Heap (Priority Queue)"
-      ],
-      "title": "Lexicographically Minimum String After Removing Stars",
-      "url": "https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/"
-    },
     "2026-09-23": {
       "difficulty": "Medium",
       "id": "1658",
@@ -204,6 +189,20 @@
       ],
       "title": "Minimum Add to Make Parentheses Valid",
       "url": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/"
+    },
+    "2026-10-07": {
+      "difficulty": "Medium",
+      "id": "901",
+      "is_daily": false,
+      "slug": "online-stock-span",
+      "tags": [
+        "Stack",
+        "Design",
+        "Monotonic Stack",
+        "Data Stream"
+      ],
+      "title": "Online Stock Span",
+      "url": "https://leetcode.com/problems/online-stock-span/"
     }
   },
   "sent_slugs": [
@@ -233,6 +232,7 @@
     "count-artifacts-that-can-be-extracted",
     "valid-parenthesis-string",
     "score-of-parentheses",
-    "minimum-add-to-make-parentheses-valid"
+    "minimum-add-to-make-parentheses-valid",
+    "online-stock-span"
   ]
 }
