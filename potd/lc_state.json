@@ -1,20 +1,5 @@
 {
   "assigned": {
-    "2026-09-23": {
-      "difficulty": "Medium",
-      "id": "1658",
-      "is_daily": true,
-      "slug": "minimum-operations-to-reduce-x-to-zero",
-      "tags": [
-        "Array",
-        "Hash Table",
-        "Binary Search",
-        "Sliding Window",
-        "Prefix Sum"
-      ],
-      "title": "Minimum Operations to Reduce X to Zero",
-      "url": "https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/"
-    },
     "2026-09-24": {
       "difficulty": "Medium",
       "id": "478",
@@ -203,6 +188,17 @@
       ],
       "title": "Online Stock Span",
       "url": "https://leetcode.com/problems/online-stock-span/"
+    },
+    "2026-10-08": {
+      "difficulty": "Medium",
+      "id": "1615",
+      "is_daily": false,
+      "slug": "maximal-network-rank",
+      "tags": [
+        "Graph Theory"
+      ],
+      "title": "Maximal Network Rank",
+      "url": "https://leetcode.com/problems/maximal-network-rank/"
     }
   },
   "sent_slugs": [
@@ -233,6 +229,7 @@
     "valid-parenthesis-string",
     "score-of-parentheses",
     "minimum-add-to-make-parentheses-valid",
-    "online-stock-span"
+    "online-stock-span",
+    "maximal-network-rank"
   ]
 }
