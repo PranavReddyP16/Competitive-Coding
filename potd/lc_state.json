@@ -1,19 +1,5 @@
 {
   "assigned": {
-    "2026-09-24": {
-      "difficulty": "Medium",
-      "id": "478",
-      "is_daily": false,
-      "slug": "generate-random-point-in-a-circle",
-      "tags": [
-        "Math",
-        "Geometry",
-        "Rejection Sampling",
-        "Randomized"
-      ],
-      "title": "Generate Random Point in a Circle",
-      "url": "https://leetcode.com/problems/generate-random-point-in-a-circle/"
-    },
     "2026-09-25": {
       "difficulty": "Medium",
       "id": "1433",
@@ -199,6 +185,20 @@
       ],
       "title": "Maximal Network Rank",
       "url": "https://leetcode.com/problems/maximal-network-rank/"
+    },
+    "2026-10-09": {
+      "difficulty": "Medium",
+      "id": "1541",
+      "is_daily": true,
+      "slug": "minimum-insertions-to-balance-a-parentheses-string",
+      "tags": [
+        "String",
+        "Stack",
+        "Greedy",
+        "Bracket Sequences"
+      ],
+      "title": "Minimum Insertions to Balance a Parentheses String",
+      "url": "https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/"
     }
   },
   "sent_slugs": [
@@ -230,6 +230,7 @@
     "score-of-parentheses",
     "minimum-add-to-make-parentheses-valid",
     "online-stock-span",
-    "maximal-network-rank"
+    "maximal-network-rank",
+    "minimum-insertions-to-balance-a-parentheses-string"
   ]
 }
