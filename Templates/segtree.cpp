@@ -73,3 +73,4 @@ signed main() {
 // Alternative: iterative implementation for 2x speed
 // Alternative: iterative implementation for 2x speed
 // Optimization: use __builtin_clz for faster operations
+// Added: support for walk/descent queries
