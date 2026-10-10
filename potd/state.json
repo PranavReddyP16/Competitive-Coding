@@ -1,26 +1,5 @@
 {
   "assigned": {
-    "2026-09-25": {
-      "key": "1857-A",
-      "lc_easy": {
-        "id": "830",
-        "slug": "positions-of-large-groups",
-        "tags": [
-          "String"
-        ],
-        "title": "Positions of Large Groups",
-        "url": "https://leetcode.com/problems/positions-of-large-groups/"
-      },
-      "name": "Array Coloring",
-      "rating": 800,
-      "solvers": 87402,
-      "tags": [
-        "greedy",
-        "math"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1857/A",
-      "year": 2023
-    },
     "2026-09-26": {
       "key": "2257-A",
       "lc_easy": {
@@ -342,6 +321,27 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2172/A",
       "year": 2025
+    },
+    "2026-10-10": {
+      "key": "2193-A",
+      "lc_easy": {
+        "id": "1185",
+        "slug": "day-of-the-week",
+        "tags": [
+          "Math"
+        ],
+        "title": "Day of the Week",
+        "url": "https://leetcode.com/problems/day-of-the-week/"
+      },
+      "name": "DBMB and the Array",
+      "rating": 800,
+      "solvers": 45328,
+      "tags": [
+        "brute force",
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2193/A",
+      "year": 2026
     }
   },
   "lc_sent_slugs": [
@@ -369,7 +369,8 @@
     "exactly-one-consecutive-set-bits-pair",
     "number-of-days-between-two-dates",
     "merge-similar-items",
-    "categorize-box-according-to-criteria"
+    "categorize-box-according-to-criteria",
+    "day-of-the-week"
   ],
   "sent_keys": [
     "1883-A",
@@ -401,12 +402,10 @@
     "1990-A",
     "1851-A",
     "2151-A",
-    "2172-A"
+    "2172-A",
+    "2193-A"
   ],
   "sent_slots": {
-    "2026-09-25": [
-      8
-    ],
     "2026-09-26": [
       8
     ],
@@ -447,6 +446,9 @@
       8
     ],
     "2026-10-09": [
+      8
+    ],
+    "2026-10-10": [
       8
     ]
   },
