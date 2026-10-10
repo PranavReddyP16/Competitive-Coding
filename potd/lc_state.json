@@ -1,18 +1,5 @@
 {
   "assigned": {
-    "2026-09-25": {
-      "difficulty": "Medium",
-      "id": "1433",
-      "is_daily": false,
-      "slug": "check-if-a-string-can-break-another-string",
-      "tags": [
-        "String",
-        "Greedy",
-        "Sorting"
-      ],
-      "title": "Check If a String Can Break Another String",
-      "url": "https://leetcode.com/problems/check-if-a-string-can-break-another-string/"
-    },
     "2026-09-26": {
       "difficulty": "Medium",
       "id": "1807",
@@ -199,6 +186,21 @@
       ],
       "title": "Minimum Insertions to Balance a Parentheses String",
       "url": "https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/"
+    },
+    "2026-10-10": {
+      "difficulty": "Medium",
+      "id": "2333",
+      "is_daily": true,
+      "slug": "minimum-sum-of-squared-difference",
+      "tags": [
+        "Array",
+        "Binary Search",
+        "Greedy",
+        "Sorting",
+        "Heap (Priority Queue)"
+      ],
+      "title": "Minimum Sum of Squared Difference",
+      "url": "https://leetcode.com/problems/minimum-sum-of-squared-difference/"
     }
   },
   "sent_slugs": [
@@ -231,6 +233,7 @@
     "minimum-add-to-make-parentheses-valid",
     "online-stock-span",
     "maximal-network-rank",
-    "minimum-insertions-to-balance-a-parentheses-string"
+    "minimum-insertions-to-balance-a-parentheses-string",
+    "minimum-sum-of-squared-difference"
   ]
 }
