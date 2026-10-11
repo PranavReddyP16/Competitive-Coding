@@ -1,27 +1,5 @@
 {
   "assigned": {
-    "2026-09-26": {
-      "key": "2257-A",
-      "lc_easy": {
-        "id": "1796",
-        "slug": "second-largest-digit-in-a-string",
-        "tags": [
-          "Hash Table",
-          "String"
-        ],
-        "title": "Second Largest Digit in a String",
-        "url": "https://leetcode.com/problems/second-largest-digit-in-a-string/"
-      },
-      "name": "Creating Abbreviations",
-      "rating": 800,
-      "solvers": 20801,
-      "tags": [
-        "brute force",
-        "strings"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2257/A",
-      "year": 2026
-    },
     "2026-09-27": {
       "key": "1881-A",
       "lc_easy": {
@@ -342,6 +320,29 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2193/A",
       "year": 2026
+    },
+    "2026-10-11": {
+      "key": "2014-B",
+      "lc_easy": {
+        "id": "234",
+        "slug": "palindrome-linked-list",
+        "tags": [
+          "Linked List",
+          "Two Pointers",
+          "Stack",
+          "Recursion"
+        ],
+        "title": "Palindrome Linked List",
+        "url": "https://leetcode.com/problems/palindrome-linked-list/"
+      },
+      "name": "Robin Hood and the Major Oak",
+      "rating": 800,
+      "solvers": 34062,
+      "tags": [
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2014/B",
+      "year": 2024
     }
   },
   "lc_sent_slugs": [
@@ -370,7 +371,8 @@
     "number-of-days-between-two-dates",
     "merge-similar-items",
     "categorize-box-according-to-criteria",
-    "day-of-the-week"
+    "day-of-the-week",
+    "palindrome-linked-list"
   ],
   "sent_keys": [
     "1883-A",
@@ -403,12 +405,10 @@
     "1851-A",
     "2151-A",
     "2172-A",
-    "2193-A"
+    "2193-A",
+    "2014-B"
   ],
   "sent_slots": {
-    "2026-09-26": [
-      8
-    ],
     "2026-09-27": [
       8
     ],
@@ -449,6 +449,9 @@
       8
     ],
     "2026-10-10": [
+      8
+    ],
+    "2026-10-11": [
       8
     ]
   },
