@@ -1,18 +1,5 @@
 {
   "assigned": {
-    "2026-09-27": {
-      "difficulty": "Medium",
-      "id": "1190",
-      "is_daily": true,
-      "slug": "reverse-substrings-between-each-pair-of-parentheses",
-      "tags": [
-        "String",
-        "Stack",
-        "Bracket Sequences"
-      ],
-      "title": "Reverse Substrings Between Each Pair of Parentheses",
-      "url": "https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/"
-    },
     "2026-09-28": {
       "difficulty": "Medium",
       "id": "1039",
@@ -202,6 +189,19 @@
       ],
       "title": "Maximize Greatness of an Array",
       "url": "https://leetcode.com/problems/maximize-greatness-of-an-array/"
+    },
+    "2026-10-12": {
+      "difficulty": "Medium",
+      "id": "1806",
+      "is_daily": false,
+      "slug": "minimum-number-of-operations-to-reinitialize-a-permutation",
+      "tags": [
+        "Array",
+        "Math",
+        "Simulation"
+      ],
+      "title": "Minimum Number of Operations to Reinitialize a Permutation",
+      "url": "https://leetcode.com/problems/minimum-number-of-operations-to-reinitialize-a-permutation/"
     }
   },
   "sent_slugs": [
@@ -236,6 +236,7 @@
     "maximal-network-rank",
     "minimum-insertions-to-balance-a-parentheses-string",
     "minimum-sum-of-squared-difference",
-    "maximize-greatness-of-an-array"
+    "maximize-greatness-of-an-array",
+    "minimum-number-of-operations-to-reinitialize-a-permutation"
   ]
 }
