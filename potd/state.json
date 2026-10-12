@@ -1,26 +1,5 @@
 {
   "assigned": {
-    "2026-09-27": {
-      "key": "1881-A",
-      "lc_easy": {
-        "id": "2894",
-        "slug": "divisible-and-non-divisible-sums-difference",
-        "tags": [
-          "Math"
-        ],
-        "title": "Divisible and Non-divisible Sums Difference",
-        "url": "https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/"
-      },
-      "name": "Don't Try to Count",
-      "rating": 800,
-      "solvers": 67687,
-      "tags": [
-        "brute force",
-        "strings"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1881/A",
-      "year": 2023
-    },
     "2026-09-28": {
       "key": "1855-B",
       "lc_easy": {
@@ -343,6 +322,28 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2014/B",
       "year": 2024
+    },
+    "2026-10-12": {
+      "key": "1966-A",
+      "lc_easy": {
+        "id": "2042",
+        "slug": "check-if-numbers-are-ascending-in-a-sentence",
+        "tags": [
+          "String"
+        ],
+        "title": "Check if Numbers Are Ascending in a Sentence",
+        "url": "https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/"
+      },
+      "name": "Card Exchange",
+      "rating": 800,
+      "solvers": 19786,
+      "tags": [
+        "constructive algorithms",
+        "games",
+        "greedy"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1966/A",
+      "year": 2024
     }
   },
   "lc_sent_slugs": [
@@ -372,7 +373,8 @@
     "merge-similar-items",
     "categorize-box-according-to-criteria",
     "day-of-the-week",
-    "palindrome-linked-list"
+    "palindrome-linked-list",
+    "check-if-numbers-are-ascending-in-a-sentence"
   ],
   "sent_keys": [
     "1883-A",
@@ -406,12 +408,10 @@
     "2151-A",
     "2172-A",
     "2193-A",
-    "2014-B"
+    "2014-B",
+    "1966-A"
   ],
   "sent_slots": {
-    "2026-09-27": [
-      8
-    ],
     "2026-09-28": [
       8
     ],
@@ -452,6 +452,9 @@
       8
     ],
     "2026-10-11": [
+      8
+    ],
+    "2026-10-12": [
       8
     ]
   },
