@@ -1,19 +1,5 @@
 {
   "assigned": {
-    "2026-09-28": {
-      "difficulty": "Medium",
-      "id": "1039",
-      "is_daily": false,
-      "slug": "minimum-score-triangulation-of-polygon",
-      "tags": [
-        "Array",
-        "Dynamic Programming",
-        "Triangulation",
-        "Polygons"
-      ],
-      "title": "Minimum Score Triangulation of Polygon",
-      "url": "https://leetcode.com/problems/minimum-score-triangulation-of-polygon/"
-    },
     "2026-09-29": {
       "difficulty": "Medium",
       "id": "3756",
@@ -202,6 +188,19 @@
       ],
       "title": "Minimum Number of Operations to Reinitialize a Permutation",
       "url": "https://leetcode.com/problems/minimum-number-of-operations-to-reinitialize-a-permutation/"
+    },
+    "2026-10-13": {
+      "difficulty": "Medium",
+      "id": "3727",
+      "is_daily": true,
+      "slug": "maximum-alternating-sum-of-squares",
+      "tags": [
+        "Array",
+        "Greedy",
+        "Sorting"
+      ],
+      "title": "Maximum Alternating Sum of Squares",
+      "url": "https://leetcode.com/problems/maximum-alternating-sum-of-squares/"
     }
   },
   "sent_slugs": [
@@ -237,6 +236,7 @@
     "minimum-insertions-to-balance-a-parentheses-string",
     "minimum-sum-of-squared-difference",
     "maximize-greatness-of-an-array",
-    "minimum-number-of-operations-to-reinitialize-a-permutation"
+    "minimum-number-of-operations-to-reinitialize-a-permutation",
+    "maximum-alternating-sum-of-squares"
   ]
 }
