@@ -1,29 +1,5 @@
 {
   "assigned": {
-    "2026-09-29": {
-      "key": "2103-A",
-      "lc_easy": {
-        "id": "541",
-        "slug": "reverse-string-ii",
-        "tags": [
-          "Two Pointers",
-          "String"
-        ],
-        "title": "Reverse String II",
-        "url": "https://leetcode.com/problems/reverse-string-ii/"
-      },
-      "name": "Common Multiple",
-      "rating": 800,
-      "solvers": 25326,
-      "tags": [
-        "brute force",
-        "greedy",
-        "implementation",
-        "math"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2103/A",
-      "year": 2025
-    },
     "2026-09-30": {
       "key": "2059-A",
       "lc_easy": {
@@ -341,6 +317,30 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2004/A",
       "year": 2024
+    },
+    "2026-10-14": {
+      "key": "1849-B",
+      "lc_easy": {
+        "id": "2562",
+        "slug": "find-the-array-concatenation-value",
+        "tags": [
+          "Array",
+          "Two Pointers",
+          "Simulation"
+        ],
+        "title": "Find the Array Concatenation Value",
+        "url": "https://leetcode.com/problems/find-the-array-concatenation-value/"
+      },
+      "name": "Monsters",
+      "rating": 1000,
+      "solvers": 50307,
+      "tags": [
+        "greedy",
+        "math",
+        "sortings"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1849/B",
+      "year": 2023
     }
   },
   "lc_sent_slugs": [
@@ -372,7 +372,8 @@
     "day-of-the-week",
     "palindrome-linked-list",
     "check-if-numbers-are-ascending-in-a-sentence",
-    "backspace-string-compare"
+    "backspace-string-compare",
+    "find-the-array-concatenation-value"
   ],
   "sent_keys": [
     "1883-A",
@@ -408,12 +409,10 @@
     "2193-A",
     "2014-B",
     "1966-A",
-    "2004-A"
+    "2004-A",
+    "1849-B"
   ],
   "sent_slots": {
-    "2026-09-29": [
-      8
-    ],
     "2026-09-30": [
       8
     ],
@@ -454,6 +453,9 @@
       8
     ],
     "2026-10-13": [
+      8
+    ],
+    "2026-10-14": [
       8
     ]
   },
