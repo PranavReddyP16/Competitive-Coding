@@ -1,18 +1,5 @@
 {
   "assigned": {
-    "2026-09-29": {
-      "difficulty": "Medium",
-      "id": "3756",
-      "is_daily": false,
-      "slug": "concatenate-non-zero-digits-and-multiply-by-sum-ii",
-      "tags": [
-        "Math",
-        "String",
-        "Prefix Sum"
-      ],
-      "title": "Concatenate Non-Zero Digits and Multiply by Sum II",
-      "url": "https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/"
-    },
     "2026-09-30": {
       "difficulty": "Medium",
       "id": "1111",
@@ -201,6 +188,18 @@
       ],
       "title": "Maximum Alternating Sum of Squares",
       "url": "https://leetcode.com/problems/maximum-alternating-sum-of-squares/"
+    },
+    "2026-10-14": {
+      "difficulty": "Medium",
+      "id": "3723",
+      "is_daily": true,
+      "slug": "maximize-sum-of-squares-of-digits",
+      "tags": [
+        "Math",
+        "Greedy"
+      ],
+      "title": "Maximize Sum of Squares of Digits",
+      "url": "https://leetcode.com/problems/maximize-sum-of-squares-of-digits/"
     }
   },
   "sent_slugs": [
@@ -237,6 +236,7 @@
     "minimum-sum-of-squared-difference",
     "maximize-greatness-of-an-array",
     "minimum-number-of-operations-to-reinitialize-a-permutation",
-    "maximum-alternating-sum-of-squares"
+    "maximum-alternating-sum-of-squares",
+    "maximize-sum-of-squares-of-digits"
   ]
 }
