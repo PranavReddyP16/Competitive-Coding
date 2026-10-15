@@ -1,18 +1,5 @@
 {
   "assigned": {
-    "2026-09-30": {
-      "difficulty": "Medium",
-      "id": "1111",
-      "is_daily": true,
-      "slug": "maximum-nesting-depth-of-two-valid-parentheses-strings",
-      "tags": [
-        "String",
-        "Stack",
-        "Bracket Sequences"
-      ],
-      "title": "Maximum Nesting Depth of Two Valid Parentheses Strings",
-      "url": "https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/"
-    },
     "2026-10-01": {
       "difficulty": "Medium",
       "id": "43",
@@ -200,6 +187,20 @@
       ],
       "title": "Maximize Sum of Squares of Digits",
       "url": "https://leetcode.com/problems/maximize-sum-of-squares-of-digits/"
+    },
+    "2026-10-15": {
+      "difficulty": "Medium",
+      "id": "3527",
+      "is_daily": false,
+      "slug": "find-the-most-common-response",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "String",
+        "Counting"
+      ],
+      "title": "Find the Most Common Response",
+      "url": "https://leetcode.com/problems/find-the-most-common-response/"
     }
   },
   "sent_slugs": [
@@ -237,6 +238,7 @@
     "maximize-greatness-of-an-array",
     "minimum-number-of-operations-to-reinitialize-a-permutation",
     "maximum-alternating-sum-of-squares",
-    "maximize-sum-of-squares-of-digits"
+    "maximize-sum-of-squares-of-digits",
+    "find-the-most-common-response"
   ]
 }
