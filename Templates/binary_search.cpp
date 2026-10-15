@@ -50,3 +50,4 @@ signed main() {
 // Added: support for walk/descent queries
 // Updated: simplified merge function
 // Variant: supports range update with lazy propagation
+// Updated: simplified merge function
