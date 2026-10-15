@@ -1,28 +1,5 @@
 {
   "assigned": {
-    "2026-09-30": {
-      "key": "2059-A",
-      "lc_easy": {
-        "id": "3550",
-        "slug": "smallest-index-with-digit-sum-equal-to-index",
-        "tags": [
-          "Array",
-          "Math"
-        ],
-        "title": "Smallest Index With Digit Sum Equal to Index",
-        "url": "https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/"
-      },
-      "name": "Milya and Two Arrays",
-      "rating": 800,
-      "solvers": 29576,
-      "tags": [
-        "constructive algorithms",
-        "greedy",
-        "sortings"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2059/A",
-      "year": 2025
-    },
     "2026-10-01": {
       "key": "1988-B",
       "lc_easy": {
@@ -341,6 +318,28 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1849/B",
       "year": 2023
+    },
+    "2026-10-15": {
+      "key": "1786-A1",
+      "lc_easy": {
+        "id": "1217",
+        "slug": "minimum-cost-to-move-chips-to-the-same-position",
+        "tags": [
+          "Array",
+          "Math",
+          "Greedy"
+        ],
+        "title": "Minimum Cost to Move Chips to The Same Position",
+        "url": "https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/"
+      },
+      "name": "Non-alternating Deck (easy version)",
+      "rating": 800,
+      "solvers": 14888,
+      "tags": [
+        "implementation"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1786/A1",
+      "year": 2023
     }
   },
   "lc_sent_slugs": [
@@ -373,7 +372,8 @@
     "palindrome-linked-list",
     "check-if-numbers-are-ascending-in-a-sentence",
     "backspace-string-compare",
-    "find-the-array-concatenation-value"
+    "find-the-array-concatenation-value",
+    "minimum-cost-to-move-chips-to-the-same-position"
   ],
   "sent_keys": [
     "1883-A",
@@ -410,12 +410,10 @@
     "2014-B",
     "1966-A",
     "2004-A",
-    "1849-B"
+    "1849-B",
+    "1786-A1"
   ],
   "sent_slots": {
-    "2026-09-30": [
-      8
-    ],
     "2026-10-01": [
       8
     ],
@@ -456,6 +454,9 @@
       8
     ],
     "2026-10-14": [
+      8
+    ],
+    "2026-10-15": [
       8
     ]
   },
