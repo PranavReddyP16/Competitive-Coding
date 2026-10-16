@@ -1,28 +1,5 @@
 {
   "assigned": {
-    "2026-10-01": {
-      "key": "1988-B",
-      "lc_easy": {
-        "id": "1394",
-        "slug": "find-lucky-integer-in-an-array",
-        "tags": [
-          "Array",
-          "Hash Table",
-          "Counting"
-        ],
-        "title": "Find Lucky Integer in an Array",
-        "url": "https://leetcode.com/problems/find-lucky-integer-in-an-array/"
-      },
-      "name": "Make Majority",
-      "rating": 900,
-      "solvers": 27006,
-      "tags": [
-        "greedy",
-        "implementation"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1988/B",
-      "year": 2024
-    },
     "2026-10-02": {
       "key": "2111-A",
       "lc_easy": {
@@ -340,6 +317,27 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1786/A1",
       "year": 2023
+    },
+    "2026-10-16": {
+      "key": "2184-A",
+      "lc_easy": {
+        "id": "191",
+        "slug": "number-of-1-bits",
+        "tags": [
+          "Divide and Conquer",
+          "Bit Manipulation"
+        ],
+        "title": "Number of 1 Bits",
+        "url": "https://leetcode.com/problems/number-of-1-bits/"
+      },
+      "name": "Social Experiment",
+      "rating": 800,
+      "solvers": 40926,
+      "tags": [
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2184/A",
+      "year": 2026
     }
   },
   "lc_sent_slugs": [
@@ -373,7 +371,8 @@
     "check-if-numbers-are-ascending-in-a-sentence",
     "backspace-string-compare",
     "find-the-array-concatenation-value",
-    "minimum-cost-to-move-chips-to-the-same-position"
+    "minimum-cost-to-move-chips-to-the-same-position",
+    "number-of-1-bits"
   ],
   "sent_keys": [
     "1883-A",
@@ -411,12 +410,10 @@
     "1966-A",
     "2004-A",
     "1849-B",
-    "1786-A1"
+    "1786-A1",
+    "2184-A"
   ],
   "sent_slots": {
-    "2026-10-01": [
-      8
-    ],
     "2026-10-02": [
       8
     ],
@@ -457,6 +454,9 @@
       8
     ],
     "2026-10-15": [
+      8
+    ],
+    "2026-10-16": [
       8
     ]
   },
