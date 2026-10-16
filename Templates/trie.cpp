@@ -58,3 +58,4 @@ int main() {
 // Tip: can be persistent with path copying
 // Note: O(log n) per operation, O(n) build
 // Tip: can be persistent with path copying
+// Added: support for walk/descent queries
