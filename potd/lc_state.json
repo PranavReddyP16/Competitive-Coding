@@ -1,18 +1,5 @@
 {
   "assigned": {
-    "2026-10-01": {
-      "difficulty": "Medium",
-      "id": "43",
-      "is_daily": false,
-      "slug": "multiply-strings",
-      "tags": [
-        "Math",
-        "String",
-        "Simulation"
-      ],
-      "title": "Multiply Strings",
-      "url": "https://leetcode.com/problems/multiply-strings/"
-    },
     "2026-10-02": {
       "difficulty": "Medium",
       "id": "22",
@@ -201,6 +188,18 @@
       ],
       "title": "Find the Most Common Response",
       "url": "https://leetcode.com/problems/find-the-most-common-response/"
+    },
+    "2026-10-16": {
+      "difficulty": "Medium",
+      "id": "400",
+      "is_daily": false,
+      "slug": "nth-digit",
+      "tags": [
+        "Math",
+        "Binary Search"
+      ],
+      "title": "Nth Digit",
+      "url": "https://leetcode.com/problems/nth-digit/"
     }
   },
   "sent_slugs": [
@@ -239,6 +238,7 @@
     "minimum-number-of-operations-to-reinitialize-a-permutation",
     "maximum-alternating-sum-of-squares",
     "maximize-sum-of-squares-of-digits",
-    "find-the-most-common-response"
+    "find-the-most-common-response",
+    "nth-digit"
   ]
 }
