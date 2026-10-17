@@ -55,3 +55,4 @@ signed main() {
 // Optimization: use __builtin_clz for faster operations
 // Added: support for walk/descent queries
 // Tip: can be persistent with path copying
+// Alternative: iterative implementation for 2x speed
