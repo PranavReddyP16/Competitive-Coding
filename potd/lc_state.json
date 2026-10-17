@@ -1,19 +1,5 @@
 {
   "assigned": {
-    "2026-10-02": {
-      "difficulty": "Medium",
-      "id": "22",
-      "is_daily": true,
-      "slug": "generate-parentheses",
-      "tags": [
-        "String",
-        "Dynamic Programming",
-        "Backtracking",
-        "Bracket Sequences"
-      ],
-      "title": "Generate Parentheses",
-      "url": "https://leetcode.com/problems/generate-parentheses/"
-    },
     "2026-10-03": {
       "difficulty": "Medium",
       "id": "2201",
@@ -200,6 +186,19 @@
       ],
       "title": "Nth Digit",
       "url": "https://leetcode.com/problems/nth-digit/"
+    },
+    "2026-10-17": {
+      "difficulty": "Medium",
+      "id": "3551",
+      "is_daily": true,
+      "slug": "minimum-swaps-to-sort-by-digit-sum",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Sorting"
+      ],
+      "title": "Minimum Swaps to Sort by Digit Sum",
+      "url": "https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/"
     }
   },
   "sent_slugs": [
@@ -239,6 +238,7 @@
     "maximum-alternating-sum-of-squares",
     "maximize-sum-of-squares-of-digits",
     "find-the-most-common-response",
-    "nth-digit"
+    "nth-digit",
+    "minimum-swaps-to-sort-by-digit-sum"
   ]
 }
