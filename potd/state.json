@@ -1,27 +1,5 @@
 {
   "assigned": {
-    "2026-10-02": {
-      "key": "2111-A",
-      "lc_easy": {
-        "id": "3105",
-        "slug": "longest-strictly-increasing-or-strictly-decreasing-subarray",
-        "tags": [
-          "Array"
-        ],
-        "title": "Longest Strictly Increasing or Strictly Decreasing Subarray",
-        "url": "https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/"
-      },
-      "name": "Energy Crystals",
-      "rating": 800,
-      "solvers": 20990,
-      "tags": [
-        "greedy",
-        "implementation",
-        "math"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2111/A",
-      "year": 2025
-    },
     "2026-10-03": {
       "key": "1992-C",
       "lc_easy": {
@@ -338,6 +316,29 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2184/A",
       "year": 2026
+    },
+    "2026-10-17": {
+      "key": "2220-A",
+      "lc_easy": {
+        "id": "1189",
+        "slug": "maximum-number-of-balloons",
+        "tags": [
+          "Hash Table",
+          "String",
+          "Counting"
+        ],
+        "title": "Maximum Number of Balloons",
+        "url": "https://leetcode.com/problems/maximum-number-of-balloons/"
+      },
+      "name": "Blocked",
+      "rating": 800,
+      "solvers": 21940,
+      "tags": [
+        "greedy",
+        "sortings"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2220/A",
+      "year": 2026
     }
   },
   "lc_sent_slugs": [
@@ -372,7 +373,8 @@
     "backspace-string-compare",
     "find-the-array-concatenation-value",
     "minimum-cost-to-move-chips-to-the-same-position",
-    "number-of-1-bits"
+    "number-of-1-bits",
+    "maximum-number-of-balloons"
   ],
   "sent_keys": [
     "1883-A",
@@ -411,12 +413,10 @@
     "2004-A",
     "1849-B",
     "1786-A1",
-    "2184-A"
+    "2184-A",
+    "2220-A"
   ],
   "sent_slots": {
-    "2026-10-02": [
-      8
-    ],
     "2026-10-03": [
       8
     ],
@@ -457,6 +457,9 @@
       8
     ],
     "2026-10-16": [
+      8
+    ],
+    "2026-10-17": [
       8
     ]
   },
