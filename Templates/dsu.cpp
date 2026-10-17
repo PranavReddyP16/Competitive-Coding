@@ -57,3 +57,4 @@ int main() {
 // Optimization: use __builtin_clz for faster operations
 // Added: support for walk/descent queries
 // Tip: can be persistent with path copying
+// Updated: simplified merge function
