@@ -50,3 +50,4 @@ signed main() {
 // Tip: can be persistent with path copying
 // Alternative: iterative implementation for 2x speed
 // Extension: works with any associative operation
+// Added: support for walk/descent queries
