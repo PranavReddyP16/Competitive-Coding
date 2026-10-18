@@ -1,18 +1,5 @@
 {
   "assigned": {
-    "2026-10-03": {
-      "difficulty": "Medium",
-      "id": "2201",
-      "is_daily": false,
-      "slug": "count-artifacts-that-can-be-extracted",
-      "tags": [
-        "Array",
-        "Hash Table",
-        "Simulation"
-      ],
-      "title": "Count Artifacts That Can Be Extracted",
-      "url": "https://leetcode.com/problems/count-artifacts-that-can-be-extracted/"
-    },
     "2026-10-04": {
       "difficulty": "Medium",
       "id": "678",
@@ -199,6 +186,19 @@
       ],
       "title": "Minimum Swaps to Sort by Digit Sum",
       "url": "https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/"
+    },
+    "2026-10-18": {
+      "difficulty": "Medium",
+      "id": "3002",
+      "is_daily": false,
+      "slug": "maximum-size-of-a-set-after-removals",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Greedy"
+      ],
+      "title": "Maximum Size of a Set After Removals",
+      "url": "https://leetcode.com/problems/maximum-size-of-a-set-after-removals/"
     }
   },
   "sent_slugs": [
@@ -239,6 +239,7 @@
     "maximize-sum-of-squares-of-digits",
     "find-the-most-common-response",
     "nth-digit",
-    "minimum-swaps-to-sort-by-digit-sum"
+    "minimum-swaps-to-sort-by-digit-sum",
+    "maximum-size-of-a-set-after-removals"
   ]
 }
