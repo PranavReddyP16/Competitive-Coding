@@ -1,27 +1,5 @@
 {
   "assigned": {
-    "2026-10-03": {
-      "key": "1992-C",
-      "lc_easy": {
-        "id": "2951",
-        "slug": "find-the-peaks",
-        "tags": [
-          "Array",
-          "Enumeration"
-        ],
-        "title": "Find the Peaks",
-        "url": "https://leetcode.com/problems/find-the-peaks/"
-      },
-      "name": "Gorilla and Permutation",
-      "rating": 900,
-      "solvers": 34044,
-      "tags": [
-        "constructive algorithms",
-        "math"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1992/C",
-      "year": 2024
-    },
     "2026-10-04": {
       "key": "2241-C",
       "lc_easy": {
@@ -339,6 +317,30 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2220/A",
       "year": 2026
+    },
+    "2026-10-18": {
+      "key": "1777-B",
+      "lc_easy": {
+        "id": "258",
+        "slug": "add-digits",
+        "tags": [
+          "Math",
+          "Simulation",
+          "Number Theory"
+        ],
+        "title": "Add Digits",
+        "url": "https://leetcode.com/problems/add-digits/"
+      },
+      "name": "Emordnilap",
+      "rating": 900,
+      "solvers": 19594,
+      "tags": [
+        "combinatorics",
+        "greedy",
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1777/B",
+      "year": 2023
     }
   },
   "lc_sent_slugs": [
@@ -374,7 +376,8 @@
     "find-the-array-concatenation-value",
     "minimum-cost-to-move-chips-to-the-same-position",
     "number-of-1-bits",
-    "maximum-number-of-balloons"
+    "maximum-number-of-balloons",
+    "add-digits"
   ],
   "sent_keys": [
     "1883-A",
@@ -414,12 +417,10 @@
     "1849-B",
     "1786-A1",
     "2184-A",
-    "2220-A"
+    "2220-A",
+    "1777-B"
   ],
   "sent_slots": {
-    "2026-10-03": [
-      8
-    ],
     "2026-10-04": [
       8
     ],
@@ -460,6 +461,9 @@
       8
     ],
     "2026-10-17": [
+      8
+    ],
+    "2026-10-18": [
       8
     ]
   },
