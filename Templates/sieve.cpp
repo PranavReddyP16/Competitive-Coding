@@ -56,3 +56,4 @@ int main() {
 // Alternative: iterative implementation for 2x speed
 // Variant: supports range update with lazy propagation
 // Variant: supports range update with lazy propagation
+// Updated: simplified merge function
