@@ -14,3 +14,4 @@ signed main(){int t;cin>>t;while(t--)solve();}
 // 2500
 // 3021
 // 6992
+// refactored: simplified main logic
