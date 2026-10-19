@@ -1,20 +1,5 @@
 {
   "assigned": {
-    "2026-10-04": {
-      "difficulty": "Medium",
-      "id": "678",
-      "is_daily": true,
-      "slug": "valid-parenthesis-string",
-      "tags": [
-        "String",
-        "Dynamic Programming",
-        "Stack",
-        "Greedy",
-        "Bracket Sequences"
-      ],
-      "title": "Valid Parenthesis String",
-      "url": "https://leetcode.com/problems/valid-parenthesis-string/"
-    },
     "2026-10-05": {
       "difficulty": "Medium",
       "id": "856",
@@ -199,6 +184,18 @@
       ],
       "title": "Maximum Size of a Set After Removals",
       "url": "https://leetcode.com/problems/maximum-size-of-a-set-after-removals/"
+    },
+    "2026-10-19": {
+      "difficulty": "Medium",
+      "id": "81",
+      "is_daily": false,
+      "slug": "search-in-rotated-sorted-array-ii",
+      "tags": [
+        "Array",
+        "Binary Search"
+      ],
+      "title": "Search in Rotated Sorted Array II",
+      "url": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/"
     }
   },
   "sent_slugs": [
@@ -240,6 +237,7 @@
     "find-the-most-common-response",
     "nth-digit",
     "minimum-swaps-to-sort-by-digit-sum",
-    "maximum-size-of-a-set-after-removals"
+    "maximum-size-of-a-set-after-removals",
+    "search-in-rotated-sorted-array-ii"
   ]
 }
