@@ -1,29 +1,5 @@
 {
   "assigned": {
-    "2026-10-04": {
-      "key": "2241-C",
-      "lc_easy": {
-        "id": "1025",
-        "slug": "divisor-game",
-        "tags": [
-          "Math",
-          "Dynamic Programming",
-          "Brainteaser",
-          "Game Theory",
-          "Impartial Game"
-        ],
-        "title": "Divisor Game",
-        "url": "https://leetcode.com/problems/divisor-game/"
-      },
-      "name": "RemovevomeR",
-      "rating": 1000,
-      "solvers": 22386,
-      "tags": [
-        "greedy"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2241/C",
-      "year": 2026
-    },
     "2026-10-05": {
       "key": "1955-B",
       "lc_easy": {
@@ -341,6 +317,28 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1777/B",
       "year": 2023
+    },
+    "2026-10-19": {
+      "key": "2126-B",
+      "lc_easy": {
+        "id": "3996",
+        "slug": "even-number-of-knight-moves",
+        "tags": [
+          "Array",
+          "Math"
+        ],
+        "title": "Even Number of Knight Moves",
+        "url": "https://leetcode.com/problems/even-number-of-knight-moves/"
+      },
+      "name": "No Casino in the Mountains",
+      "rating": 800,
+      "solvers": 38937,
+      "tags": [
+        "dp",
+        "greedy"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2126/B",
+      "year": 2025
     }
   },
   "lc_sent_slugs": [
@@ -377,7 +375,8 @@
     "minimum-cost-to-move-chips-to-the-same-position",
     "number-of-1-bits",
     "maximum-number-of-balloons",
-    "add-digits"
+    "add-digits",
+    "even-number-of-knight-moves"
   ],
   "sent_keys": [
     "1883-A",
@@ -418,12 +417,10 @@
     "1786-A1",
     "2184-A",
     "2220-A",
-    "1777-B"
+    "1777-B",
+    "2126-B"
   ],
   "sent_slots": {
-    "2026-10-04": [
-      8
-    ],
     "2026-10-05": [
       8
     ],
@@ -464,6 +461,9 @@
       8
     ],
     "2026-10-18": [
+      8
+    ],
+    "2026-10-19": [
       8
     ]
   },
