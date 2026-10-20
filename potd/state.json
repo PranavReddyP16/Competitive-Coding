@@ -1,29 +1,5 @@
 {
   "assigned": {
-    "2026-10-05": {
-      "key": "1955-B",
-      "lc_easy": {
-        "id": "2739",
-        "slug": "total-distance-traveled",
-        "tags": [
-          "Math",
-          "Simulation"
-        ],
-        "title": "Total Distance Traveled",
-        "url": "https://leetcode.com/problems/total-distance-traveled/"
-      },
-      "name": "Progressive Square",
-      "rating": 1000,
-      "solvers": 33020,
-      "tags": [
-        "constructive algorithms",
-        "data structures",
-        "implementation",
-        "sortings"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1955/B",
-      "year": 2024
-    },
     "2026-10-06": {
       "key": "1990-A",
       "lc_easy": {
@@ -339,6 +315,27 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2126/B",
       "year": 2025
+    },
+    "2026-10-20": {
+      "key": "2247-B",
+      "lc_easy": {
+        "id": "3142",
+        "slug": "check-if-grid-satisfies-conditions",
+        "tags": [
+          "Array",
+          "Matrix"
+        ],
+        "title": "Check if Grid Satisfies Conditions",
+        "url": "https://leetcode.com/problems/check-if-grid-satisfies-conditions/"
+      },
+      "name": "Yet Another Constructive",
+      "rating": 900,
+      "solvers": 16856,
+      "tags": [
+        "constructive algorithms"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2247/B",
+      "year": 2026
     }
   },
   "lc_sent_slugs": [
@@ -376,7 +373,8 @@
     "number-of-1-bits",
     "maximum-number-of-balloons",
     "add-digits",
-    "even-number-of-knight-moves"
+    "even-number-of-knight-moves",
+    "check-if-grid-satisfies-conditions"
   ],
   "sent_keys": [
     "1883-A",
@@ -418,12 +416,10 @@
     "2184-A",
     "2220-A",
     "1777-B",
-    "2126-B"
+    "2126-B",
+    "2247-B"
   ],
   "sent_slots": {
-    "2026-10-05": [
-      8
-    ],
     "2026-10-06": [
       8
     ],
@@ -464,6 +460,9 @@
       8
     ],
     "2026-10-19": [
+      8
+    ],
+    "2026-10-20": [
       8
     ]
   },
