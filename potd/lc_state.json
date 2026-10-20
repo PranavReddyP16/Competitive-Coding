@@ -1,18 +1,5 @@
 {
   "assigned": {
-    "2026-10-05": {
-      "difficulty": "Medium",
-      "id": "856",
-      "is_daily": true,
-      "slug": "score-of-parentheses",
-      "tags": [
-        "String",
-        "Stack",
-        "Bracket Sequences"
-      ],
-      "title": "Score of Parentheses",
-      "url": "https://leetcode.com/problems/score-of-parentheses/"
-    },
     "2026-10-06": {
       "difficulty": "Medium",
       "id": "921",
@@ -196,6 +183,21 @@
       ],
       "title": "Search in Rotated Sorted Array II",
       "url": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/"
+    },
+    "2026-10-20": {
+      "difficulty": "Medium",
+      "id": "673",
+      "is_daily": false,
+      "slug": "number-of-longest-increasing-subsequence",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Binary Indexed Tree",
+        "Segment Tree",
+        "Longest Increasing Subsequence"
+      ],
+      "title": "Number of Longest Increasing Subsequence",
+      "url": "https://leetcode.com/problems/number-of-longest-increasing-subsequence/"
     }
   },
   "sent_slugs": [
@@ -238,6 +240,7 @@
     "nth-digit",
     "minimum-swaps-to-sort-by-digit-sum",
     "maximum-size-of-a-set-after-removals",
-    "search-in-rotated-sorted-array-ii"
+    "search-in-rotated-sorted-array-ii",
+    "number-of-longest-increasing-subsequence"
   ]
 }
