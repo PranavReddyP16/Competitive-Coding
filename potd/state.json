@@ -1,28 +1,5 @@
 {
   "assigned": {
-    "2026-10-06": {
-      "key": "1990-A",
-      "lc_easy": {
-        "id": "3950",
-        "slug": "exactly-one-consecutive-set-bits-pair",
-        "tags": [
-          "Bit Manipulation"
-        ],
-        "title": "Exactly One Consecutive Set Bits Pair",
-        "url": "https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/"
-      },
-      "name": "Submission Bait",
-      "rating": 900,
-      "solvers": 27499,
-      "tags": [
-        "brute force",
-        "games",
-        "greedy",
-        "sortings"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1990/A",
-      "year": 2024
-    },
     "2026-10-07": {
       "key": "1851-A",
       "lc_easy": {
@@ -336,6 +313,29 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2247/B",
       "year": 2026
+    },
+    "2026-10-21": {
+      "key": "2216-A",
+      "lc_easy": {
+        "id": "2970",
+        "slug": "count-the-number-of-incremovable-subarrays-i",
+        "tags": [
+          "Array",
+          "Two Pointers",
+          "Binary Search",
+          "Enumeration"
+        ],
+        "title": "Count the Number of Incremovable Subarrays I",
+        "url": "https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/"
+      },
+      "name": "Course Wishes",
+      "rating": 900,
+      "solvers": 6688,
+      "tags": [
+        "greedy"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2216/A",
+      "year": 2026
     }
   },
   "lc_sent_slugs": [
@@ -374,7 +374,8 @@
     "maximum-number-of-balloons",
     "add-digits",
     "even-number-of-knight-moves",
-    "check-if-grid-satisfies-conditions"
+    "check-if-grid-satisfies-conditions",
+    "count-the-number-of-incremovable-subarrays-i"
   ],
   "sent_keys": [
     "1883-A",
@@ -417,12 +418,10 @@
     "2220-A",
     "1777-B",
     "2126-B",
-    "2247-B"
+    "2247-B",
+    "2216-A"
   ],
   "sent_slots": {
-    "2026-10-06": [
-      8
-    ],
     "2026-10-07": [
       8
     ],
@@ -463,6 +462,9 @@
       8
     ],
     "2026-10-20": [
+      8
+    ],
+    "2026-10-21": [
       8
     ]
   },
