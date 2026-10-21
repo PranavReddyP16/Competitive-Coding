@@ -1,19 +1,5 @@
 {
   "assigned": {
-    "2026-10-06": {
-      "difficulty": "Medium",
-      "id": "921",
-      "is_daily": true,
-      "slug": "minimum-add-to-make-parentheses-valid",
-      "tags": [
-        "String",
-        "Stack",
-        "Greedy",
-        "Bracket Sequences"
-      ],
-      "title": "Minimum Add to Make Parentheses Valid",
-      "url": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/"
-    },
     "2026-10-07": {
       "difficulty": "Medium",
       "id": "901",
@@ -198,6 +184,17 @@
       ],
       "title": "Number of Longest Increasing Subsequence",
       "url": "https://leetcode.com/problems/number-of-longest-increasing-subsequence/"
+    },
+    "2026-10-21": {
+      "difficulty": "Medium",
+      "id": "3863",
+      "is_daily": true,
+      "slug": "minimum-operations-to-sort-a-string",
+      "tags": [
+        "String"
+      ],
+      "title": "Minimum Operations to Sort a String",
+      "url": "https://leetcode.com/problems/minimum-operations-to-sort-a-string/"
     }
   },
   "sent_slugs": [
@@ -241,6 +238,7 @@
     "minimum-swaps-to-sort-by-digit-sum",
     "maximum-size-of-a-set-after-removals",
     "search-in-rotated-sorted-array-ii",
-    "number-of-longest-increasing-subsequence"
+    "number-of-longest-increasing-subsequence",
+    "minimum-operations-to-sort-a-string"
   ]
 }
