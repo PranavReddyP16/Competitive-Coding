@@ -1,19 +1,5 @@
 {
   "assigned": {
-    "2026-10-07": {
-      "difficulty": "Medium",
-      "id": "901",
-      "is_daily": false,
-      "slug": "online-stock-span",
-      "tags": [
-        "Stack",
-        "Design",
-        "Monotonic Stack",
-        "Data Stream"
-      ],
-      "title": "Online Stock Span",
-      "url": "https://leetcode.com/problems/online-stock-span/"
-    },
     "2026-10-08": {
       "difficulty": "Medium",
       "id": "1615",
@@ -195,6 +181,17 @@
       ],
       "title": "Minimum Operations to Sort a String",
       "url": "https://leetcode.com/problems/minimum-operations-to-sort-a-string/"
+    },
+    "2026-10-22": {
+      "difficulty": "Medium",
+      "id": "3942",
+      "is_daily": true,
+      "slug": "minimum-operations-to-sort-a-permutation",
+      "tags": [
+        "Array"
+      ],
+      "title": "Minimum Operations to Sort a Permutation",
+      "url": "https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/"
     }
   },
   "sent_slugs": [
@@ -239,6 +236,7 @@
     "maximum-size-of-a-set-after-removals",
     "search-in-rotated-sorted-array-ii",
     "number-of-longest-increasing-subsequence",
-    "minimum-operations-to-sort-a-string"
+    "minimum-operations-to-sort-a-string",
+    "minimum-operations-to-sort-a-permutation"
   ]
 }
