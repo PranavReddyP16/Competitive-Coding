@@ -1,28 +1,5 @@
 {
   "assigned": {
-    "2026-10-07": {
-      "key": "1851-A",
-      "lc_easy": {
-        "id": "1360",
-        "slug": "number-of-days-between-two-dates",
-        "tags": [
-          "Math",
-          "String"
-        ],
-        "title": "Number of Days Between Two Dates",
-        "url": "https://leetcode.com/problems/number-of-days-between-two-dates/"
-      },
-      "name": "Escalator Conversations",
-      "rating": 800,
-      "solvers": 31857,
-      "tags": [
-        "brute force",
-        "constructive algorithms",
-        "math"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1851/A",
-      "year": 2023
-    },
     "2026-10-08": {
       "key": "2151-A",
       "lc_easy": {
@@ -336,6 +313,26 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2216/A",
       "year": 2026
+    },
+    "2026-10-22": {
+      "key": "2037-A",
+      "lc_easy": {
+        "id": "2520",
+        "slug": "count-the-digits-that-divide-a-number",
+        "tags": [
+          "Math"
+        ],
+        "title": "Count the Digits That Divide a Number",
+        "url": "https://leetcode.com/problems/count-the-digits-that-divide-a-number/"
+      },
+      "name": "Twice",
+      "rating": 800,
+      "solvers": 36825,
+      "tags": [
+        "implementation"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2037/A",
+      "year": 2024
     }
   },
   "lc_sent_slugs": [
@@ -375,7 +372,8 @@
     "add-digits",
     "even-number-of-knight-moves",
     "check-if-grid-satisfies-conditions",
-    "count-the-number-of-incremovable-subarrays-i"
+    "count-the-number-of-incremovable-subarrays-i",
+    "count-the-digits-that-divide-a-number"
   ],
   "sent_keys": [
     "1883-A",
@@ -419,12 +417,10 @@
     "1777-B",
     "2126-B",
     "2247-B",
-    "2216-A"
+    "2216-A",
+    "2037-A"
   ],
   "sent_slots": {
-    "2026-10-07": [
-      8
-    ],
     "2026-10-08": [
       8
     ],
@@ -465,6 +461,9 @@
       8
     ],
     "2026-10-21": [
+      8
+    ],
+    "2026-10-22": [
       8
     ]
   },
