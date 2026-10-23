@@ -1,16 +1,5 @@
 {
   "assigned": {
-    "2026-10-08": {
-      "difficulty": "Medium",
-      "id": "1615",
-      "is_daily": false,
-      "slug": "maximal-network-rank",
-      "tags": [
-        "Graph Theory"
-      ],
-      "title": "Maximal Network Rank",
-      "url": "https://leetcode.com/problems/maximal-network-rank/"
-    },
     "2026-10-09": {
       "difficulty": "Medium",
       "id": "1541",
@@ -192,6 +181,18 @@
       ],
       "title": "Minimum Operations to Sort a Permutation",
       "url": "https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/"
+    },
+    "2026-10-23": {
+      "difficulty": "Medium",
+      "id": "3644",
+      "is_daily": true,
+      "slug": "maximum-k-to-sort-a-permutation",
+      "tags": [
+        "Array",
+        "Bit Manipulation"
+      ],
+      "title": "Maximum K to Sort a Permutation",
+      "url": "https://leetcode.com/problems/maximum-k-to-sort-a-permutation/"
     }
   },
   "sent_slugs": [
@@ -237,6 +238,7 @@
     "search-in-rotated-sorted-array-ii",
     "number-of-longest-increasing-subsequence",
     "minimum-operations-to-sort-a-string",
-    "minimum-operations-to-sort-a-permutation"
+    "minimum-operations-to-sort-a-permutation",
+    "maximum-k-to-sort-a-permutation"
   ]
 }
