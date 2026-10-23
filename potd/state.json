@@ -1,29 +1,5 @@
 {
   "assigned": {
-    "2026-10-08": {
-      "key": "2151-A",
-      "lc_easy": {
-        "id": "2363",
-        "slug": "merge-similar-items",
-        "tags": [
-          "Array",
-          "Hash Table",
-          "Sorting",
-          "Ordered Set"
-        ],
-        "title": "Merge Similar Items",
-        "url": "https://leetcode.com/problems/merge-similar-items/"
-      },
-      "name": "Incremental Subarray",
-      "rating": 800,
-      "solvers": 18796,
-      "tags": [
-        "math",
-        "strings"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2151/A",
-      "year": 2025
-    },
     "2026-10-09": {
       "key": "2172-A",
       "lc_easy": {
@@ -333,6 +309,29 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2037/A",
       "year": 2024
+    },
+    "2026-10-23": {
+      "key": "1896-B",
+      "lc_easy": {
+        "id": "3280",
+        "slug": "convert-date-to-binary",
+        "tags": [
+          "Math",
+          "String"
+        ],
+        "title": "Convert Date to Binary",
+        "url": "https://leetcode.com/problems/convert-date-to-binary/"
+      },
+      "name": "AB Flipping",
+      "rating": 900,
+      "solvers": 19152,
+      "tags": [
+        "greedy",
+        "strings",
+        "two pointers"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1896/B",
+      "year": 2023
     }
   },
   "lc_sent_slugs": [
@@ -373,7 +372,8 @@
     "even-number-of-knight-moves",
     "check-if-grid-satisfies-conditions",
     "count-the-number-of-incremovable-subarrays-i",
-    "count-the-digits-that-divide-a-number"
+    "count-the-digits-that-divide-a-number",
+    "convert-date-to-binary"
   ],
   "sent_keys": [
     "1883-A",
@@ -418,12 +418,10 @@
     "2126-B",
     "2247-B",
     "2216-A",
-    "2037-A"
+    "2037-A",
+    "1896-B"
   ],
   "sent_slots": {
-    "2026-10-08": [
-      8
-    ],
     "2026-10-09": [
       8
     ],
@@ -464,6 +462,9 @@
       8
     ],
     "2026-10-22": [
+      8
+    ],
+    "2026-10-23": [
       8
     ]
   },
