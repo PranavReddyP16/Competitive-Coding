@@ -1,25 +1,5 @@
 {
   "assigned": {
-    "2026-10-09": {
-      "key": "2172-A",
-      "lc_easy": {
-        "id": "2525",
-        "slug": "categorize-box-according-to-criteria",
-        "tags": [
-          "Math"
-        ],
-        "title": "Categorize Box According to Criteria",
-        "url": "https://leetcode.com/problems/categorize-box-according-to-criteria/"
-      },
-      "name": "ASCII Art Contest",
-      "rating": 800,
-      "solvers": 15666,
-      "tags": [
-        "implementation"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2172/A",
-      "year": 2025
-    },
     "2026-10-10": {
       "key": "2193-A",
       "lc_easy": {
@@ -332,6 +312,28 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1896/B",
       "year": 2023
+    },
+    "2026-10-24": {
+      "key": "2013-A",
+      "lc_easy": {
+        "id": "1652",
+        "slug": "defuse-the-bomb",
+        "tags": [
+          "Array",
+          "Sliding Window"
+        ],
+        "title": "Defuse the Bomb",
+        "url": "https://leetcode.com/problems/defuse-the-bomb/"
+      },
+      "name": "Zhan's Blender",
+      "rating": 800,
+      "solvers": 31740,
+      "tags": [
+        "constructive algorithms",
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2013/A",
+      "year": 2024
     }
   },
   "lc_sent_slugs": [
@@ -373,7 +375,8 @@
     "check-if-grid-satisfies-conditions",
     "count-the-number-of-incremovable-subarrays-i",
     "count-the-digits-that-divide-a-number",
-    "convert-date-to-binary"
+    "convert-date-to-binary",
+    "defuse-the-bomb"
   ],
   "sent_keys": [
     "1883-A",
@@ -419,12 +422,10 @@
     "2247-B",
     "2216-A",
     "2037-A",
-    "1896-B"
+    "1896-B",
+    "2013-A"
   ],
   "sent_slots": {
-    "2026-10-09": [
-      8
-    ],
     "2026-10-10": [
       8
     ],
@@ -465,6 +466,9 @@
       8
     ],
     "2026-10-23": [
+      8
+    ],
+    "2026-10-24": [
       8
     ]
   },
