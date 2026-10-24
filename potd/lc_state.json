@@ -1,19 +1,5 @@
 {
   "assigned": {
-    "2026-10-09": {
-      "difficulty": "Medium",
-      "id": "1541",
-      "is_daily": true,
-      "slug": "minimum-insertions-to-balance-a-parentheses-string",
-      "tags": [
-        "String",
-        "Stack",
-        "Greedy",
-        "Bracket Sequences"
-      ],
-      "title": "Minimum Insertions to Balance a Parentheses String",
-      "url": "https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/"
-    },
     "2026-10-10": {
       "difficulty": "Medium",
       "id": "2333",
@@ -193,6 +179,19 @@
       ],
       "title": "Maximum K to Sort a Permutation",
       "url": "https://leetcode.com/problems/maximum-k-to-sort-a-permutation/"
+    },
+    "2026-10-24": {
+      "difficulty": "Medium",
+      "id": "784",
+      "is_daily": false,
+      "slug": "letter-case-permutation",
+      "tags": [
+        "String",
+        "Backtracking",
+        "Bit Manipulation"
+      ],
+      "title": "Letter Case Permutation",
+      "url": "https://leetcode.com/problems/letter-case-permutation/"
     }
   },
   "sent_slugs": [
@@ -239,6 +238,7 @@
     "number-of-longest-increasing-subsequence",
     "minimum-operations-to-sort-a-string",
     "minimum-operations-to-sort-a-permutation",
-    "maximum-k-to-sort-a-permutation"
+    "maximum-k-to-sort-a-permutation",
+    "letter-case-permutation"
   ]
 }
