@@ -1,26 +1,5 @@
 {
   "assigned": {
-    "2026-10-10": {
-      "key": "2193-A",
-      "lc_easy": {
-        "id": "1185",
-        "slug": "day-of-the-week",
-        "tags": [
-          "Math"
-        ],
-        "title": "Day of the Week",
-        "url": "https://leetcode.com/problems/day-of-the-week/"
-      },
-      "name": "DBMB and the Array",
-      "rating": 800,
-      "solvers": 45328,
-      "tags": [
-        "brute force",
-        "math"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2193/A",
-      "year": 2026
-    },
     "2026-10-11": {
       "key": "2014-B",
       "lc_easy": {
@@ -334,6 +313,29 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2013/A",
       "year": 2024
+    },
+    "2026-10-25": {
+      "key": "2096-A",
+      "lc_easy": {
+        "id": "2287",
+        "slug": "rearrange-characters-to-make-target-string",
+        "tags": [
+          "Hash Table",
+          "String",
+          "Counting"
+        ],
+        "title": "Rearrange Characters to Make Target String",
+        "url": "https://leetcode.com/problems/rearrange-characters-to-make-target-string/"
+      },
+      "name": "Wonderful Sticks",
+      "rating": 800,
+      "solvers": 21022,
+      "tags": [
+        "constructive algorithms",
+        "greedy"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2096/A",
+      "year": 2025
     }
   },
   "lc_sent_slugs": [
@@ -376,7 +378,8 @@
     "count-the-number-of-incremovable-subarrays-i",
     "count-the-digits-that-divide-a-number",
     "convert-date-to-binary",
-    "defuse-the-bomb"
+    "defuse-the-bomb",
+    "rearrange-characters-to-make-target-string"
   ],
   "sent_keys": [
     "1883-A",
@@ -423,12 +426,10 @@
     "2216-A",
     "2037-A",
     "1896-B",
-    "2013-A"
+    "2013-A",
+    "2096-A"
   ],
   "sent_slots": {
-    "2026-10-10": [
-      8
-    ],
     "2026-10-11": [
       8
     ],
@@ -469,6 +470,9 @@
       8
     ],
     "2026-10-24": [
+      8
+    ],
+    "2026-10-25": [
       8
     ]
   },
