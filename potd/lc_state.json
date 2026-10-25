@@ -1,20 +1,5 @@
 {
   "assigned": {
-    "2026-10-10": {
-      "difficulty": "Medium",
-      "id": "2333",
-      "is_daily": true,
-      "slug": "minimum-sum-of-squared-difference",
-      "tags": [
-        "Array",
-        "Binary Search",
-        "Greedy",
-        "Sorting",
-        "Heap (Priority Queue)"
-      ],
-      "title": "Minimum Sum of Squared Difference",
-      "url": "https://leetcode.com/problems/minimum-sum-of-squared-difference/"
-    },
     "2026-10-11": {
       "difficulty": "Medium",
       "id": "2592",
@@ -192,6 +177,21 @@
       ],
       "title": "Letter Case Permutation",
       "url": "https://leetcode.com/problems/letter-case-permutation/"
+    },
+    "2026-10-25": {
+      "difficulty": "Medium",
+      "id": "1254",
+      "is_daily": true,
+      "slug": "number-of-closed-islands",
+      "tags": [
+        "Array",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Union-Find",
+        "Matrix"
+      ],
+      "title": "Number of Closed Islands",
+      "url": "https://leetcode.com/problems/number-of-closed-islands/"
     }
   },
   "sent_slugs": [
@@ -239,6 +239,7 @@
     "minimum-operations-to-sort-a-string",
     "minimum-operations-to-sort-a-permutation",
     "maximum-k-to-sort-a-permutation",
-    "letter-case-permutation"
+    "letter-case-permutation",
+    "number-of-closed-islands"
   ]
 }
