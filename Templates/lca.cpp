@@ -48,3 +48,4 @@ int main() {
 // Variant: supports range update with lazy propagation
 // Variant: supports range update with lazy propagation
 // Updated: simplified merge function
+// Optimization: use __builtin_clz for faster operations
