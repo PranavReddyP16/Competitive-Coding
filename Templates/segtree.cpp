@@ -75,3 +75,4 @@ signed main() {
 // Optimization: use __builtin_clz for faster operations
 // Added: support for walk/descent queries
 // Added: support for walk/descent queries
+// Updated: simplified merge function
