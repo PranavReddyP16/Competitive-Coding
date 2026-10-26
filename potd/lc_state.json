@@ -1,19 +1,5 @@
 {
   "assigned": {
-    "2026-10-11": {
-      "difficulty": "Medium",
-      "id": "2592",
-      "is_daily": false,
-      "slug": "maximize-greatness-of-an-array",
-      "tags": [
-        "Array",
-        "Two Pointers",
-        "Greedy",
-        "Sorting"
-      ],
-      "title": "Maximize Greatness of an Array",
-      "url": "https://leetcode.com/problems/maximize-greatness-of-an-array/"
-    },
     "2026-10-12": {
       "difficulty": "Medium",
       "id": "1806",
@@ -192,6 +178,21 @@
       ],
       "title": "Number of Closed Islands",
       "url": "https://leetcode.com/problems/number-of-closed-islands/"
+    },
+    "2026-10-26": {
+      "difficulty": "Medium",
+      "id": "3619",
+      "is_daily": true,
+      "slug": "count-islands-with-total-value-divisible-by-k",
+      "tags": [
+        "Array",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Union-Find",
+        "Matrix"
+      ],
+      "title": "Count Islands With Total Value Divisible by K",
+      "url": "https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/"
     }
   },
   "sent_slugs": [
@@ -240,6 +241,7 @@
     "minimum-operations-to-sort-a-permutation",
     "maximum-k-to-sort-a-permutation",
     "letter-case-permutation",
-    "number-of-closed-islands"
+    "number-of-closed-islands",
+    "count-islands-with-total-value-divisible-by-k"
   ]
 }
