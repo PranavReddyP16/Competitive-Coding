@@ -1,28 +1,5 @@
 {
   "assigned": {
-    "2026-10-11": {
-      "key": "2014-B",
-      "lc_easy": {
-        "id": "234",
-        "slug": "palindrome-linked-list",
-        "tags": [
-          "Linked List",
-          "Two Pointers",
-          "Stack",
-          "Recursion"
-        ],
-        "title": "Palindrome Linked List",
-        "url": "https://leetcode.com/problems/palindrome-linked-list/"
-      },
-      "name": "Robin Hood and the Major Oak",
-      "rating": 800,
-      "solvers": 34062,
-      "tags": [
-        "math"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2014/B",
-      "year": 2024
-    },
     "2026-10-12": {
       "key": "1966-A",
       "lc_easy": {
@@ -336,6 +313,30 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2096/A",
       "year": 2025
+    },
+    "2026-10-26": {
+      "key": "2178-A",
+      "lc_easy": {
+        "id": "67",
+        "slug": "add-binary",
+        "tags": [
+          "Math",
+          "String",
+          "Bit Manipulation",
+          "Simulation"
+        ],
+        "title": "Add Binary",
+        "url": "https://leetcode.com/problems/add-binary/"
+      },
+      "name": "Yes or Yes",
+      "rating": 800,
+      "solvers": 27044,
+      "tags": [
+        "greedy",
+        "strings"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2178/A",
+      "year": 2025
     }
   },
   "lc_sent_slugs": [
@@ -379,7 +380,8 @@
     "count-the-digits-that-divide-a-number",
     "convert-date-to-binary",
     "defuse-the-bomb",
-    "rearrange-characters-to-make-target-string"
+    "rearrange-characters-to-make-target-string",
+    "add-binary"
   ],
   "sent_keys": [
     "1883-A",
@@ -427,12 +429,10 @@
     "2037-A",
     "1896-B",
     "2013-A",
-    "2096-A"
+    "2096-A",
+    "2178-A"
   ],
   "sent_slots": {
-    "2026-10-11": [
-      8
-    ],
     "2026-10-12": [
       8
     ],
@@ -473,6 +473,9 @@
       8
     ],
     "2026-10-25": [
+      8
+    ],
+    "2026-10-26": [
       8
     ]
   },
