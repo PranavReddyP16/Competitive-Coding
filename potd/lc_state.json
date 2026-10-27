@@ -1,18 +1,5 @@
 {
   "assigned": {
-    "2026-10-12": {
-      "difficulty": "Medium",
-      "id": "1806",
-      "is_daily": false,
-      "slug": "minimum-number-of-operations-to-reinitialize-a-permutation",
-      "tags": [
-        "Array",
-        "Math",
-        "Simulation"
-      ],
-      "title": "Minimum Number of Operations to Reinitialize a Permutation",
-      "url": "https://leetcode.com/problems/minimum-number-of-operations-to-reinitialize-a-permutation/"
-    },
     "2026-10-13": {
       "difficulty": "Medium",
       "id": "3727",
@@ -193,6 +180,18 @@
       ],
       "title": "Count Islands With Total Value Divisible by K",
       "url": "https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/"
+    },
+    "2026-10-27": {
+      "difficulty": "Medium",
+      "id": "1052",
+      "is_daily": false,
+      "slug": "grumpy-bookstore-owner",
+      "tags": [
+        "Array",
+        "Sliding Window"
+      ],
+      "title": "Grumpy Bookstore Owner",
+      "url": "https://leetcode.com/problems/grumpy-bookstore-owner/"
     }
   },
   "sent_slugs": [
@@ -242,6 +241,7 @@
     "maximum-k-to-sort-a-permutation",
     "letter-case-permutation",
     "number-of-closed-islands",
-    "count-islands-with-total-value-divisible-by-k"
+    "count-islands-with-total-value-divisible-by-k",
+    "grumpy-bookstore-owner"
   ]
 }
