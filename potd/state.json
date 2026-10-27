@@ -1,27 +1,5 @@
 {
   "assigned": {
-    "2026-10-12": {
-      "key": "1966-A",
-      "lc_easy": {
-        "id": "2042",
-        "slug": "check-if-numbers-are-ascending-in-a-sentence",
-        "tags": [
-          "String"
-        ],
-        "title": "Check if Numbers Are Ascending in a Sentence",
-        "url": "https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/"
-      },
-      "name": "Card Exchange",
-      "rating": 800,
-      "solvers": 19786,
-      "tags": [
-        "constructive algorithms",
-        "games",
-        "greedy"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1966/A",
-      "year": 2024
-    },
     "2026-10-13": {
       "key": "2004-A",
       "lc_easy": {
@@ -337,6 +315,27 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2178/A",
       "year": 2025
+    },
+    "2026-10-27": {
+      "key": "1855-A",
+      "lc_easy": {
+        "id": "2798",
+        "slug": "number-of-employees-who-met-the-target",
+        "tags": [
+          "Array"
+        ],
+        "title": "Number of Employees Who Met the Target",
+        "url": "https://leetcode.com/problems/number-of-employees-who-met-the-target/"
+      },
+      "name": "Dalton the Teacher",
+      "rating": 800,
+      "solvers": 30264,
+      "tags": [
+        "greedy",
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1855/A",
+      "year": 2023
     }
   },
   "lc_sent_slugs": [
@@ -381,7 +380,8 @@
     "convert-date-to-binary",
     "defuse-the-bomb",
     "rearrange-characters-to-make-target-string",
-    "add-binary"
+    "add-binary",
+    "number-of-employees-who-met-the-target"
   ],
   "sent_keys": [
     "1883-A",
@@ -430,12 +430,10 @@
     "1896-B",
     "2013-A",
     "2096-A",
-    "2178-A"
+    "2178-A",
+    "1855-A"
   ],
   "sent_slots": {
-    "2026-10-12": [
-      8
-    ],
     "2026-10-13": [
       8
     ],
@@ -476,6 +474,9 @@
       8
     ],
     "2026-10-26": [
+      8
+    ],
+    "2026-10-27": [
       8
     ]
   },
