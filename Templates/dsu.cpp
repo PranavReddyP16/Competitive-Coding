@@ -58,3 +58,4 @@ int main() {
 // Added: support for walk/descent queries
 // Tip: can be persistent with path copying
 // Updated: simplified merge function
+// Note: O(log n) per operation, O(n) build
