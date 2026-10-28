@@ -1,18 +1,5 @@
 {
   "assigned": {
-    "2026-10-13": {
-      "difficulty": "Medium",
-      "id": "3727",
-      "is_daily": true,
-      "slug": "maximum-alternating-sum-of-squares",
-      "tags": [
-        "Array",
-        "Greedy",
-        "Sorting"
-      ],
-      "title": "Maximum Alternating Sum of Squares",
-      "url": "https://leetcode.com/problems/maximum-alternating-sum-of-squares/"
-    },
     "2026-10-14": {
       "difficulty": "Medium",
       "id": "3723",
@@ -192,6 +179,20 @@
       ],
       "title": "Grumpy Bookstore Owner",
       "url": "https://leetcode.com/problems/grumpy-bookstore-owner/"
+    },
+    "2026-10-28": {
+      "difficulty": "Medium",
+      "id": "3882",
+      "is_daily": true,
+      "slug": "minimum-xor-path-in-a-grid",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Bit Manipulation",
+        "Matrix"
+      ],
+      "title": "Minimum XOR Path in a Grid",
+      "url": "https://leetcode.com/problems/minimum-xor-path-in-a-grid/"
     }
   },
   "sent_slugs": [
@@ -242,6 +243,7 @@
     "letter-case-permutation",
     "number-of-closed-islands",
     "count-islands-with-total-value-divisible-by-k",
-    "grumpy-bookstore-owner"
+    "grumpy-bookstore-owner",
+    "minimum-xor-path-in-a-grid"
   ]
 }
