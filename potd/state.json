@@ -1,29 +1,5 @@
 {
   "assigned": {
-    "2026-10-13": {
-      "key": "2004-A",
-      "lc_easy": {
-        "id": "844",
-        "slug": "backspace-string-compare",
-        "tags": [
-          "Two Pointers",
-          "String",
-          "Stack",
-          "Simulation"
-        ],
-        "title": "Backspace String Compare",
-        "url": "https://leetcode.com/problems/backspace-string-compare/"
-      },
-      "name": "Closest Point",
-      "rating": 800,
-      "solvers": 34158,
-      "tags": [
-        "implementation",
-        "math"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2004/A",
-      "year": 2024
-    },
     "2026-10-14": {
       "key": "1849-B",
       "lc_easy": {
@@ -336,6 +312,28 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1855/A",
       "year": 2023
+    },
+    "2026-10-28": {
+      "key": "2106-C",
+      "lc_easy": {
+        "id": "1309",
+        "slug": "decrypt-string-from-alphabet-to-integer-mapping",
+        "tags": [
+          "String"
+        ],
+        "title": "Decrypt String from Alphabet to Integer Mapping",
+        "url": "https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/"
+      },
+      "name": "Cherry Bomb",
+      "rating": 1000,
+      "solvers": 26594,
+      "tags": [
+        "greedy",
+        "math",
+        "sortings"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2106/C",
+      "year": 2025
     }
   },
   "lc_sent_slugs": [
@@ -381,7 +379,8 @@
     "defuse-the-bomb",
     "rearrange-characters-to-make-target-string",
     "add-binary",
-    "number-of-employees-who-met-the-target"
+    "number-of-employees-who-met-the-target",
+    "decrypt-string-from-alphabet-to-integer-mapping"
   ],
   "sent_keys": [
     "1883-A",
@@ -431,12 +430,10 @@
     "2013-A",
     "2096-A",
     "2178-A",
-    "1855-A"
+    "1855-A",
+    "2106-C"
   ],
   "sent_slots": {
-    "2026-10-13": [
-      8
-    ],
     "2026-10-14": [
       8
     ],
@@ -477,6 +474,9 @@
       8
     ],
     "2026-10-27": [
+      8
+    ],
+    "2026-10-28": [
       8
     ]
   },
