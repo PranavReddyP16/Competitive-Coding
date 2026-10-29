@@ -1,29 +1,5 @@
 {
   "assigned": {
-    "2026-10-14": {
-      "key": "1849-B",
-      "lc_easy": {
-        "id": "2562",
-        "slug": "find-the-array-concatenation-value",
-        "tags": [
-          "Array",
-          "Two Pointers",
-          "Simulation"
-        ],
-        "title": "Find the Array Concatenation Value",
-        "url": "https://leetcode.com/problems/find-the-array-concatenation-value/"
-      },
-      "name": "Monsters",
-      "rating": 1000,
-      "solvers": 50307,
-      "tags": [
-        "greedy",
-        "math",
-        "sortings"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1849/B",
-      "year": 2023
-    },
     "2026-10-15": {
       "key": "1786-A1",
       "lc_easy": {
@@ -334,6 +310,28 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2106/C",
       "year": 2025
+    },
+    "2026-10-29": {
+      "key": "1775-A2",
+      "lc_easy": {
+        "id": "2455",
+        "slug": "average-value-of-even-numbers-that-are-divisible-by-three",
+        "tags": [
+          "Array",
+          "Math"
+        ],
+        "title": "Average Value of Even Numbers That Are Divisible by Three",
+        "url": "https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/"
+      },
+      "name": "Gardener and the Capybaras (hard version)",
+      "rating": 900,
+      "solvers": 20205,
+      "tags": [
+        "constructive algorithms",
+        "greedy"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1775/A2",
+      "year": 2023
     }
   },
   "lc_sent_slugs": [
@@ -380,7 +378,8 @@
     "rearrange-characters-to-make-target-string",
     "add-binary",
     "number-of-employees-who-met-the-target",
-    "decrypt-string-from-alphabet-to-integer-mapping"
+    "decrypt-string-from-alphabet-to-integer-mapping",
+    "average-value-of-even-numbers-that-are-divisible-by-three"
   ],
   "sent_keys": [
     "1883-A",
@@ -431,12 +430,10 @@
     "2096-A",
     "2178-A",
     "1855-A",
-    "2106-C"
+    "2106-C",
+    "1775-A2"
   ],
   "sent_slots": {
-    "2026-10-14": [
-      8
-    ],
     "2026-10-15": [
       8
     ],
@@ -477,6 +474,9 @@
       8
     ],
     "2026-10-28": [
+      8
+    ],
+    "2026-10-29": [
       8
     ]
   },
