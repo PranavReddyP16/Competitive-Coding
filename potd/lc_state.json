@@ -1,17 +1,5 @@
 {
   "assigned": {
-    "2026-10-14": {
-      "difficulty": "Medium",
-      "id": "3723",
-      "is_daily": true,
-      "slug": "maximize-sum-of-squares-of-digits",
-      "tags": [
-        "Math",
-        "Greedy"
-      ],
-      "title": "Maximize Sum of Squares of Digits",
-      "url": "https://leetcode.com/problems/maximize-sum-of-squares-of-digits/"
-    },
     "2026-10-15": {
       "difficulty": "Medium",
       "id": "3527",
@@ -193,6 +181,21 @@
       ],
       "title": "Minimum XOR Path in a Grid",
       "url": "https://leetcode.com/problems/minimum-xor-path-in-a-grid/"
+    },
+    "2026-10-29": {
+      "difficulty": "Medium",
+      "id": "3645",
+      "is_daily": false,
+      "slug": "maximum-total-from-optimal-activation-order",
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Greedy",
+        "Sorting",
+        "Heap (Priority Queue)"
+      ],
+      "title": "Maximum Total from Optimal Activation Order",
+      "url": "https://leetcode.com/problems/maximum-total-from-optimal-activation-order/"
     }
   },
   "sent_slugs": [
@@ -244,6 +247,7 @@
     "number-of-closed-islands",
     "count-islands-with-total-value-divisible-by-k",
     "grumpy-bookstore-owner",
-    "minimum-xor-path-in-a-grid"
+    "minimum-xor-path-in-a-grid",
+    "maximum-total-from-optimal-activation-order"
   ]
 }
