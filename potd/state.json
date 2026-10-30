@@ -1,27 +1,5 @@
 {
   "assigned": {
-    "2026-10-15": {
-      "key": "1786-A1",
-      "lc_easy": {
-        "id": "1217",
-        "slug": "minimum-cost-to-move-chips-to-the-same-position",
-        "tags": [
-          "Array",
-          "Math",
-          "Greedy"
-        ],
-        "title": "Minimum Cost to Move Chips to The Same Position",
-        "url": "https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/"
-      },
-      "name": "Non-alternating Deck (easy version)",
-      "rating": 800,
-      "solvers": 14888,
-      "tags": [
-        "implementation"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1786/A1",
-      "year": 2023
-    },
     "2026-10-16": {
       "key": "2184-A",
       "lc_easy": {
@@ -332,6 +310,28 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1775/A2",
       "year": 2023
+    },
+    "2026-10-30": {
+      "key": "1968-B",
+      "lc_easy": {
+        "id": "643",
+        "slug": "maximum-average-subarray-i",
+        "tags": [
+          "Array",
+          "Sliding Window"
+        ],
+        "title": "Maximum Average Subarray I",
+        "url": "https://leetcode.com/problems/maximum-average-subarray-i/"
+      },
+      "name": "Prefiquence",
+      "rating": 800,
+      "solvers": 32266,
+      "tags": [
+        "greedy",
+        "two pointers"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1968/B",
+      "year": 2024
     }
   },
   "lc_sent_slugs": [
@@ -379,7 +379,8 @@
     "add-binary",
     "number-of-employees-who-met-the-target",
     "decrypt-string-from-alphabet-to-integer-mapping",
-    "average-value-of-even-numbers-that-are-divisible-by-three"
+    "average-value-of-even-numbers-that-are-divisible-by-three",
+    "maximum-average-subarray-i"
   ],
   "sent_keys": [
     "1883-A",
@@ -431,12 +432,10 @@
     "2178-A",
     "1855-A",
     "2106-C",
-    "1775-A2"
+    "1775-A2",
+    "1968-B"
   ],
   "sent_slots": {
-    "2026-10-15": [
-      8
-    ],
     "2026-10-16": [
       8
     ],
@@ -477,6 +476,9 @@
       8
     ],
     "2026-10-29": [
+      8
+    ],
+    "2026-10-30": [
       8
     ]
   },
