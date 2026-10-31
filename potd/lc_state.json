@@ -1,17 +1,5 @@
 {
   "assigned": {
-    "2026-10-16": {
-      "difficulty": "Medium",
-      "id": "400",
-      "is_daily": false,
-      "slug": "nth-digit",
-      "tags": [
-        "Math",
-        "Binary Search"
-      ],
-      "title": "Nth Digit",
-      "url": "https://leetcode.com/problems/nth-digit/"
-    },
     "2026-10-17": {
       "difficulty": "Medium",
       "id": "3551",
@@ -196,6 +184,19 @@
       ],
       "title": "Shortest Path With At Most K Consecutive Identical Characters",
       "url": "https://leetcode.com/problems/shortest-path-with-at-most-k-consecutive-identical-characters/"
+    },
+    "2026-10-31": {
+      "difficulty": "Medium",
+      "id": "3665",
+      "is_daily": true,
+      "slug": "twisted-mirror-path-count",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Matrix"
+      ],
+      "title": "Twisted Mirror Path Count",
+      "url": "https://leetcode.com/problems/twisted-mirror-path-count/"
     }
   },
   "sent_slugs": [
@@ -249,6 +250,7 @@
     "grumpy-bookstore-owner",
     "minimum-xor-path-in-a-grid",
     "maximum-total-from-optimal-activation-order",
-    "shortest-path-with-at-most-k-consecutive-identical-characters"
+    "shortest-path-with-at-most-k-consecutive-identical-characters",
+    "twisted-mirror-path-count"
   ]
 }
