@@ -1,26 +1,5 @@
 {
   "assigned": {
-    "2026-10-16": {
-      "key": "2184-A",
-      "lc_easy": {
-        "id": "191",
-        "slug": "number-of-1-bits",
-        "tags": [
-          "Divide and Conquer",
-          "Bit Manipulation"
-        ],
-        "title": "Number of 1 Bits",
-        "url": "https://leetcode.com/problems/number-of-1-bits/"
-      },
-      "name": "Social Experiment",
-      "rating": 800,
-      "solvers": 40926,
-      "tags": [
-        "math"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2184/A",
-      "year": 2026
-    },
     "2026-10-17": {
       "key": "2220-A",
       "lc_easy": {
@@ -332,6 +311,28 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1968/B",
       "year": 2024
+    },
+    "2026-10-31": {
+      "key": "1807-A",
+      "lc_easy": {
+        "id": "2996",
+        "slug": "smallest-missing-integer-greater-than-sequential-prefix-sum",
+        "tags": [
+          "Array",
+          "Hash Table",
+          "Sorting"
+        ],
+        "title": "Smallest Missing Integer Greater Than Sequential Prefix Sum",
+        "url": "https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/"
+      },
+      "name": "Plus or Minus",
+      "rating": 800,
+      "solvers": 90850,
+      "tags": [
+        "implementation"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1807/A",
+      "year": 2023
     }
   },
   "lc_sent_slugs": [
@@ -380,7 +381,8 @@
     "number-of-employees-who-met-the-target",
     "decrypt-string-from-alphabet-to-integer-mapping",
     "average-value-of-even-numbers-that-are-divisible-by-three",
-    "maximum-average-subarray-i"
+    "maximum-average-subarray-i",
+    "smallest-missing-integer-greater-than-sequential-prefix-sum"
   ],
   "sent_keys": [
     "1883-A",
@@ -433,12 +435,10 @@
     "1855-A",
     "2106-C",
     "1775-A2",
-    "1968-B"
+    "1968-B",
+    "1807-A"
   ],
   "sent_slots": {
-    "2026-10-16": [
-      8
-    ],
     "2026-10-17": [
       8
     ],
@@ -479,6 +479,9 @@
       8
     ],
     "2026-10-30": [
+      8
+    ],
+    "2026-10-31": [
       8
     ]
   },
