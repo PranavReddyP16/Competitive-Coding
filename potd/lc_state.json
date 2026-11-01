@@ -1,18 +1,5 @@
 {
   "assigned": {
-    "2026-10-17": {
-      "difficulty": "Medium",
-      "id": "3551",
-      "is_daily": true,
-      "slug": "minimum-swaps-to-sort-by-digit-sum",
-      "tags": [
-        "Array",
-        "Hash Table",
-        "Sorting"
-      ],
-      "title": "Minimum Swaps to Sort by Digit Sum",
-      "url": "https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/"
-    },
     "2026-10-18": {
       "difficulty": "Medium",
       "id": "3002",
@@ -197,6 +184,18 @@
       ],
       "title": "Twisted Mirror Path Count",
       "url": "https://leetcode.com/problems/twisted-mirror-path-count/"
+    },
+    "2026-11-01": {
+      "difficulty": "Medium",
+      "id": "453",
+      "is_daily": true,
+      "slug": "minimum-moves-to-equal-array-elements",
+      "tags": [
+        "Array",
+        "Math"
+      ],
+      "title": "Minimum Moves to Equal Array Elements",
+      "url": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements/"
     }
   },
   "sent_slugs": [
@@ -251,6 +250,7 @@
     "minimum-xor-path-in-a-grid",
     "maximum-total-from-optimal-activation-order",
     "shortest-path-with-at-most-k-consecutive-identical-characters",
-    "twisted-mirror-path-count"
+    "twisted-mirror-path-count",
+    "minimum-moves-to-equal-array-elements"
   ]
 }
