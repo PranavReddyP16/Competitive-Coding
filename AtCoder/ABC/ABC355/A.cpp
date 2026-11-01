@@ -8,3 +8,4 @@ signed main(){int a,b;cin>>a>>b;cout<<a+b<<"\n";}
 // 7716
 // 5623
 // 4510
+// refactored: simplified main logic
