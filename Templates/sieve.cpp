@@ -58,3 +58,4 @@ int main() {
 // Variant: supports range update with lazy propagation
 // Updated: simplified merge function
 // Tip: can be persistent with path copying
+// Extension: works with any associative operation
