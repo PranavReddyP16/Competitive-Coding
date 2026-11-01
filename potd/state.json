@@ -1,28 +1,5 @@
 {
   "assigned": {
-    "2026-10-17": {
-      "key": "2220-A",
-      "lc_easy": {
-        "id": "1189",
-        "slug": "maximum-number-of-balloons",
-        "tags": [
-          "Hash Table",
-          "String",
-          "Counting"
-        ],
-        "title": "Maximum Number of Balloons",
-        "url": "https://leetcode.com/problems/maximum-number-of-balloons/"
-      },
-      "name": "Blocked",
-      "rating": 800,
-      "solvers": 21940,
-      "tags": [
-        "greedy",
-        "sortings"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2220/A",
-      "year": 2026
-    },
     "2026-10-18": {
       "key": "1777-B",
       "lc_easy": {
@@ -333,6 +310,28 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1807/A",
       "year": 2023
+    },
+    "2026-11-01": {
+      "key": "1783-A",
+      "lc_easy": {
+        "id": "2124",
+        "slug": "check-if-all-as-appears-before-all-bs",
+        "tags": [
+          "String"
+        ],
+        "title": "Check if All A's Appears Before All B's",
+        "url": "https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/"
+      },
+      "name": "Make it Beautiful",
+      "rating": 800,
+      "solvers": 55910,
+      "tags": [
+        "constructive algorithms",
+        "math",
+        "sortings"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1783/A",
+      "year": 2023
     }
   },
   "lc_sent_slugs": [
@@ -382,7 +381,8 @@
     "decrypt-string-from-alphabet-to-integer-mapping",
     "average-value-of-even-numbers-that-are-divisible-by-three",
     "maximum-average-subarray-i",
-    "smallest-missing-integer-greater-than-sequential-prefix-sum"
+    "smallest-missing-integer-greater-than-sequential-prefix-sum",
+    "check-if-all-as-appears-before-all-bs"
   ],
   "sent_keys": [
     "1883-A",
@@ -436,12 +436,10 @@
     "2106-C",
     "1775-A2",
     "1968-B",
-    "1807-A"
+    "1807-A",
+    "1783-A"
   ],
   "sent_slots": {
-    "2026-10-17": [
-      8
-    ],
     "2026-10-18": [
       8
     ],
@@ -482,6 +480,9 @@
       8
     ],
     "2026-10-31": [
+      8
+    ],
+    "2026-11-01": [
       8
     ]
   },
