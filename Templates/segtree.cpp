@@ -76,3 +76,4 @@ signed main() {
 // Added: support for walk/descent queries
 // Added: support for walk/descent queries
 // Updated: simplified merge function
+// Tip: can be persistent with path copying
