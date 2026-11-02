@@ -1,18 +1,5 @@
 {
   "assigned": {
-    "2026-10-18": {
-      "difficulty": "Medium",
-      "id": "3002",
-      "is_daily": false,
-      "slug": "maximum-size-of-a-set-after-removals",
-      "tags": [
-        "Array",
-        "Hash Table",
-        "Greedy"
-      ],
-      "title": "Maximum Size of a Set After Removals",
-      "url": "https://leetcode.com/problems/maximum-size-of-a-set-after-removals/"
-    },
     "2026-10-19": {
       "difficulty": "Medium",
       "id": "81",
@@ -196,6 +183,19 @@
       ],
       "title": "Minimum Moves to Equal Array Elements",
       "url": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements/"
+    },
+    "2026-11-02": {
+      "difficulty": "Medium",
+      "id": "462",
+      "is_daily": true,
+      "slug": "minimum-moves-to-equal-array-elements-ii",
+      "tags": [
+        "Array",
+        "Math",
+        "Sorting"
+      ],
+      "title": "Minimum Moves to Equal Array Elements II",
+      "url": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/"
     }
   },
   "sent_slugs": [
@@ -251,6 +251,7 @@
     "maximum-total-from-optimal-activation-order",
     "shortest-path-with-at-most-k-consecutive-identical-characters",
     "twisted-mirror-path-count",
-    "minimum-moves-to-equal-array-elements"
+    "minimum-moves-to-equal-array-elements",
+    "minimum-moves-to-equal-array-elements-ii"
   ]
 }
