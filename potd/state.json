@@ -1,29 +1,5 @@
 {
   "assigned": {
-    "2026-10-18": {
-      "key": "1777-B",
-      "lc_easy": {
-        "id": "258",
-        "slug": "add-digits",
-        "tags": [
-          "Math",
-          "Simulation",
-          "Number Theory"
-        ],
-        "title": "Add Digits",
-        "url": "https://leetcode.com/problems/add-digits/"
-      },
-      "name": "Emordnilap",
-      "rating": 900,
-      "solvers": 19594,
-      "tags": [
-        "combinatorics",
-        "greedy",
-        "math"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1777/B",
-      "year": 2023
-    },
     "2026-10-19": {
       "key": "2126-B",
       "lc_easy": {
@@ -332,6 +308,28 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1783/A",
       "year": 2023
+    },
+    "2026-11-02": {
+      "key": "1974-A",
+      "lc_easy": {
+        "id": "2903",
+        "slug": "find-indices-with-index-and-value-difference-i",
+        "tags": [
+          "Array",
+          "Two Pointers"
+        ],
+        "title": "Find Indices With Index and Value Difference I",
+        "url": "https://leetcode.com/problems/find-indices-with-index-and-value-difference-i/"
+      },
+      "name": "Phone Desktop",
+      "rating": 800,
+      "solvers": 38665,
+      "tags": [
+        "greedy",
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1974/A",
+      "year": 2024
     }
   },
   "lc_sent_slugs": [
@@ -382,7 +380,8 @@
     "average-value-of-even-numbers-that-are-divisible-by-three",
     "maximum-average-subarray-i",
     "smallest-missing-integer-greater-than-sequential-prefix-sum",
-    "check-if-all-as-appears-before-all-bs"
+    "check-if-all-as-appears-before-all-bs",
+    "find-indices-with-index-and-value-difference-i"
   ],
   "sent_keys": [
     "1883-A",
@@ -437,12 +436,10 @@
     "1775-A2",
     "1968-B",
     "1807-A",
-    "1783-A"
+    "1783-A",
+    "1974-A"
   ],
   "sent_slots": {
-    "2026-10-18": [
-      8
-    ],
     "2026-10-19": [
       8
     ],
@@ -483,6 +480,9 @@
       8
     ],
     "2026-11-01": [
+      8
+    ],
+    "2026-11-02": [
       8
     ]
   },
