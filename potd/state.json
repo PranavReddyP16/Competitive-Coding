@@ -1,27 +1,5 @@
 {
   "assigned": {
-    "2026-10-19": {
-      "key": "2126-B",
-      "lc_easy": {
-        "id": "3996",
-        "slug": "even-number-of-knight-moves",
-        "tags": [
-          "Array",
-          "Math"
-        ],
-        "title": "Even Number of Knight Moves",
-        "url": "https://leetcode.com/problems/even-number-of-knight-moves/"
-      },
-      "name": "No Casino in the Mountains",
-      "rating": 800,
-      "solvers": 38937,
-      "tags": [
-        "dp",
-        "greedy"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2126/B",
-      "year": 2025
-    },
     "2026-10-20": {
       "key": "2247-B",
       "lc_easy": {
@@ -330,6 +308,29 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1974/A",
       "year": 2024
+    },
+    "2026-11-03": {
+      "key": "1800-B",
+      "lc_easy": {
+        "id": "3674",
+        "slug": "minimum-operations-to-equalize-array",
+        "tags": [
+          "Array",
+          "Bit Manipulation",
+          "Brainteaser"
+        ],
+        "title": "Minimum Operations to Equalize Array",
+        "url": "https://leetcode.com/problems/minimum-operations-to-equalize-array/"
+      },
+      "name": "Count the Number of Pairs",
+      "rating": 1000,
+      "solvers": 29305,
+      "tags": [
+        "greedy",
+        "strings"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1800/B",
+      "year": 2023
     }
   },
   "lc_sent_slugs": [
@@ -381,7 +382,8 @@
     "maximum-average-subarray-i",
     "smallest-missing-integer-greater-than-sequential-prefix-sum",
     "check-if-all-as-appears-before-all-bs",
-    "find-indices-with-index-and-value-difference-i"
+    "find-indices-with-index-and-value-difference-i",
+    "minimum-operations-to-equalize-array"
   ],
   "sent_keys": [
     "1883-A",
@@ -437,12 +439,10 @@
     "1968-B",
     "1807-A",
     "1783-A",
-    "1974-A"
+    "1974-A",
+    "1800-B"
   ],
   "sent_slots": {
-    "2026-10-19": [
-      8
-    ],
     "2026-10-20": [
       8
     ],
@@ -483,6 +483,9 @@
       8
     ],
     "2026-11-02": [
+      8
+    ],
+    "2026-11-03": [
       8
     ]
   },
