@@ -1,17 +1,5 @@
 {
   "assigned": {
-    "2026-10-19": {
-      "difficulty": "Medium",
-      "id": "81",
-      "is_daily": false,
-      "slug": "search-in-rotated-sorted-array-ii",
-      "tags": [
-        "Array",
-        "Binary Search"
-      ],
-      "title": "Search in Rotated Sorted Array II",
-      "url": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/"
-    },
     "2026-10-20": {
       "difficulty": "Medium",
       "id": "673",
@@ -196,6 +184,17 @@
       ],
       "title": "Minimum Moves to Equal Array Elements II",
       "url": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/"
+    },
+    "2026-11-03": {
+      "difficulty": "Medium",
+      "id": "1669",
+      "is_daily": false,
+      "slug": "merge-in-between-linked-lists",
+      "tags": [
+        "Linked List"
+      ],
+      "title": "Merge In Between Linked Lists",
+      "url": "https://leetcode.com/problems/merge-in-between-linked-lists/"
     }
   },
   "sent_slugs": [
@@ -252,6 +251,7 @@
     "shortest-path-with-at-most-k-consecutive-identical-characters",
     "twisted-mirror-path-count",
     "minimum-moves-to-equal-array-elements",
-    "minimum-moves-to-equal-array-elements-ii"
+    "minimum-moves-to-equal-array-elements-ii",
+    "merge-in-between-linked-lists"
   ]
 }
