@@ -1,26 +1,5 @@
 {
   "assigned": {
-    "2026-10-20": {
-      "key": "2247-B",
-      "lc_easy": {
-        "id": "3142",
-        "slug": "check-if-grid-satisfies-conditions",
-        "tags": [
-          "Array",
-          "Matrix"
-        ],
-        "title": "Check if Grid Satisfies Conditions",
-        "url": "https://leetcode.com/problems/check-if-grid-satisfies-conditions/"
-      },
-      "name": "Yet Another Constructive",
-      "rating": 900,
-      "solvers": 16856,
-      "tags": [
-        "constructive algorithms"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2247/B",
-      "year": 2026
-    },
     "2026-10-21": {
       "key": "2216-A",
       "lc_easy": {
@@ -331,6 +310,31 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1800/B",
       "year": 2023
+    },
+    "2026-11-04": {
+      "key": "2121-B",
+      "lc_easy": {
+        "id": "3024",
+        "slug": "type-of-triangle",
+        "tags": [
+          "Array",
+          "Math",
+          "Sorting",
+          "Polygons"
+        ],
+        "title": "Type of Triangle",
+        "url": "https://leetcode.com/problems/type-of-triangle/"
+      },
+      "name": "Above the Clouds",
+      "rating": 800,
+      "solvers": 33193,
+      "tags": [
+        "constructive algorithms",
+        "greedy",
+        "strings"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2121/B",
+      "year": 2025
     }
   },
   "lc_sent_slugs": [
@@ -383,7 +387,8 @@
     "smallest-missing-integer-greater-than-sequential-prefix-sum",
     "check-if-all-as-appears-before-all-bs",
     "find-indices-with-index-and-value-difference-i",
-    "minimum-operations-to-equalize-array"
+    "minimum-operations-to-equalize-array",
+    "type-of-triangle"
   ],
   "sent_keys": [
     "1883-A",
@@ -440,12 +445,10 @@
     "1807-A",
     "1783-A",
     "1974-A",
-    "1800-B"
+    "1800-B",
+    "2121-B"
   ],
   "sent_slots": {
-    "2026-10-20": [
-      8
-    ],
     "2026-10-21": [
       8
     ],
@@ -486,6 +489,9 @@
       8
     ],
     "2026-11-03": [
+      8
+    ],
+    "2026-11-04": [
       8
     ]
   },
