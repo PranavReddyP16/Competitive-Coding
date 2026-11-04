@@ -1,20 +1,5 @@
 {
   "assigned": {
-    "2026-10-20": {
-      "difficulty": "Medium",
-      "id": "673",
-      "is_daily": false,
-      "slug": "number-of-longest-increasing-subsequence",
-      "tags": [
-        "Array",
-        "Dynamic Programming",
-        "Binary Indexed Tree",
-        "Segment Tree",
-        "Longest Increasing Subsequence"
-      ],
-      "title": "Number of Longest Increasing Subsequence",
-      "url": "https://leetcode.com/problems/number-of-longest-increasing-subsequence/"
-    },
     "2026-10-21": {
       "difficulty": "Medium",
       "id": "3863",
@@ -195,6 +180,20 @@
       ],
       "title": "Merge In Between Linked Lists",
       "url": "https://leetcode.com/problems/merge-in-between-linked-lists/"
+    },
+    "2026-11-04": {
+      "difficulty": "Medium",
+      "id": "3112",
+      "is_daily": false,
+      "slug": "minimum-time-to-visit-disappearing-nodes",
+      "tags": [
+        "Array",
+        "Graph Theory",
+        "Heap (Priority Queue)",
+        "Shortest Path"
+      ],
+      "title": "Minimum Time to Visit Disappearing Nodes",
+      "url": "https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/"
     }
   },
   "sent_slugs": [
@@ -252,6 +251,7 @@
     "twisted-mirror-path-count",
     "minimum-moves-to-equal-array-elements",
     "minimum-moves-to-equal-array-elements-ii",
-    "merge-in-between-linked-lists"
+    "merge-in-between-linked-lists",
+    "minimum-time-to-visit-disappearing-nodes"
   ]
 }
