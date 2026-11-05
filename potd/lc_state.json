@@ -1,16 +1,5 @@
 {
   "assigned": {
-    "2026-10-21": {
-      "difficulty": "Medium",
-      "id": "3863",
-      "is_daily": true,
-      "slug": "minimum-operations-to-sort-a-string",
-      "tags": [
-        "String"
-      ],
-      "title": "Minimum Operations to Sort a String",
-      "url": "https://leetcode.com/problems/minimum-operations-to-sort-a-string/"
-    },
     "2026-10-22": {
       "difficulty": "Medium",
       "id": "3942",
@@ -194,6 +183,18 @@
       ],
       "title": "Minimum Time to Visit Disappearing Nodes",
       "url": "https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/"
+    },
+    "2026-11-05": {
+      "difficulty": "Medium",
+      "id": "794",
+      "is_daily": false,
+      "slug": "valid-tic-tac-toe-state",
+      "tags": [
+        "Array",
+        "Matrix"
+      ],
+      "title": "Valid Tic-Tac-Toe State",
+      "url": "https://leetcode.com/problems/valid-tic-tac-toe-state/"
     }
   },
   "sent_slugs": [
@@ -252,6 +253,7 @@
     "minimum-moves-to-equal-array-elements",
     "minimum-moves-to-equal-array-elements-ii",
     "merge-in-between-linked-lists",
-    "minimum-time-to-visit-disappearing-nodes"
+    "minimum-time-to-visit-disappearing-nodes",
+    "valid-tic-tac-toe-state"
   ]
 }
