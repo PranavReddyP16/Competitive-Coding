@@ -1,28 +1,5 @@
 {
   "assigned": {
-    "2026-10-21": {
-      "key": "2216-A",
-      "lc_easy": {
-        "id": "2970",
-        "slug": "count-the-number-of-incremovable-subarrays-i",
-        "tags": [
-          "Array",
-          "Two Pointers",
-          "Binary Search",
-          "Enumeration"
-        ],
-        "title": "Count the Number of Incremovable Subarrays I",
-        "url": "https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/"
-      },
-      "name": "Course Wishes",
-      "rating": 900,
-      "solvers": 6688,
-      "tags": [
-        "greedy"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2216/A",
-      "year": 2026
-    },
     "2026-10-22": {
       "key": "2037-A",
       "lc_easy": {
@@ -335,6 +312,29 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2121/B",
       "year": 2025
+    },
+    "2026-11-05": {
+      "key": "1816-A",
+      "lc_easy": {
+        "id": "3959",
+        "slug": "check-good-integer",
+        "tags": [
+          "Math",
+          "Simulation"
+        ],
+        "title": "Check Good Integer",
+        "url": "https://leetcode.com/problems/check-good-integer/"
+      },
+      "name": "\u042f\u043d \u043d\u0430\u0432\u0435\u0449\u0430\u0435\u0442 \u041c\u044d\u0440\u0438",
+      "rating": 800,
+      "solvers": 19177,
+      "tags": [
+        "constructive algorithms",
+        "geometry",
+        "number theory"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1816/A",
+      "year": 2023
     }
   },
   "lc_sent_slugs": [
@@ -388,7 +388,8 @@
     "check-if-all-as-appears-before-all-bs",
     "find-indices-with-index-and-value-difference-i",
     "minimum-operations-to-equalize-array",
-    "type-of-triangle"
+    "type-of-triangle",
+    "check-good-integer"
   ],
   "sent_keys": [
     "1883-A",
@@ -446,12 +447,10 @@
     "1783-A",
     "1974-A",
     "1800-B",
-    "2121-B"
+    "2121-B",
+    "1816-A"
   ],
   "sent_slots": {
-    "2026-10-21": [
-      8
-    ],
     "2026-10-22": [
       8
     ],
@@ -492,6 +491,9 @@
       8
     ],
     "2026-11-04": [
+      8
+    ],
+    "2026-11-05": [
       8
     ]
   },
