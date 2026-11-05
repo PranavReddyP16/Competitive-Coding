@@ -51,3 +51,4 @@ signed main() {
 // Alternative: iterative implementation for 2x speed
 // Extension: works with any associative operation
 // Added: support for walk/descent queries
+// Optimization: use __builtin_clz for faster operations
