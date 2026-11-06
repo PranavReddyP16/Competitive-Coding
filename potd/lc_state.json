@@ -1,16 +1,5 @@
 {
   "assigned": {
-    "2026-10-22": {
-      "difficulty": "Medium",
-      "id": "3942",
-      "is_daily": true,
-      "slug": "minimum-operations-to-sort-a-permutation",
-      "tags": [
-        "Array"
-      ],
-      "title": "Minimum Operations to Sort a Permutation",
-      "url": "https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/"
-    },
     "2026-10-23": {
       "difficulty": "Medium",
       "id": "3644",
@@ -195,6 +184,20 @@
       ],
       "title": "Valid Tic-Tac-Toe State",
       "url": "https://leetcode.com/problems/valid-tic-tac-toe-state/"
+    },
+    "2026-11-06": {
+      "difficulty": "Medium",
+      "id": "2747",
+      "is_daily": true,
+      "slug": "count-zero-request-servers",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Sliding Window",
+        "Sorting"
+      ],
+      "title": "Count Zero Request Servers",
+      "url": "https://leetcode.com/problems/count-zero-request-servers/"
     }
   },
   "sent_slugs": [
@@ -254,6 +257,7 @@
     "minimum-moves-to-equal-array-elements-ii",
     "merge-in-between-linked-lists",
     "minimum-time-to-visit-disappearing-nodes",
-    "valid-tic-tac-toe-state"
+    "valid-tic-tac-toe-state",
+    "count-zero-request-servers"
   ]
 }
