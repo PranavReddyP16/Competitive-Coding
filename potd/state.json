@@ -1,25 +1,5 @@
 {
   "assigned": {
-    "2026-10-22": {
-      "key": "2037-A",
-      "lc_easy": {
-        "id": "2520",
-        "slug": "count-the-digits-that-divide-a-number",
-        "tags": [
-          "Math"
-        ],
-        "title": "Count the Digits That Divide a Number",
-        "url": "https://leetcode.com/problems/count-the-digits-that-divide-a-number/"
-      },
-      "name": "Twice",
-      "rating": 800,
-      "solvers": 36825,
-      "tags": [
-        "implementation"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2037/A",
-      "year": 2024
-    },
     "2026-10-23": {
       "key": "1896-B",
       "lc_easy": {
@@ -335,6 +315,30 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1816/A",
       "year": 2023
+    },
+    "2026-11-06": {
+      "key": "1975-A",
+      "lc_easy": {
+        "id": "1662",
+        "slug": "check-if-two-string-arrays-are-equivalent",
+        "tags": [
+          "Array",
+          "String"
+        ],
+        "title": "Check If Two String Arrays are Equivalent",
+        "url": "https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/"
+      },
+      "name": "Bazoka and Mocha's Array",
+      "rating": 800,
+      "solvers": 21013,
+      "tags": [
+        "brute force",
+        "greedy",
+        "implementation",
+        "sortings"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1975/A",
+      "year": 2024
     }
   },
   "lc_sent_slugs": [
@@ -389,7 +393,8 @@
     "find-indices-with-index-and-value-difference-i",
     "minimum-operations-to-equalize-array",
     "type-of-triangle",
-    "check-good-integer"
+    "check-good-integer",
+    "check-if-two-string-arrays-are-equivalent"
   ],
   "sent_keys": [
     "1883-A",
@@ -448,12 +453,10 @@
     "1974-A",
     "1800-B",
     "2121-B",
-    "1816-A"
+    "1816-A",
+    "1975-A"
   ],
   "sent_slots": {
-    "2026-10-22": [
-      8
-    ],
     "2026-10-23": [
       8
     ],
@@ -494,6 +497,9 @@
       8
     ],
     "2026-11-05": [
+      8
+    ],
+    "2026-11-06": [
       8
     ]
   },
