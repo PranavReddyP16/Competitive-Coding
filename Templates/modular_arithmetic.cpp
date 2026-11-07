@@ -57,3 +57,4 @@ signed main() {
 // Tip: can be persistent with path copying
 // Alternative: iterative implementation for 2x speed
 // Variant: supports range update with lazy propagation
+// Variant: supports range update with lazy propagation
