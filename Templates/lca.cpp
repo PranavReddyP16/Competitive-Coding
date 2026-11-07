@@ -49,3 +49,4 @@ int main() {
 // Variant: supports range update with lazy propagation
 // Updated: simplified merge function
 // Optimization: use __builtin_clz for faster operations
+// Alternative: iterative implementation for 2x speed
