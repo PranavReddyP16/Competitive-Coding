@@ -1,17 +1,5 @@
 {
   "assigned": {
-    "2026-10-23": {
-      "difficulty": "Medium",
-      "id": "3644",
-      "is_daily": true,
-      "slug": "maximum-k-to-sort-a-permutation",
-      "tags": [
-        "Array",
-        "Bit Manipulation"
-      ],
-      "title": "Maximum K to Sort a Permutation",
-      "url": "https://leetcode.com/problems/maximum-k-to-sort-a-permutation/"
-    },
     "2026-10-24": {
       "difficulty": "Medium",
       "id": "784",
@@ -198,6 +186,18 @@
       ],
       "title": "Count Zero Request Servers",
       "url": "https://leetcode.com/problems/count-zero-request-servers/"
+    },
+    "2026-11-07": {
+      "difficulty": "Medium",
+      "id": "1882",
+      "is_daily": true,
+      "slug": "process-tasks-using-servers",
+      "tags": [
+        "Array",
+        "Heap (Priority Queue)"
+      ],
+      "title": "Process Tasks Using Servers",
+      "url": "https://leetcode.com/problems/process-tasks-using-servers/"
     }
   },
   "sent_slugs": [
@@ -258,6 +258,7 @@
     "merge-in-between-linked-lists",
     "minimum-time-to-visit-disappearing-nodes",
     "valid-tic-tac-toe-state",
-    "count-zero-request-servers"
+    "count-zero-request-servers",
+    "process-tasks-using-servers"
   ]
 }
