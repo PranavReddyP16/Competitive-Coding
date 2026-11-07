@@ -1,28 +1,5 @@
 {
   "assigned": {
-    "2026-10-23": {
-      "key": "1896-B",
-      "lc_easy": {
-        "id": "3280",
-        "slug": "convert-date-to-binary",
-        "tags": [
-          "Math",
-          "String"
-        ],
-        "title": "Convert Date to Binary",
-        "url": "https://leetcode.com/problems/convert-date-to-binary/"
-      },
-      "name": "AB Flipping",
-      "rating": 900,
-      "solvers": 19152,
-      "tags": [
-        "greedy",
-        "strings",
-        "two pointers"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1896/B",
-      "year": 2023
-    },
     "2026-10-24": {
       "key": "2013-A",
       "lc_easy": {
@@ -339,6 +316,29 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1975/A",
       "year": 2024
+    },
+    "2026-11-07": {
+      "key": "1932-A",
+      "lc_easy": {
+        "id": "766",
+        "slug": "toeplitz-matrix",
+        "tags": [
+          "Array",
+          "Matrix"
+        ],
+        "title": "Toeplitz Matrix",
+        "url": "https://leetcode.com/problems/toeplitz-matrix/"
+      },
+      "name": "Thorns and Coins",
+      "rating": 800,
+      "solvers": 34966,
+      "tags": [
+        "dp",
+        "greedy",
+        "implementation"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1932/A",
+      "year": 2024
     }
   },
   "lc_sent_slugs": [
@@ -394,7 +394,8 @@
     "minimum-operations-to-equalize-array",
     "type-of-triangle",
     "check-good-integer",
-    "check-if-two-string-arrays-are-equivalent"
+    "check-if-two-string-arrays-are-equivalent",
+    "toeplitz-matrix"
   ],
   "sent_keys": [
     "1883-A",
@@ -454,12 +455,10 @@
     "1800-B",
     "2121-B",
     "1816-A",
-    "1975-A"
+    "1975-A",
+    "1932-A"
   ],
   "sent_slots": {
-    "2026-10-23": [
-      8
-    ],
     "2026-10-24": [
       8
     ],
@@ -500,6 +499,9 @@
       8
     ],
     "2026-11-06": [
+      8
+    ],
+    "2026-11-07": [
       8
     ]
   },
