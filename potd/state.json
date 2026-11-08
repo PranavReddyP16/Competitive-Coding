@@ -1,27 +1,5 @@
 {
   "assigned": {
-    "2026-10-24": {
-      "key": "2013-A",
-      "lc_easy": {
-        "id": "1652",
-        "slug": "defuse-the-bomb",
-        "tags": [
-          "Array",
-          "Sliding Window"
-        ],
-        "title": "Defuse the Bomb",
-        "url": "https://leetcode.com/problems/defuse-the-bomb/"
-      },
-      "name": "Zhan's Blender",
-      "rating": 800,
-      "solvers": 31740,
-      "tags": [
-        "constructive algorithms",
-        "math"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2013/A",
-      "year": 2024
-    },
     "2026-10-25": {
       "key": "2096-A",
       "lc_easy": {
@@ -339,6 +317,27 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1932/A",
       "year": 2024
+    },
+    "2026-11-08": {
+      "key": "2185-A",
+      "lc_easy": {
+        "id": "3019",
+        "slug": "number-of-changing-keys",
+        "tags": [
+          "String"
+        ],
+        "title": "Number of Changing Keys",
+        "url": "https://leetcode.com/problems/number-of-changing-keys/"
+      },
+      "name": "Perfect Root",
+      "rating": 800,
+      "solvers": 48223,
+      "tags": [
+        "constructive algorithms",
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2185/A",
+      "year": 2026
     }
   },
   "lc_sent_slugs": [
@@ -395,7 +394,8 @@
     "type-of-triangle",
     "check-good-integer",
     "check-if-two-string-arrays-are-equivalent",
-    "toeplitz-matrix"
+    "toeplitz-matrix",
+    "number-of-changing-keys"
   ],
   "sent_keys": [
     "1883-A",
@@ -456,12 +456,10 @@
     "2121-B",
     "1816-A",
     "1975-A",
-    "1932-A"
+    "1932-A",
+    "2185-A"
   ],
   "sent_slots": {
-    "2026-10-24": [
-      8
-    ],
     "2026-10-25": [
       8
     ],
@@ -502,6 +500,9 @@
       8
     ],
     "2026-11-07": [
+      8
+    ],
+    "2026-11-08": [
       8
     ]
   },
