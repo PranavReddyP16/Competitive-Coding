@@ -1,18 +1,5 @@
 {
   "assigned": {
-    "2026-10-24": {
-      "difficulty": "Medium",
-      "id": "784",
-      "is_daily": false,
-      "slug": "letter-case-permutation",
-      "tags": [
-        "String",
-        "Backtracking",
-        "Bit Manipulation"
-      ],
-      "title": "Letter Case Permutation",
-      "url": "https://leetcode.com/problems/letter-case-permutation/"
-    },
     "2026-10-25": {
       "difficulty": "Medium",
       "id": "1254",
@@ -198,6 +185,22 @@
       ],
       "title": "Process Tasks Using Servers",
       "url": "https://leetcode.com/problems/process-tasks-using-servers/"
+    },
+    "2026-11-08": {
+      "difficulty": "Medium",
+      "id": "1267",
+      "is_daily": true,
+      "slug": "count-servers-that-communicate",
+      "tags": [
+        "Array",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Union-Find",
+        "Matrix",
+        "Counting"
+      ],
+      "title": "Count Servers that Communicate",
+      "url": "https://leetcode.com/problems/count-servers-that-communicate/"
     }
   },
   "sent_slugs": [
@@ -259,6 +262,7 @@
     "minimum-time-to-visit-disappearing-nodes",
     "valid-tic-tac-toe-state",
     "count-zero-request-servers",
-    "process-tasks-using-servers"
+    "process-tasks-using-servers",
+    "count-servers-that-communicate"
   ]
 }
