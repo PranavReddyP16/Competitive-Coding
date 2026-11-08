@@ -55,3 +55,4 @@ signed main() {
 // Alternative: iterative implementation for 2x speed
 // Variant: supports range update with lazy propagation
 // Added: support for walk/descent queries
+// Extension: works with any associative operation
