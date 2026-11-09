@@ -1,20 +1,5 @@
 {
   "assigned": {
-    "2026-10-25": {
-      "difficulty": "Medium",
-      "id": "1254",
-      "is_daily": true,
-      "slug": "number-of-closed-islands",
-      "tags": [
-        "Array",
-        "Depth-First Search",
-        "Breadth-First Search",
-        "Union-Find",
-        "Matrix"
-      ],
-      "title": "Number of Closed Islands",
-      "url": "https://leetcode.com/problems/number-of-closed-islands/"
-    },
     "2026-10-26": {
       "difficulty": "Medium",
       "id": "3619",
@@ -201,6 +186,20 @@
       ],
       "title": "Count Servers that Communicate",
       "url": "https://leetcode.com/problems/count-servers-that-communicate/"
+    },
+    "2026-11-09": {
+      "difficulty": "Medium",
+      "id": "1894",
+      "is_daily": false,
+      "slug": "find-the-student-that-will-replace-the-chalk",
+      "tags": [
+        "Array",
+        "Binary Search",
+        "Simulation",
+        "Prefix Sum"
+      ],
+      "title": "Find the Student that Will Replace the Chalk",
+      "url": "https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/"
     }
   },
   "sent_slugs": [
@@ -263,6 +262,7 @@
     "valid-tic-tac-toe-state",
     "count-zero-request-servers",
     "process-tasks-using-servers",
-    "count-servers-that-communicate"
+    "count-servers-that-communicate",
+    "find-the-student-that-will-replace-the-chalk"
   ]
 }
