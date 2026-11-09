@@ -1,28 +1,5 @@
 {
   "assigned": {
-    "2026-10-25": {
-      "key": "2096-A",
-      "lc_easy": {
-        "id": "2287",
-        "slug": "rearrange-characters-to-make-target-string",
-        "tags": [
-          "Hash Table",
-          "String",
-          "Counting"
-        ],
-        "title": "Rearrange Characters to Make Target String",
-        "url": "https://leetcode.com/problems/rearrange-characters-to-make-target-string/"
-      },
-      "name": "Wonderful Sticks",
-      "rating": 800,
-      "solvers": 21022,
-      "tags": [
-        "constructive algorithms",
-        "greedy"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2096/A",
-      "year": 2025
-    },
     "2026-10-26": {
       "key": "2178-A",
       "lc_easy": {
@@ -338,6 +315,28 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2185/A",
       "year": 2026
+    },
+    "2026-11-09": {
+      "key": "2226-A",
+      "lc_easy": {
+        "id": "2778",
+        "slug": "sum-of-squares-of-special-elements",
+        "tags": [
+          "Array",
+          "Enumeration"
+        ],
+        "title": "Sum of Squares of Special Elements ",
+        "url": "https://leetcode.com/problems/sum-of-squares-of-special-elements/"
+      },
+      "name": "Disturbing Distribution",
+      "rating": 800,
+      "solvers": 16325,
+      "tags": [
+        "greedy",
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2226/A",
+      "year": 2026
     }
   },
   "lc_sent_slugs": [
@@ -395,7 +394,8 @@
     "check-good-integer",
     "check-if-two-string-arrays-are-equivalent",
     "toeplitz-matrix",
-    "number-of-changing-keys"
+    "number-of-changing-keys",
+    "sum-of-squares-of-special-elements"
   ],
   "sent_keys": [
     "1883-A",
@@ -457,12 +457,10 @@
     "1816-A",
     "1975-A",
     "1932-A",
-    "2185-A"
+    "2185-A",
+    "2226-A"
   ],
   "sent_slots": {
-    "2026-10-25": [
-      8
-    ],
     "2026-10-26": [
       8
     ],
@@ -503,6 +501,9 @@
       8
     ],
     "2026-11-08": [
+      8
+    ],
+    "2026-11-09": [
       8
     ]
   },
