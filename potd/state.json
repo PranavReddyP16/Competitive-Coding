@@ -1,29 +1,5 @@
 {
   "assigned": {
-    "2026-10-26": {
-      "key": "2178-A",
-      "lc_easy": {
-        "id": "67",
-        "slug": "add-binary",
-        "tags": [
-          "Math",
-          "String",
-          "Bit Manipulation",
-          "Simulation"
-        ],
-        "title": "Add Binary",
-        "url": "https://leetcode.com/problems/add-binary/"
-      },
-      "name": "Yes or Yes",
-      "rating": 800,
-      "solvers": 27044,
-      "tags": [
-        "greedy",
-        "strings"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2178/A",
-      "year": 2025
-    },
     "2026-10-27": {
       "key": "1855-A",
       "lc_easy": {
@@ -337,6 +313,29 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2226/A",
       "year": 2026
+    },
+    "2026-11-10": {
+      "key": "2034-B",
+      "lc_easy": {
+        "id": "3065",
+        "slug": "minimum-operations-to-exceed-threshold-value-i",
+        "tags": [
+          "Array"
+        ],
+        "title": "Minimum Operations to Exceed Threshold Value I",
+        "url": "https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-i/"
+      },
+      "name": "Rakhsh's Revival",
+      "rating": 1000,
+      "solvers": 16446,
+      "tags": [
+        "data structures",
+        "greedy",
+        "implementation",
+        "two pointers"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2034/B",
+      "year": 2024
     }
   },
   "lc_sent_slugs": [
@@ -395,7 +394,8 @@
     "check-if-two-string-arrays-are-equivalent",
     "toeplitz-matrix",
     "number-of-changing-keys",
-    "sum-of-squares-of-special-elements"
+    "sum-of-squares-of-special-elements",
+    "minimum-operations-to-exceed-threshold-value-i"
   ],
   "sent_keys": [
     "1883-A",
@@ -458,12 +458,10 @@
     "1975-A",
     "1932-A",
     "2185-A",
-    "2226-A"
+    "2226-A",
+    "2034-B"
   ],
   "sent_slots": {
-    "2026-10-26": [
-      8
-    ],
     "2026-10-27": [
       8
     ],
@@ -504,6 +502,9 @@
       8
     ],
     "2026-11-09": [
+      8
+    ],
+    "2026-11-10": [
       8
     ]
   },
