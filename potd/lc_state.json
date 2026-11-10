@@ -1,20 +1,5 @@
 {
   "assigned": {
-    "2026-10-26": {
-      "difficulty": "Medium",
-      "id": "3619",
-      "is_daily": true,
-      "slug": "count-islands-with-total-value-divisible-by-k",
-      "tags": [
-        "Array",
-        "Depth-First Search",
-        "Breadth-First Search",
-        "Union-Find",
-        "Matrix"
-      ],
-      "title": "Count Islands With Total Value Divisible by K",
-      "url": "https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/"
-    },
     "2026-10-27": {
       "difficulty": "Medium",
       "id": "1052",
@@ -200,6 +185,18 @@
       ],
       "title": "Find the Student that Will Replace the Chalk",
       "url": "https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/"
+    },
+    "2026-11-10": {
+      "difficulty": "Medium",
+      "id": "3693",
+      "is_daily": true,
+      "slug": "climbing-stairs-ii",
+      "tags": [
+        "Array",
+        "Dynamic Programming"
+      ],
+      "title": "Climbing Stairs II",
+      "url": "https://leetcode.com/problems/climbing-stairs-ii/"
     }
   },
   "sent_slugs": [
@@ -263,6 +260,7 @@
     "count-zero-request-servers",
     "process-tasks-using-servers",
     "count-servers-that-communicate",
-    "find-the-student-that-will-replace-the-chalk"
+    "find-the-student-that-will-replace-the-chalk",
+    "climbing-stairs-ii"
   ]
 }
