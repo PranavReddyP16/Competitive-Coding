@@ -1,26 +1,5 @@
 {
   "assigned": {
-    "2026-10-27": {
-      "key": "1855-A",
-      "lc_easy": {
-        "id": "2798",
-        "slug": "number-of-employees-who-met-the-target",
-        "tags": [
-          "Array"
-        ],
-        "title": "Number of Employees Who Met the Target",
-        "url": "https://leetcode.com/problems/number-of-employees-who-met-the-target/"
-      },
-      "name": "Dalton the Teacher",
-      "rating": 800,
-      "solvers": 30264,
-      "tags": [
-        "greedy",
-        "math"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1855/A",
-      "year": 2023
-    },
     "2026-10-28": {
       "key": "2106-C",
       "lc_easy": {
@@ -336,6 +315,32 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2034/B",
       "year": 2024
+    },
+    "2026-11-11": {
+      "key": "2182-A",
+      "lc_easy": {
+        "id": "101",
+        "slug": "symmetric-tree",
+        "tags": [
+          "Tree",
+          "Depth-First Search",
+          "Breadth-First Search",
+          "Binary Tree"
+        ],
+        "title": "Symmetric Tree",
+        "url": "https://leetcode.com/problems/symmetric-tree/"
+      },
+      "name": "New Year String",
+      "rating": 800,
+      "solvers": 26804,
+      "tags": [
+        "constructive algorithms",
+        "greedy",
+        "implementation",
+        "strings"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2182/A",
+      "year": 2025
     }
   },
   "lc_sent_slugs": [
@@ -395,7 +400,8 @@
     "toeplitz-matrix",
     "number-of-changing-keys",
     "sum-of-squares-of-special-elements",
-    "minimum-operations-to-exceed-threshold-value-i"
+    "minimum-operations-to-exceed-threshold-value-i",
+    "symmetric-tree"
   ],
   "sent_keys": [
     "1883-A",
@@ -459,12 +465,10 @@
     "1932-A",
     "2185-A",
     "2226-A",
-    "2034-B"
+    "2034-B",
+    "2182-A"
   ],
   "sent_slots": {
-    "2026-10-27": [
-      8
-    ],
     "2026-10-28": [
       8
     ],
@@ -505,6 +509,9 @@
       8
     ],
     "2026-11-10": [
+      8
+    ],
+    "2026-11-11": [
       8
     ]
   },
