@@ -1,27 +1,5 @@
 {
   "assigned": {
-    "2026-10-28": {
-      "key": "2106-C",
-      "lc_easy": {
-        "id": "1309",
-        "slug": "decrypt-string-from-alphabet-to-integer-mapping",
-        "tags": [
-          "String"
-        ],
-        "title": "Decrypt String from Alphabet to Integer Mapping",
-        "url": "https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/"
-      },
-      "name": "Cherry Bomb",
-      "rating": 1000,
-      "solvers": 26594,
-      "tags": [
-        "greedy",
-        "math",
-        "sortings"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2106/C",
-      "year": 2025
-    },
     "2026-10-29": {
       "key": "1775-A2",
       "lc_easy": {
@@ -341,6 +319,30 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2182/A",
       "year": 2025
+    },
+    "2026-11-12": {
+      "key": "2189-A",
+      "lc_easy": {
+        "id": "1512",
+        "slug": "number-of-good-pairs",
+        "tags": [
+          "Array",
+          "Hash Table",
+          "Math",
+          "Counting"
+        ],
+        "title": "Number of Good Pairs",
+        "url": "https://leetcode.com/problems/number-of-good-pairs/"
+      },
+      "name": "Table with Numbers",
+      "rating": 800,
+      "solvers": 25487,
+      "tags": [
+        "greedy",
+        "implementation"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2189/A",
+      "year": 2026
     }
   },
   "lc_sent_slugs": [
@@ -401,7 +403,8 @@
     "number-of-changing-keys",
     "sum-of-squares-of-special-elements",
     "minimum-operations-to-exceed-threshold-value-i",
-    "symmetric-tree"
+    "symmetric-tree",
+    "number-of-good-pairs"
   ],
   "sent_keys": [
     "1883-A",
@@ -466,12 +469,10 @@
     "2185-A",
     "2226-A",
     "2034-B",
-    "2182-A"
+    "2182-A",
+    "2189-A"
   ],
   "sent_slots": {
-    "2026-10-28": [
-      8
-    ],
     "2026-10-29": [
       8
     ],
@@ -512,6 +513,9 @@
       8
     ],
     "2026-11-11": [
+      8
+    ],
+    "2026-11-12": [
       8
     ]
   },
