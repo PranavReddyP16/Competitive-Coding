@@ -1,19 +1,5 @@
 {
   "assigned": {
-    "2026-10-28": {
-      "difficulty": "Medium",
-      "id": "3882",
-      "is_daily": true,
-      "slug": "minimum-xor-path-in-a-grid",
-      "tags": [
-        "Array",
-        "Dynamic Programming",
-        "Bit Manipulation",
-        "Matrix"
-      ],
-      "title": "Minimum XOR Path in a Grid",
-      "url": "https://leetcode.com/problems/minimum-xor-path-in-a-grid/"
-    },
     "2026-10-29": {
       "difficulty": "Medium",
       "id": "3645",
@@ -197,6 +183,20 @@
       ],
       "title": "Minimum Cost to Acquire Required Items",
       "url": "https://leetcode.com/problems/minimum-cost-to-acquire-required-items/"
+    },
+    "2026-11-12": {
+      "difficulty": "Medium",
+      "id": "2384",
+      "is_daily": false,
+      "slug": "largest-palindromic-number",
+      "tags": [
+        "Hash Table",
+        "String",
+        "Greedy",
+        "Counting"
+      ],
+      "title": "Largest Palindromic Number",
+      "url": "https://leetcode.com/problems/largest-palindromic-number/"
     }
   },
   "sent_slugs": [
@@ -262,6 +262,7 @@
     "count-servers-that-communicate",
     "find-the-student-that-will-replace-the-chalk",
     "climbing-stairs-ii",
-    "minimum-cost-to-acquire-required-items"
+    "minimum-cost-to-acquire-required-items",
+    "largest-palindromic-number"
   ]
 }
