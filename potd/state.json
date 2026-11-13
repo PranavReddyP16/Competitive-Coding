@@ -1,27 +1,5 @@
 {
   "assigned": {
-    "2026-10-29": {
-      "key": "1775-A2",
-      "lc_easy": {
-        "id": "2455",
-        "slug": "average-value-of-even-numbers-that-are-divisible-by-three",
-        "tags": [
-          "Array",
-          "Math"
-        ],
-        "title": "Average Value of Even Numbers That Are Divisible by Three",
-        "url": "https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/"
-      },
-      "name": "Gardener and the Capybaras (hard version)",
-      "rating": 900,
-      "solvers": 20205,
-      "tags": [
-        "constructive algorithms",
-        "greedy"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1775/A2",
-      "year": 2023
-    },
     "2026-10-30": {
       "key": "1968-B",
       "lc_easy": {
@@ -343,6 +321,29 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2189/A",
       "year": 2026
+    },
+    "2026-11-13": {
+      "key": "1954-A",
+      "lc_easy": {
+        "id": "2600",
+        "slug": "k-items-with-the-maximum-sum",
+        "tags": [
+          "Math",
+          "Greedy"
+        ],
+        "title": "K Items With the Maximum Sum",
+        "url": "https://leetcode.com/problems/k-items-with-the-maximum-sum/"
+      },
+      "name": "Painting the Ribbon",
+      "rating": 900,
+      "solvers": 28331,
+      "tags": [
+        "constructive algorithms",
+        "greedy",
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1954/A",
+      "year": 2024
     }
   },
   "lc_sent_slugs": [
@@ -404,7 +405,8 @@
     "sum-of-squares-of-special-elements",
     "minimum-operations-to-exceed-threshold-value-i",
     "symmetric-tree",
-    "number-of-good-pairs"
+    "number-of-good-pairs",
+    "k-items-with-the-maximum-sum"
   ],
   "sent_keys": [
     "1883-A",
@@ -470,12 +472,10 @@
     "2226-A",
     "2034-B",
     "2182-A",
-    "2189-A"
+    "2189-A",
+    "1954-A"
   ],
   "sent_slots": {
-    "2026-10-29": [
-      8
-    ],
     "2026-10-30": [
       8
     ],
@@ -516,6 +516,9 @@
       8
     ],
     "2026-11-12": [
+      8
+    ],
+    "2026-11-13": [
       8
     ]
   },
