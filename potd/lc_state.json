@@ -1,20 +1,5 @@
 {
   "assigned": {
-    "2026-10-29": {
-      "difficulty": "Medium",
-      "id": "3645",
-      "is_daily": false,
-      "slug": "maximum-total-from-optimal-activation-order",
-      "tags": [
-        "Array",
-        "Two Pointers",
-        "Greedy",
-        "Sorting",
-        "Heap (Priority Queue)"
-      ],
-      "title": "Maximum Total from Optimal Activation Order",
-      "url": "https://leetcode.com/problems/maximum-total-from-optimal-activation-order/"
-    },
     "2026-10-30": {
       "difficulty": "Medium",
       "id": "3970",
@@ -197,6 +182,18 @@
       ],
       "title": "Largest Palindromic Number",
       "url": "https://leetcode.com/problems/largest-palindromic-number/"
+    },
+    "2026-11-13": {
+      "difficulty": "Medium",
+      "id": "1419",
+      "is_daily": false,
+      "slug": "minimum-number-of-frogs-croaking",
+      "tags": [
+        "String",
+        "Counting"
+      ],
+      "title": "Minimum Number of Frogs Croaking",
+      "url": "https://leetcode.com/problems/minimum-number-of-frogs-croaking/"
     }
   },
   "sent_slugs": [
@@ -263,6 +260,7 @@
     "find-the-student-that-will-replace-the-chalk",
     "climbing-stairs-ii",
     "minimum-cost-to-acquire-required-items",
-    "largest-palindromic-number"
+    "largest-palindromic-number",
+    "minimum-number-of-frogs-croaking"
   ]
 }
