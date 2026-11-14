@@ -50,3 +50,4 @@ int main() {
 // Updated: simplified merge function
 // Optimization: use __builtin_clz for faster operations
 // Alternative: iterative implementation for 2x speed
+// Added: support for walk/descent queries
