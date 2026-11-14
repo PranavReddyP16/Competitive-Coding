@@ -1,19 +1,5 @@
 {
   "assigned": {
-    "2026-10-30": {
-      "difficulty": "Medium",
-      "id": "3970",
-      "is_daily": true,
-      "slug": "shortest-path-with-at-most-k-consecutive-identical-characters",
-      "tags": [
-        "String",
-        "Graph Theory",
-        "Heap (Priority Queue)",
-        "Shortest Path"
-      ],
-      "title": "Shortest Path With At Most K Consecutive Identical Characters",
-      "url": "https://leetcode.com/problems/shortest-path-with-at-most-k-consecutive-identical-characters/"
-    },
     "2026-10-31": {
       "difficulty": "Medium",
       "id": "3665",
@@ -194,6 +180,19 @@
       ],
       "title": "Minimum Number of Frogs Croaking",
       "url": "https://leetcode.com/problems/minimum-number-of-frogs-croaking/"
+    },
+    "2026-11-14": {
+      "difficulty": "Medium",
+      "id": "1901",
+      "is_daily": false,
+      "slug": "find-a-peak-element-ii",
+      "tags": [
+        "Array",
+        "Binary Search",
+        "Matrix"
+      ],
+      "title": "Find a Peak Element II",
+      "url": "https://leetcode.com/problems/find-a-peak-element-ii/"
     }
   },
   "sent_slugs": [
@@ -261,6 +260,7 @@
     "climbing-stairs-ii",
     "minimum-cost-to-acquire-required-items",
     "largest-palindromic-number",
-    "minimum-number-of-frogs-croaking"
+    "minimum-number-of-frogs-croaking",
+    "find-a-peak-element-ii"
   ]
 }
