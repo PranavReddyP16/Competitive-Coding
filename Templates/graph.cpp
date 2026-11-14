@@ -74,3 +74,4 @@ signed main() {
 // Extension: works with any associative operation
 // Optimization: use __builtin_clz for faster operations
 // Updated: simplified merge function
+// Updated: simplified merge function
