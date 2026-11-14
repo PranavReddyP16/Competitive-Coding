@@ -1,27 +1,5 @@
 {
   "assigned": {
-    "2026-10-30": {
-      "key": "1968-B",
-      "lc_easy": {
-        "id": "643",
-        "slug": "maximum-average-subarray-i",
-        "tags": [
-          "Array",
-          "Sliding Window"
-        ],
-        "title": "Maximum Average Subarray I",
-        "url": "https://leetcode.com/problems/maximum-average-subarray-i/"
-      },
-      "name": "Prefiquence",
-      "rating": 800,
-      "solvers": 32266,
-      "tags": [
-        "greedy",
-        "two pointers"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1968/B",
-      "year": 2024
-    },
     "2026-10-31": {
       "key": "1807-A",
       "lc_easy": {
@@ -344,6 +322,29 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1954/A",
       "year": 2024
+    },
+    "2026-11-14": {
+      "key": "1846-A",
+      "lc_easy": {
+        "id": "1903",
+        "slug": "largest-odd-number-in-string",
+        "tags": [
+          "Math",
+          "String",
+          "Greedy"
+        ],
+        "title": "Largest Odd Number in String",
+        "url": "https://leetcode.com/problems/largest-odd-number-in-string/"
+      },
+      "name": "Rudolph and Cut the Rope ",
+      "rating": 800,
+      "solvers": 35250,
+      "tags": [
+        "implementation",
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1846/A",
+      "year": 2023
     }
   },
   "lc_sent_slugs": [
@@ -406,7 +407,8 @@
     "minimum-operations-to-exceed-threshold-value-i",
     "symmetric-tree",
     "number-of-good-pairs",
-    "k-items-with-the-maximum-sum"
+    "k-items-with-the-maximum-sum",
+    "largest-odd-number-in-string"
   ],
   "sent_keys": [
     "1883-A",
@@ -473,12 +475,10 @@
     "2034-B",
     "2182-A",
     "2189-A",
-    "1954-A"
+    "1954-A",
+    "1846-A"
   ],
   "sent_slots": {
-    "2026-10-30": [
-      8
-    ],
     "2026-10-31": [
       8
     ],
@@ -519,6 +519,9 @@
       8
     ],
     "2026-11-13": [
+      8
+    ],
+    "2026-11-14": [
       8
     ]
   },
