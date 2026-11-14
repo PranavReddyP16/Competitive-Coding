@@ -52,3 +52,4 @@ signed main() {
 // Variant: supports range update with lazy propagation
 // Updated: simplified merge function
 // Updated: simplified merge function
+// Extension: works with any associative operation
