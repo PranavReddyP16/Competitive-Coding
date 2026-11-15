@@ -1,27 +1,5 @@
 {
   "assigned": {
-    "2026-10-31": {
-      "key": "1807-A",
-      "lc_easy": {
-        "id": "2996",
-        "slug": "smallest-missing-integer-greater-than-sequential-prefix-sum",
-        "tags": [
-          "Array",
-          "Hash Table",
-          "Sorting"
-        ],
-        "title": "Smallest Missing Integer Greater Than Sequential Prefix Sum",
-        "url": "https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/"
-      },
-      "name": "Plus or Minus",
-      "rating": 800,
-      "solvers": 90850,
-      "tags": [
-        "implementation"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1807/A",
-      "year": 2023
-    },
     "2026-11-01": {
       "key": "1783-A",
       "lc_easy": {
@@ -345,6 +323,31 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1846/A",
       "year": 2023
+    },
+    "2026-11-15": {
+      "key": "2158-A",
+      "lc_easy": {
+        "id": "637",
+        "slug": "average-of-levels-in-binary-tree",
+        "tags": [
+          "Tree",
+          "Depth-First Search",
+          "Breadth-First Search",
+          "Binary Tree"
+        ],
+        "title": "Average of Levels in Binary Tree",
+        "url": "https://leetcode.com/problems/average-of-levels-in-binary-tree/"
+      },
+      "name": "Suspension",
+      "rating": 800,
+      "solvers": 24828,
+      "tags": [
+        "constructive algorithms",
+        "greedy",
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2158/A",
+      "year": 2025
     }
   },
   "lc_sent_slugs": [
@@ -408,7 +411,8 @@
     "symmetric-tree",
     "number-of-good-pairs",
     "k-items-with-the-maximum-sum",
-    "largest-odd-number-in-string"
+    "largest-odd-number-in-string",
+    "average-of-levels-in-binary-tree"
   ],
   "sent_keys": [
     "1883-A",
@@ -476,12 +480,10 @@
     "2182-A",
     "2189-A",
     "1954-A",
-    "1846-A"
+    "1846-A",
+    "2158-A"
   ],
   "sent_slots": {
-    "2026-10-31": [
-      8
-    ],
     "2026-11-01": [
       8
     ],
@@ -522,6 +524,9 @@
       8
     ],
     "2026-11-14": [
+      8
+    ],
+    "2026-11-15": [
       8
     ]
   },
