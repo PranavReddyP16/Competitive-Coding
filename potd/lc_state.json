@@ -1,18 +1,5 @@
 {
   "assigned": {
-    "2026-10-31": {
-      "difficulty": "Medium",
-      "id": "3665",
-      "is_daily": true,
-      "slug": "twisted-mirror-path-count",
-      "tags": [
-        "Array",
-        "Dynamic Programming",
-        "Matrix"
-      ],
-      "title": "Twisted Mirror Path Count",
-      "url": "https://leetcode.com/problems/twisted-mirror-path-count/"
-    },
     "2026-11-01": {
       "difficulty": "Medium",
       "id": "453",
@@ -193,6 +180,20 @@
       ],
       "title": "Find a Peak Element II",
       "url": "https://leetcode.com/problems/find-a-peak-element-ii/"
+    },
+    "2026-11-15": {
+      "difficulty": "Medium",
+      "id": "1524",
+      "is_daily": true,
+      "slug": "number-of-sub-arrays-with-odd-sum",
+      "tags": [
+        "Array",
+        "Math",
+        "Dynamic Programming",
+        "Prefix Sum"
+      ],
+      "title": "Number of Sub-arrays With Odd Sum",
+      "url": "https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/"
     }
   },
   "sent_slugs": [
@@ -261,6 +262,7 @@
     "minimum-cost-to-acquire-required-items",
     "largest-palindromic-number",
     "minimum-number-of-frogs-croaking",
-    "find-a-peak-element-ii"
+    "find-a-peak-element-ii",
+    "number-of-sub-arrays-with-odd-sum"
   ]
 }
