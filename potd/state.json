@@ -1,27 +1,5 @@
 {
   "assigned": {
-    "2026-11-01": {
-      "key": "1783-A",
-      "lc_easy": {
-        "id": "2124",
-        "slug": "check-if-all-as-appears-before-all-bs",
-        "tags": [
-          "String"
-        ],
-        "title": "Check if All A's Appears Before All B's",
-        "url": "https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/"
-      },
-      "name": "Make it Beautiful",
-      "rating": 800,
-      "solvers": 55910,
-      "tags": [
-        "constructive algorithms",
-        "math",
-        "sortings"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1783/A",
-      "year": 2023
-    },
     "2026-11-02": {
       "key": "1974-A",
       "lc_easy": {
@@ -348,6 +326,27 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2158/A",
       "year": 2025
+    },
+    "2026-11-16": {
+      "key": "2261-C",
+      "lc_easy": {
+        "id": "1523",
+        "slug": "count-odd-numbers-in-an-interval-range",
+        "tags": [
+          "Math"
+        ],
+        "title": "Count Odd Numbers in an Interval Range",
+        "url": "https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/"
+      },
+      "name": "I Know About a Million Things",
+      "rating": 1000,
+      "solvers": 9074,
+      "tags": [
+        "games",
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2261/C",
+      "year": 2026
     }
   },
   "lc_sent_slugs": [
@@ -412,7 +411,8 @@
     "number-of-good-pairs",
     "k-items-with-the-maximum-sum",
     "largest-odd-number-in-string",
-    "average-of-levels-in-binary-tree"
+    "average-of-levels-in-binary-tree",
+    "count-odd-numbers-in-an-interval-range"
   ],
   "sent_keys": [
     "1883-A",
@@ -481,12 +481,10 @@
     "2189-A",
     "1954-A",
     "1846-A",
-    "2158-A"
+    "2158-A",
+    "2261-C"
   ],
   "sent_slots": {
-    "2026-11-01": [
-      8
-    ],
     "2026-11-02": [
       8
     ],
@@ -527,6 +525,9 @@
       8
     ],
     "2026-11-15": [
+      8
+    ],
+    "2026-11-16": [
       8
     ]
   },
