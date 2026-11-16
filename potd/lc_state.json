@@ -1,17 +1,5 @@
 {
   "assigned": {
-    "2026-11-01": {
-      "difficulty": "Medium",
-      "id": "453",
-      "is_daily": true,
-      "slug": "minimum-moves-to-equal-array-elements",
-      "tags": [
-        "Array",
-        "Math"
-      ],
-      "title": "Minimum Moves to Equal Array Elements",
-      "url": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements/"
-    },
     "2026-11-02": {
       "difficulty": "Medium",
       "id": "462",
@@ -194,6 +182,18 @@
       ],
       "title": "Number of Sub-arrays With Odd Sum",
       "url": "https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/"
+    },
+    "2026-11-16": {
+      "difficulty": "Medium",
+      "id": "3101",
+      "is_daily": false,
+      "slug": "count-alternating-subarrays",
+      "tags": [
+        "Array",
+        "Math"
+      ],
+      "title": "Count Alternating Subarrays",
+      "url": "https://leetcode.com/problems/count-alternating-subarrays/"
     }
   },
   "sent_slugs": [
@@ -263,6 +263,7 @@
     "largest-palindromic-number",
     "minimum-number-of-frogs-croaking",
     "find-a-peak-element-ii",
-    "number-of-sub-arrays-with-odd-sum"
+    "number-of-sub-arrays-with-odd-sum",
+    "count-alternating-subarrays"
   ]
 }
