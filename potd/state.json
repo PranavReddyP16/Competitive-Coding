@@ -1,27 +1,5 @@
 {
   "assigned": {
-    "2026-11-02": {
-      "key": "1974-A",
-      "lc_easy": {
-        "id": "2903",
-        "slug": "find-indices-with-index-and-value-difference-i",
-        "tags": [
-          "Array",
-          "Two Pointers"
-        ],
-        "title": "Find Indices With Index and Value Difference I",
-        "url": "https://leetcode.com/problems/find-indices-with-index-and-value-difference-i/"
-      },
-      "name": "Phone Desktop",
-      "rating": 800,
-      "solvers": 38665,
-      "tags": [
-        "greedy",
-        "math"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1974/A",
-      "year": 2024
-    },
     "2026-11-03": {
       "key": "1800-B",
       "lc_easy": {
@@ -347,6 +325,29 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2261/C",
       "year": 2026
+    },
+    "2026-11-17": {
+      "key": "1975-B",
+      "lc_easy": {
+        "id": "3856",
+        "slug": "trim-trailing-vowels",
+        "tags": [
+          "String"
+        ],
+        "title": "Trim Trailing Vowels",
+        "url": "https://leetcode.com/problems/trim-trailing-vowels/"
+      },
+      "name": "378QAQ and Mocha's Array",
+      "rating": 1000,
+      "solvers": 21496,
+      "tags": [
+        "brute force",
+        "greedy",
+        "math",
+        "sortings"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1975/B",
+      "year": 2024
     }
   },
   "lc_sent_slugs": [
@@ -412,7 +413,8 @@
     "k-items-with-the-maximum-sum",
     "largest-odd-number-in-string",
     "average-of-levels-in-binary-tree",
-    "count-odd-numbers-in-an-interval-range"
+    "count-odd-numbers-in-an-interval-range",
+    "trim-trailing-vowels"
   ],
   "sent_keys": [
     "1883-A",
@@ -482,12 +484,10 @@
     "1954-A",
     "1846-A",
     "2158-A",
-    "2261-C"
+    "2261-C",
+    "1975-B"
   ],
   "sent_slots": {
-    "2026-11-02": [
-      8
-    ],
     "2026-11-03": [
       8
     ],
@@ -528,6 +528,9 @@
       8
     ],
     "2026-11-16": [
+      8
+    ],
+    "2026-11-17": [
       8
     ]
   },
