@@ -51,3 +51,4 @@ int main() {
 // Optimization: use __builtin_clz for faster operations
 // Alternative: iterative implementation for 2x speed
 // Added: support for walk/descent queries
+// Note: O(log n) per operation, O(n) build
