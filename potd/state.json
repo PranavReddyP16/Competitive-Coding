@@ -1,28 +1,5 @@
 {
   "assigned": {
-    "2026-11-03": {
-      "key": "1800-B",
-      "lc_easy": {
-        "id": "3674",
-        "slug": "minimum-operations-to-equalize-array",
-        "tags": [
-          "Array",
-          "Bit Manipulation",
-          "Brainteaser"
-        ],
-        "title": "Minimum Operations to Equalize Array",
-        "url": "https://leetcode.com/problems/minimum-operations-to-equalize-array/"
-      },
-      "name": "Count the Number of Pairs",
-      "rating": 1000,
-      "solvers": 29305,
-      "tags": [
-        "greedy",
-        "strings"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1800/B",
-      "year": 2023
-    },
     "2026-11-04": {
       "key": "2121-B",
       "lc_easy": {
@@ -348,6 +325,27 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1975/B",
       "year": 2024
+    },
+    "2026-11-18": {
+      "key": "2078-A",
+      "lc_easy": {
+        "id": "1886",
+        "slug": "determine-whether-matrix-can-be-obtained-by-rotation",
+        "tags": [
+          "Array",
+          "Matrix"
+        ],
+        "title": "Determine Whether Matrix Can Be Obtained By Rotation",
+        "url": "https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/"
+      },
+      "name": "Final Verdict",
+      "rating": 800,
+      "solvers": 23632,
+      "tags": [
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2078/A",
+      "year": 2025
     }
   },
   "lc_sent_slugs": [
@@ -414,7 +412,8 @@
     "largest-odd-number-in-string",
     "average-of-levels-in-binary-tree",
     "count-odd-numbers-in-an-interval-range",
-    "trim-trailing-vowels"
+    "trim-trailing-vowels",
+    "determine-whether-matrix-can-be-obtained-by-rotation"
   ],
   "sent_keys": [
     "1883-A",
@@ -485,12 +484,10 @@
     "1846-A",
     "2158-A",
     "2261-C",
-    "1975-B"
+    "1975-B",
+    "2078-A"
   ],
   "sent_slots": {
-    "2026-11-03": [
-      8
-    ],
     "2026-11-04": [
       8
     ],
@@ -531,6 +528,9 @@
       8
     ],
     "2026-11-17": [
+      8
+    ],
+    "2026-11-18": [
       8
     ]
   },
