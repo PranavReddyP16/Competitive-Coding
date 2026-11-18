@@ -1,16 +1,5 @@
 {
   "assigned": {
-    "2026-11-03": {
-      "difficulty": "Medium",
-      "id": "1669",
-      "is_daily": false,
-      "slug": "merge-in-between-linked-lists",
-      "tags": [
-        "Linked List"
-      ],
-      "title": "Merge In Between Linked Lists",
-      "url": "https://leetcode.com/problems/merge-in-between-linked-lists/"
-    },
     "2026-11-04": {
       "difficulty": "Medium",
       "id": "3112",
@@ -195,6 +184,17 @@
       ],
       "title": "Maximum Total Value of Covered Indices",
       "url": "https://leetcode.com/problems/maximum-total-value-of-covered-indices/"
+    },
+    "2026-11-18": {
+      "difficulty": "Medium",
+      "id": "2914",
+      "is_daily": true,
+      "slug": "minimum-number-of-changes-to-make-binary-string-beautiful",
+      "tags": [
+        "String"
+      ],
+      "title": "Minimum Number of Changes to Make Binary String Beautiful",
+      "url": "https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/"
     }
   },
   "sent_slugs": [
@@ -266,6 +266,7 @@
     "find-a-peak-element-ii",
     "number-of-sub-arrays-with-odd-sum",
     "count-alternating-subarrays",
-    "maximum-total-value-of-covered-indices"
+    "maximum-total-value-of-covered-indices",
+    "minimum-number-of-changes-to-make-binary-string-beautiful"
   ]
 }
