@@ -1,19 +1,5 @@
 {
   "assigned": {
-    "2026-11-04": {
-      "difficulty": "Medium",
-      "id": "3112",
-      "is_daily": false,
-      "slug": "minimum-time-to-visit-disappearing-nodes",
-      "tags": [
-        "Array",
-        "Graph Theory",
-        "Heap (Priority Queue)",
-        "Shortest Path"
-      ],
-      "title": "Minimum Time to Visit Disappearing Nodes",
-      "url": "https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/"
-    },
     "2026-11-05": {
       "difficulty": "Medium",
       "id": "794",
@@ -195,6 +181,19 @@
       ],
       "title": "Minimum Number of Changes to Make Binary String Beautiful",
       "url": "https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/"
+    },
+    "2026-11-19": {
+      "difficulty": "Medium",
+      "id": "2567",
+      "is_daily": true,
+      "slug": "minimum-score-by-changing-two-elements",
+      "tags": [
+        "Array",
+        "Greedy",
+        "Sorting"
+      ],
+      "title": "Minimum Score by Changing Two Elements",
+      "url": "https://leetcode.com/problems/minimum-score-by-changing-two-elements/"
     }
   },
   "sent_slugs": [
@@ -267,6 +266,7 @@
     "number-of-sub-arrays-with-odd-sum",
     "count-alternating-subarrays",
     "maximum-total-value-of-covered-indices",
-    "minimum-number-of-changes-to-make-binary-string-beautiful"
+    "minimum-number-of-changes-to-make-binary-string-beautiful",
+    "minimum-score-by-changing-two-elements"
   ]
 }
