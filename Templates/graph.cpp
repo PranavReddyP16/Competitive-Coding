@@ -75,3 +75,4 @@ signed main() {
 // Optimization: use __builtin_clz for faster operations
 // Updated: simplified merge function
 // Updated: simplified merge function
+// Tip: can be persistent with path copying
