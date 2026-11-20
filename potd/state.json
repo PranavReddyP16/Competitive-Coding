@@ -1,28 +1,5 @@
 {
   "assigned": {
-    "2026-11-05": {
-      "key": "1816-A",
-      "lc_easy": {
-        "id": "3959",
-        "slug": "check-good-integer",
-        "tags": [
-          "Math",
-          "Simulation"
-        ],
-        "title": "Check Good Integer",
-        "url": "https://leetcode.com/problems/check-good-integer/"
-      },
-      "name": "\u042f\u043d \u043d\u0430\u0432\u0435\u0449\u0430\u0435\u0442 \u041c\u044d\u0440\u0438",
-      "rating": 800,
-      "solvers": 19177,
-      "tags": [
-        "constructive algorithms",
-        "geometry",
-        "number theory"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1816/A",
-      "year": 2023
-    },
     "2026-11-06": {
       "key": "1975-A",
       "lc_easy": {
@@ -343,6 +320,27 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2227/C",
       "year": 2026
+    },
+    "2026-11-20": {
+      "key": "1894-B",
+      "lc_easy": {
+        "id": "2325",
+        "slug": "decode-the-message",
+        "tags": [
+          "Hash Table",
+          "String"
+        ],
+        "title": "Decode the Message",
+        "url": "https://leetcode.com/problems/decode-the-message/"
+      },
+      "name": "Two Out of Three",
+      "rating": 1000,
+      "solvers": 18479,
+      "tags": [
+        "constructive algorithms"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1894/B",
+      "year": 2023
     }
   },
   "lc_sent_slugs": [
@@ -411,7 +409,8 @@
     "count-odd-numbers-in-an-interval-range",
     "trim-trailing-vowels",
     "determine-whether-matrix-can-be-obtained-by-rotation",
-    "check-array-formation-through-concatenation"
+    "check-array-formation-through-concatenation",
+    "decode-the-message"
   ],
   "sent_keys": [
     "1883-A",
@@ -484,12 +483,10 @@
     "2261-C",
     "1975-B",
     "2078-A",
-    "2227-C"
+    "2227-C",
+    "1894-B"
   ],
   "sent_slots": {
-    "2026-11-05": [
-      8
-    ],
     "2026-11-06": [
       8
     ],
@@ -530,6 +527,9 @@
       8
     ],
     "2026-11-19": [
+      8
+    ],
+    "2026-11-20": [
       8
     ]
   },
