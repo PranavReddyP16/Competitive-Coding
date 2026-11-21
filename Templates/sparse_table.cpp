@@ -41,3 +41,4 @@ signed main() {
 // Added: support for walk/descent queries
 // Variant: supports range update with lazy propagation
 // Extension: works with any associative operation
+// Extension: works with any associative operation
