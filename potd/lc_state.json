@@ -1,19 +1,5 @@
 {
   "assigned": {
-    "2026-11-06": {
-      "difficulty": "Medium",
-      "id": "2747",
-      "is_daily": true,
-      "slug": "count-zero-request-servers",
-      "tags": [
-        "Array",
-        "Hash Table",
-        "Sliding Window",
-        "Sorting"
-      ],
-      "title": "Count Zero Request Servers",
-      "url": "https://leetcode.com/problems/count-zero-request-servers/"
-    },
     "2026-11-07": {
       "difficulty": "Medium",
       "id": "1882",
@@ -194,6 +180,21 @@
       ],
       "title": "Find the Smallest Divisor Given a Threshold",
       "url": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/"
+    },
+    "2026-11-21": {
+      "difficulty": "Medium",
+      "id": "3331",
+      "is_daily": true,
+      "slug": "find-subtree-sizes-after-changes",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "String",
+        "Tree",
+        "Depth-First Search"
+      ],
+      "title": "Find Subtree Sizes After Changes",
+      "url": "https://leetcode.com/problems/find-subtree-sizes-after-changes/"
     }
   },
   "sent_slugs": [
@@ -268,6 +269,7 @@
     "maximum-total-value-of-covered-indices",
     "minimum-number-of-changes-to-make-binary-string-beautiful",
     "minimum-score-by-changing-two-elements",
-    "find-the-smallest-divisor-given-a-threshold"
+    "find-the-smallest-divisor-given-a-threshold",
+    "find-subtree-sizes-after-changes"
   ]
 }
