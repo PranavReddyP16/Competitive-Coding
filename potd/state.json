@@ -1,29 +1,5 @@
 {
   "assigned": {
-    "2026-11-06": {
-      "key": "1975-A",
-      "lc_easy": {
-        "id": "1662",
-        "slug": "check-if-two-string-arrays-are-equivalent",
-        "tags": [
-          "Array",
-          "String"
-        ],
-        "title": "Check If Two String Arrays are Equivalent",
-        "url": "https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/"
-      },
-      "name": "Bazoka and Mocha's Array",
-      "rating": 800,
-      "solvers": 21013,
-      "tags": [
-        "brute force",
-        "greedy",
-        "implementation",
-        "sortings"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1975/A",
-      "year": 2024
-    },
     "2026-11-07": {
       "key": "1932-A",
       "lc_easy": {
@@ -341,6 +317,28 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1894/B",
       "year": 2023
+    },
+    "2026-11-21": {
+      "key": "1983-A",
+      "lc_easy": {
+        "id": "2828",
+        "slug": "check-if-a-string-is-an-acronym-of-words",
+        "tags": [
+          "Array",
+          "String"
+        ],
+        "title": "Check if a String Is an Acronym of Words",
+        "url": "https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/"
+      },
+      "name": "Array Divisibility",
+      "rating": 800,
+      "solvers": 28397,
+      "tags": [
+        "constructive algorithms",
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1983/A",
+      "year": 2024
     }
   },
   "lc_sent_slugs": [
@@ -410,7 +408,8 @@
     "trim-trailing-vowels",
     "determine-whether-matrix-can-be-obtained-by-rotation",
     "check-array-formation-through-concatenation",
-    "decode-the-message"
+    "decode-the-message",
+    "check-if-a-string-is-an-acronym-of-words"
   ],
   "sent_keys": [
     "1883-A",
@@ -484,12 +483,10 @@
     "1975-B",
     "2078-A",
     "2227-C",
-    "1894-B"
+    "1894-B",
+    "1983-A"
   ],
   "sent_slots": {
-    "2026-11-06": [
-      8
-    ],
     "2026-11-07": [
       8
     ],
@@ -530,6 +527,9 @@
       8
     ],
     "2026-11-20": [
+      8
+    ],
+    "2026-11-21": [
       8
     ]
   },
