@@ -57,3 +57,4 @@ signed main() {
 // Added: support for walk/descent queries
 // Extension: works with any associative operation
 // Extension: works with any associative operation
+// Optimization: use __builtin_clz for faster operations
