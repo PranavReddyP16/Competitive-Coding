@@ -1,28 +1,5 @@
 {
   "assigned": {
-    "2026-11-07": {
-      "key": "1932-A",
-      "lc_easy": {
-        "id": "766",
-        "slug": "toeplitz-matrix",
-        "tags": [
-          "Array",
-          "Matrix"
-        ],
-        "title": "Toeplitz Matrix",
-        "url": "https://leetcode.com/problems/toeplitz-matrix/"
-      },
-      "name": "Thorns and Coins",
-      "rating": 800,
-      "solvers": 34966,
-      "tags": [
-        "dp",
-        "greedy",
-        "implementation"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1932/A",
-      "year": 2024
-    },
     "2026-11-08": {
       "key": "2185-A",
       "lc_easy": {
@@ -339,6 +316,28 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1983/A",
       "year": 2024
+    },
+    "2026-11-22": {
+      "key": "2237-C",
+      "lc_easy": {
+        "id": "1832",
+        "slug": "check-if-the-sentence-is-pangram",
+        "tags": [
+          "Hash Table",
+          "String"
+        ],
+        "title": "Check if the Sentence Is Pangram",
+        "url": "https://leetcode.com/problems/check-if-the-sentence-is-pangram/"
+      },
+      "name": "Duck Surplus",
+      "rating": 1000,
+      "solvers": 17174,
+      "tags": [
+        "binary search",
+        "greedy"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2237/C",
+      "year": 2026
     }
   },
   "lc_sent_slugs": [
@@ -409,7 +408,8 @@
     "determine-whether-matrix-can-be-obtained-by-rotation",
     "check-array-formation-through-concatenation",
     "decode-the-message",
-    "check-if-a-string-is-an-acronym-of-words"
+    "check-if-a-string-is-an-acronym-of-words",
+    "check-if-the-sentence-is-pangram"
   ],
   "sent_keys": [
     "1883-A",
@@ -484,12 +484,10 @@
     "2078-A",
     "2227-C",
     "1894-B",
-    "1983-A"
+    "1983-A",
+    "2237-C"
   ],
   "sent_slots": {
-    "2026-11-07": [
-      8
-    ],
     "2026-11-08": [
       8
     ],
@@ -530,6 +528,9 @@
       8
     ],
     "2026-11-21": [
+      8
+    ],
+    "2026-11-22": [
       8
     ]
   },
