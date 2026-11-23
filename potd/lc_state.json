@@ -1,21 +1,5 @@
 {
   "assigned": {
-    "2026-11-08": {
-      "difficulty": "Medium",
-      "id": "1267",
-      "is_daily": true,
-      "slug": "count-servers-that-communicate",
-      "tags": [
-        "Array",
-        "Depth-First Search",
-        "Breadth-First Search",
-        "Union-Find",
-        "Matrix",
-        "Counting"
-      ],
-      "title": "Count Servers that Communicate",
-      "url": "https://leetcode.com/problems/count-servers-that-communicate/"
-    },
     "2026-11-09": {
       "difficulty": "Medium",
       "id": "1894",
@@ -195,6 +179,21 @@
       ],
       "title": "Find the Grid of Region Average",
       "url": "https://leetcode.com/problems/find-the-grid-of-region-average/"
+    },
+    "2026-11-23": {
+      "difficulty": "Medium",
+      "id": "1352",
+      "is_daily": true,
+      "slug": "product-of-the-last-k-numbers",
+      "tags": [
+        "Array",
+        "Math",
+        "Design",
+        "Data Stream",
+        "Prefix Sum"
+      ],
+      "title": "Product of the Last K Numbers",
+      "url": "https://leetcode.com/problems/product-of-the-last-k-numbers/"
     }
   },
   "sent_slugs": [
@@ -271,6 +270,7 @@
     "minimum-score-by-changing-two-elements",
     "find-the-smallest-divisor-given-a-threshold",
     "find-subtree-sizes-after-changes",
-    "find-the-grid-of-region-average"
+    "find-the-grid-of-region-average",
+    "product-of-the-last-k-numbers"
   ]
 }
