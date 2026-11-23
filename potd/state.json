@@ -1,26 +1,5 @@
 {
   "assigned": {
-    "2026-11-08": {
-      "key": "2185-A",
-      "lc_easy": {
-        "id": "3019",
-        "slug": "number-of-changing-keys",
-        "tags": [
-          "String"
-        ],
-        "title": "Number of Changing Keys",
-        "url": "https://leetcode.com/problems/number-of-changing-keys/"
-      },
-      "name": "Perfect Root",
-      "rating": 800,
-      "solvers": 48223,
-      "tags": [
-        "constructive algorithms",
-        "math"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2185/A",
-      "year": 2026
-    },
     "2026-11-09": {
       "key": "2226-A",
       "lc_easy": {
@@ -338,6 +317,32 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2237/C",
       "year": 2026
+    },
+    "2026-11-23": {
+      "key": "1933-B",
+      "lc_easy": {
+        "id": "2748",
+        "slug": "number-of-beautiful-pairs",
+        "tags": [
+          "Array",
+          "Hash Table",
+          "Math",
+          "Counting",
+          "Number Theory"
+        ],
+        "title": "Number of Beautiful Pairs",
+        "url": "https://leetcode.com/problems/number-of-beautiful-pairs/"
+      },
+      "name": "Turtle Math: Fast Three Task",
+      "rating": 800,
+      "solvers": 37759,
+      "tags": [
+        "implementation",
+        "math",
+        "number theory"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1933/B",
+      "year": 2024
     }
   },
   "lc_sent_slugs": [
@@ -409,7 +414,8 @@
     "check-array-formation-through-concatenation",
     "decode-the-message",
     "check-if-a-string-is-an-acronym-of-words",
-    "check-if-the-sentence-is-pangram"
+    "check-if-the-sentence-is-pangram",
+    "number-of-beautiful-pairs"
   ],
   "sent_keys": [
     "1883-A",
@@ -485,12 +491,10 @@
     "2227-C",
     "1894-B",
     "1983-A",
-    "2237-C"
+    "2237-C",
+    "1933-B"
   ],
   "sent_slots": {
-    "2026-11-08": [
-      8
-    ],
     "2026-11-09": [
       8
     ],
@@ -531,6 +535,9 @@
       8
     ],
     "2026-11-22": [
+      8
+    ],
+    "2026-11-23": [
       8
     ]
   },
