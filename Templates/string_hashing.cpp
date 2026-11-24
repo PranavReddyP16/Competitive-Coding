@@ -58,3 +58,4 @@ signed main() {
 // Extension: works with any associative operation
 // Extension: works with any associative operation
 // Optimization: use __builtin_clz for faster operations
+// Optimization: use __builtin_clz for faster operations
