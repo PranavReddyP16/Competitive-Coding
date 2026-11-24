@@ -1,19 +1,5 @@
 {
   "assigned": {
-    "2026-11-09": {
-      "difficulty": "Medium",
-      "id": "1894",
-      "is_daily": false,
-      "slug": "find-the-student-that-will-replace-the-chalk",
-      "tags": [
-        "Array",
-        "Binary Search",
-        "Simulation",
-        "Prefix Sum"
-      ],
-      "title": "Find the Student that Will Replace the Chalk",
-      "url": "https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/"
-    },
     "2026-11-10": {
       "difficulty": "Medium",
       "id": "3693",
@@ -194,6 +180,18 @@
       ],
       "title": "Product of the Last K Numbers",
       "url": "https://leetcode.com/problems/product-of-the-last-k-numbers/"
+    },
+    "2026-11-24": {
+      "difficulty": "Medium",
+      "id": "2232",
+      "is_daily": false,
+      "slug": "minimize-result-by-adding-parentheses-to-expression",
+      "tags": [
+        "String",
+        "Enumeration"
+      ],
+      "title": "Minimize Result by Adding Parentheses to Expression",
+      "url": "https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/"
     }
   },
   "sent_slugs": [
@@ -271,6 +269,7 @@
     "find-the-smallest-divisor-given-a-threshold",
     "find-subtree-sizes-after-changes",
     "find-the-grid-of-region-average",
-    "product-of-the-last-k-numbers"
+    "product-of-the-last-k-numbers",
+    "minimize-result-by-adding-parentheses-to-expression"
   ]
 }
