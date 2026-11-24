@@ -59,3 +59,4 @@ int main() {
 // Updated: simplified merge function
 // Tip: can be persistent with path copying
 // Extension: works with any associative operation
+// Added: support for walk/descent queries
