@@ -1,27 +1,5 @@
 {
   "assigned": {
-    "2026-11-09": {
-      "key": "2226-A",
-      "lc_easy": {
-        "id": "2778",
-        "slug": "sum-of-squares-of-special-elements",
-        "tags": [
-          "Array",
-          "Enumeration"
-        ],
-        "title": "Sum of Squares of Special Elements ",
-        "url": "https://leetcode.com/problems/sum-of-squares-of-special-elements/"
-      },
-      "name": "Disturbing Distribution",
-      "rating": 800,
-      "solvers": 16325,
-      "tags": [
-        "greedy",
-        "math"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2226/A",
-      "year": 2026
-    },
     "2026-11-10": {
       "key": "2034-B",
       "lc_easy": {
@@ -343,6 +321,27 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1933/B",
       "year": 2024
+    },
+    "2026-11-24": {
+      "key": "2139-B",
+      "lc_easy": {
+        "id": "3740",
+        "slug": "minimum-distance-between-three-equal-elements-i",
+        "tags": [
+          "Array",
+          "Hash Table"
+        ],
+        "title": "Minimum Distance Between Three Equal Elements I",
+        "url": "https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/"
+      },
+      "name": "Cake Collection",
+      "rating": 800,
+      "solvers": 21741,
+      "tags": [
+        "greedy"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2139/B",
+      "year": 2025
     }
   },
   "lc_sent_slugs": [
@@ -415,7 +414,8 @@
     "decode-the-message",
     "check-if-a-string-is-an-acronym-of-words",
     "check-if-the-sentence-is-pangram",
-    "number-of-beautiful-pairs"
+    "number-of-beautiful-pairs",
+    "minimum-distance-between-three-equal-elements-i"
   ],
   "sent_keys": [
     "1883-A",
@@ -492,12 +492,10 @@
     "1894-B",
     "1983-A",
     "2237-C",
-    "1933-B"
+    "1933-B",
+    "2139-B"
   ],
   "sent_slots": {
-    "2026-11-09": [
-      8
-    ],
     "2026-11-10": [
       8
     ],
@@ -538,6 +536,9 @@
       8
     ],
     "2026-11-23": [
+      8
+    ],
+    "2026-11-24": [
       8
     ]
   },
