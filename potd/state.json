@@ -1,28 +1,5 @@
 {
   "assigned": {
-    "2026-11-10": {
-      "key": "2034-B",
-      "lc_easy": {
-        "id": "3065",
-        "slug": "minimum-operations-to-exceed-threshold-value-i",
-        "tags": [
-          "Array"
-        ],
-        "title": "Minimum Operations to Exceed Threshold Value I",
-        "url": "https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-i/"
-      },
-      "name": "Rakhsh's Revival",
-      "rating": 1000,
-      "solvers": 16446,
-      "tags": [
-        "data structures",
-        "greedy",
-        "implementation",
-        "two pointers"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2034/B",
-      "year": 2024
-    },
     "2026-11-11": {
       "key": "2182-A",
       "lc_easy": {
@@ -342,6 +319,28 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2139/B",
       "year": 2025
+    },
+    "2026-11-25": {
+      "key": "1971-A",
+      "lc_easy": {
+        "id": "3427",
+        "slug": "sum-of-variable-length-subarrays",
+        "tags": [
+          "Array",
+          "Prefix Sum"
+        ],
+        "title": "Sum of Variable Length Subarrays",
+        "url": "https://leetcode.com/problems/sum-of-variable-length-subarrays/"
+      },
+      "name": "My First Sorting Problem",
+      "rating": 800,
+      "solvers": 63102,
+      "tags": [
+        "implementation",
+        "sortings"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1971/A",
+      "year": 2024
     }
   },
   "lc_sent_slugs": [
@@ -415,7 +414,8 @@
     "check-if-a-string-is-an-acronym-of-words",
     "check-if-the-sentence-is-pangram",
     "number-of-beautiful-pairs",
-    "minimum-distance-between-three-equal-elements-i"
+    "minimum-distance-between-three-equal-elements-i",
+    "sum-of-variable-length-subarrays"
   ],
   "sent_keys": [
     "1883-A",
@@ -493,12 +493,10 @@
     "1983-A",
     "2237-C",
     "1933-B",
-    "2139-B"
+    "2139-B",
+    "1971-A"
   ],
   "sent_slots": {
-    "2026-11-10": [
-      8
-    ],
     "2026-11-11": [
       8
     ],
@@ -539,6 +537,9 @@
       8
     ],
     "2026-11-24": [
+      8
+    ],
+    "2026-11-25": [
       8
     ]
   },
