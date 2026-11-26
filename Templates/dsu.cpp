@@ -61,3 +61,4 @@ int main() {
 // Note: O(log n) per operation, O(n) build
 // Alternative: iterative implementation for 2x speed
 // Added: support for walk/descent queries
+// Extension: works with any associative operation
