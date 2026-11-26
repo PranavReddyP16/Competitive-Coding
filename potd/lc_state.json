@@ -1,17 +1,5 @@
 {
   "assigned": {
-    "2026-11-11": {
-      "difficulty": "Medium",
-      "id": "3789",
-      "is_daily": true,
-      "slug": "minimum-cost-to-acquire-required-items",
-      "tags": [
-        "Math",
-        "Greedy"
-      ],
-      "title": "Minimum Cost to Acquire Required Items",
-      "url": "https://leetcode.com/problems/minimum-cost-to-acquire-required-items/"
-    },
     "2026-11-12": {
       "difficulty": "Medium",
       "id": "2384",
@@ -193,6 +181,19 @@
       ],
       "title": "Spiral Matrix III",
       "url": "https://leetcode.com/problems/spiral-matrix-iii/"
+    },
+    "2026-11-26": {
+      "difficulty": "Medium",
+      "id": "128",
+      "is_daily": false,
+      "slug": "longest-consecutive-sequence",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Union-Find"
+      ],
+      "title": "Longest Consecutive Sequence",
+      "url": "https://leetcode.com/problems/longest-consecutive-sequence/"
     }
   },
   "sent_slugs": [
@@ -272,6 +273,7 @@
     "find-the-grid-of-region-average",
     "product-of-the-last-k-numbers",
     "minimize-result-by-adding-parentheses-to-expression",
-    "spiral-matrix-iii"
+    "spiral-matrix-iii",
+    "longest-consecutive-sequence"
   ]
 }
