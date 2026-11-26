@@ -1,31 +1,5 @@
 {
   "assigned": {
-    "2026-11-11": {
-      "key": "2182-A",
-      "lc_easy": {
-        "id": "101",
-        "slug": "symmetric-tree",
-        "tags": [
-          "Tree",
-          "Depth-First Search",
-          "Breadth-First Search",
-          "Binary Tree"
-        ],
-        "title": "Symmetric Tree",
-        "url": "https://leetcode.com/problems/symmetric-tree/"
-      },
-      "name": "New Year String",
-      "rating": 800,
-      "solvers": 26804,
-      "tags": [
-        "constructive algorithms",
-        "greedy",
-        "implementation",
-        "strings"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2182/A",
-      "year": 2025
-    },
     "2026-11-12": {
       "key": "2189-A",
       "lc_easy": {
@@ -341,6 +315,32 @@
       ],
       "url": "https://codeforces.com/problemset/problem/1971/A",
       "year": 2024
+    },
+    "2026-11-26": {
+      "key": "2030-B",
+      "lc_easy": {
+        "id": "3606",
+        "slug": "coupon-code-validator",
+        "tags": [
+          "Array",
+          "Hash Table",
+          "String",
+          "Sorting"
+        ],
+        "title": "Coupon Code Validator",
+        "url": "https://leetcode.com/problems/coupon-code-validator/"
+      },
+      "name": "Minimise Oneness",
+      "rating": 800,
+      "solvers": 24341,
+      "tags": [
+        "combinatorics",
+        "constructive algorithms",
+        "games",
+        "math"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2030/B",
+      "year": 2024
     }
   },
   "lc_sent_slugs": [
@@ -415,7 +415,8 @@
     "check-if-the-sentence-is-pangram",
     "number-of-beautiful-pairs",
     "minimum-distance-between-three-equal-elements-i",
-    "sum-of-variable-length-subarrays"
+    "sum-of-variable-length-subarrays",
+    "coupon-code-validator"
   ],
   "sent_keys": [
     "1883-A",
@@ -494,12 +495,10 @@
     "2237-C",
     "1933-B",
     "2139-B",
-    "1971-A"
+    "1971-A",
+    "2030-B"
   ],
   "sent_slots": {
-    "2026-11-11": [
-      8
-    ],
     "2026-11-12": [
       8
     ],
@@ -540,6 +539,9 @@
       8
     ],
     "2026-11-25": [
+      8
+    ],
+    "2026-11-26": [
       8
     ]
   },
