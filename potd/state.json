@@ -1,29 +1,5 @@
 {
   "assigned": {
-    "2026-11-12": {
-      "key": "2189-A",
-      "lc_easy": {
-        "id": "1512",
-        "slug": "number-of-good-pairs",
-        "tags": [
-          "Array",
-          "Hash Table",
-          "Math",
-          "Counting"
-        ],
-        "title": "Number of Good Pairs",
-        "url": "https://leetcode.com/problems/number-of-good-pairs/"
-      },
-      "name": "Table with Numbers",
-      "rating": 800,
-      "solvers": 25487,
-      "tags": [
-        "greedy",
-        "implementation"
-      ],
-      "url": "https://codeforces.com/problemset/problem/2189/A",
-      "year": 2026
-    },
     "2026-11-13": {
       "key": "1954-A",
       "lc_easy": {
@@ -341,6 +317,30 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2030/B",
       "year": 2024
+    },
+    "2026-11-27": {
+      "key": "2098-A",
+      "lc_easy": {
+        "id": "2540",
+        "slug": "minimum-common-value",
+        "tags": [
+          "Array",
+          "Hash Table",
+          "Two Pointers",
+          "Binary Search"
+        ],
+        "title": "Minimum Common Value",
+        "url": "https://leetcode.com/problems/minimum-common-value/"
+      },
+      "name": "Vadim's Collection",
+      "rating": 800,
+      "solvers": 15100,
+      "tags": [
+        "brute force",
+        "greedy"
+      ],
+      "url": "https://codeforces.com/problemset/problem/2098/A",
+      "year": 2025
     }
   },
   "lc_sent_slugs": [
@@ -416,7 +416,8 @@
     "number-of-beautiful-pairs",
     "minimum-distance-between-three-equal-elements-i",
     "sum-of-variable-length-subarrays",
-    "coupon-code-validator"
+    "coupon-code-validator",
+    "minimum-common-value"
   ],
   "sent_keys": [
     "1883-A",
@@ -496,12 +497,10 @@
     "1933-B",
     "2139-B",
     "1971-A",
-    "2030-B"
+    "2030-B",
+    "2098-A"
   ],
   "sent_slots": {
-    "2026-11-12": [
-      8
-    ],
     "2026-11-13": [
       8
     ],
@@ -542,6 +541,9 @@
       8
     ],
     "2026-11-26": [
+      8
+    ],
+    "2026-11-27": [
       8
     ]
   },
