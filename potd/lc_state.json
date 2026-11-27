@@ -1,19 +1,5 @@
 {
   "assigned": {
-    "2026-11-12": {
-      "difficulty": "Medium",
-      "id": "2384",
-      "is_daily": false,
-      "slug": "largest-palindromic-number",
-      "tags": [
-        "Hash Table",
-        "String",
-        "Greedy",
-        "Counting"
-      ],
-      "title": "Largest Palindromic Number",
-      "url": "https://leetcode.com/problems/largest-palindromic-number/"
-    },
     "2026-11-13": {
       "difficulty": "Medium",
       "id": "1419",
@@ -194,6 +180,19 @@
       ],
       "title": "Longest Consecutive Sequence",
       "url": "https://leetcode.com/problems/longest-consecutive-sequence/"
+    },
+    "2026-11-27": {
+      "difficulty": "Medium",
+      "id": "3946",
+      "is_daily": true,
+      "slug": "maximum-number-of-items-from-sale-i",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Greedy"
+      ],
+      "title": "Maximum Number of Items From Sale I",
+      "url": "https://leetcode.com/problems/maximum-number-of-items-from-sale-i/"
     }
   },
   "sent_slugs": [
@@ -274,6 +273,7 @@
     "product-of-the-last-k-numbers",
     "minimize-result-by-adding-parentheses-to-expression",
     "spiral-matrix-iii",
-    "longest-consecutive-sequence"
+    "longest-consecutive-sequence",
+    "maximum-number-of-items-from-sale-i"
   ]
 }
