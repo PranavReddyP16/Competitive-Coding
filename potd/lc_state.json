@@ -1,17 +1,5 @@
 {
   "assigned": {
-    "2026-11-13": {
-      "difficulty": "Medium",
-      "id": "1419",
-      "is_daily": false,
-      "slug": "minimum-number-of-frogs-croaking",
-      "tags": [
-        "String",
-        "Counting"
-      ],
-      "title": "Minimum Number of Frogs Croaking",
-      "url": "https://leetcode.com/problems/minimum-number-of-frogs-croaking/"
-    },
     "2026-11-14": {
       "difficulty": "Medium",
       "id": "1901",
@@ -193,6 +181,20 @@
       ],
       "title": "Maximum Number of Items From Sale I",
       "url": "https://leetcode.com/problems/maximum-number-of-items-from-sale-i/"
+    },
+    "2026-11-28": {
+      "difficulty": "Medium",
+      "id": "3947",
+      "is_daily": true,
+      "slug": "maximum-number-of-items-from-sale-ii",
+      "tags": [
+        "Array",
+        "Greedy",
+        "Sorting",
+        "Heap (Priority Queue)"
+      ],
+      "title": "Maximum Number of Items From Sale II",
+      "url": "https://leetcode.com/problems/maximum-number-of-items-from-sale-ii/"
     }
   },
   "sent_slugs": [
@@ -274,6 +276,7 @@
     "minimize-result-by-adding-parentheses-to-expression",
     "spiral-matrix-iii",
     "longest-consecutive-sequence",
-    "maximum-number-of-items-from-sale-i"
+    "maximum-number-of-items-from-sale-i",
+    "maximum-number-of-items-from-sale-ii"
   ]
 }
