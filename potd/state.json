@@ -1,28 +1,5 @@
 {
   "assigned": {
-    "2026-11-13": {
-      "key": "1954-A",
-      "lc_easy": {
-        "id": "2600",
-        "slug": "k-items-with-the-maximum-sum",
-        "tags": [
-          "Math",
-          "Greedy"
-        ],
-        "title": "K Items With the Maximum Sum",
-        "url": "https://leetcode.com/problems/k-items-with-the-maximum-sum/"
-      },
-      "name": "Painting the Ribbon",
-      "rating": 900,
-      "solvers": 28331,
-      "tags": [
-        "constructive algorithms",
-        "greedy",
-        "math"
-      ],
-      "url": "https://codeforces.com/problemset/problem/1954/A",
-      "year": 2024
-    },
     "2026-11-14": {
       "key": "1846-A",
       "lc_easy": {
@@ -341,6 +318,28 @@
       ],
       "url": "https://codeforces.com/problemset/problem/2098/A",
       "year": 2025
+    },
+    "2026-11-28": {
+      "key": "1873-A",
+      "lc_easy": {
+        "id": "2114",
+        "slug": "maximum-number-of-words-found-in-sentences",
+        "tags": [
+          "Array",
+          "String"
+        ],
+        "title": "Maximum Number of Words Found in Sentences",
+        "url": "https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/"
+      },
+      "name": "Short Sort",
+      "rating": 800,
+      "solvers": 76155,
+      "tags": [
+        "brute force",
+        "implementation"
+      ],
+      "url": "https://codeforces.com/problemset/problem/1873/A",
+      "year": 2023
     }
   },
   "lc_sent_slugs": [
@@ -417,7 +416,8 @@
     "minimum-distance-between-three-equal-elements-i",
     "sum-of-variable-length-subarrays",
     "coupon-code-validator",
-    "minimum-common-value"
+    "minimum-common-value",
+    "maximum-number-of-words-found-in-sentences"
   ],
   "sent_keys": [
     "1883-A",
@@ -498,12 +498,10 @@
     "2139-B",
     "1971-A",
     "2030-B",
-    "2098-A"
+    "2098-A",
+    "1873-A"
   ],
   "sent_slots": {
-    "2026-11-13": [
-      8
-    ],
     "2026-11-14": [
       8
     ],
@@ -544,6 +542,9 @@
       8
     ],
     "2026-11-27": [
+      8
+    ],
+    "2026-11-28": [
       8
     ]
   },
